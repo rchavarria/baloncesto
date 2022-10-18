@@ -9,30 +9,25 @@
 </head>
 <body>
 
-<div class="scheduled-match">
-    <div class="teams-and-date">
-        <div class="home-team">
-            <div class="home-team-logo">logo</div>
-            <div class="home-team-name">REVOLUTION</div>
-        </div>
-        <div class="match-date-time">
-            <div class="match-date-day">15</div>
-            <div class="match-date-month">OCT</div>
-            <div class="match-time">09:30</div>
-        </div>
-        <div class="away-team">
-            <div class="away-team-name">BALONCESTO ALBORADA RSDA</div>
-            <div class="away-team-logo">logo</div>
-        </div>
-    </div>
+<div id="root"></div>
 
-    <div class="stadium-address">
-        <div class="stadium-address-name">Av de los Poblados, 42</div>
-        <div class="stadium-address-map">
-            <a href="#">mapa</a>
-        </div>
-    </div>
-</div>
+<!-- react -->
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<!-- babel to support JSX -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<!-- my scripts -->
+<script type="text/babel" src="js/data.js"></script>
+<script type="text/babel" src="js/match-date-time.js"></script>
+<script type="text/babel" src="js/scheduled-match.js"></script>
+<script type="text/babel" src="js/app.js"></script>
+
+<!-- start React app -->
+<script type="text/babel">
+  const container = document.getElementById('root');
+  const root = ReactDOM.createRoot(container);
+  root.render(<App />);
+</script>
 
 </body>
 </html>

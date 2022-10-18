@@ -15,7 +15,7 @@ body {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: stretch;
-    height: 23vh;
+    height: 6rem;
     border-bottom: blueviolet 2px solid;
 }
 
