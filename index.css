@@ -104,3 +104,74 @@ body {
     margin-top: 0.5rem;
     color: #3c3caa;
 }
+
+.played-match {
+    display: flex;
+    flex-direction: row;
+    width: 37rem;
+    margin: 0 auto;
+    border: #ec4a55 3px solid;
+}
+
+.played-match .match-date-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: bisque;
+    padding: 0 2rem;
+    width: 3rem;
+}
+
+.played-match-teams {
+    display: flex;
+    flex-direction: column;
+}
+
+.played-match-away-team {
+    display: flex;
+    flex-direction: row;
+    background-color: #ec4a55;
+}
+
+.played-match-home-team {
+    display: flex;
+    flex-direction: row;
+    background-color: #6363aa;
+}
+
+.played-match-team-name {
+    flex-grow: 1;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.match-quarter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.match-quarter-home-header {
+    color: #b8b8ec;
+}
+
+.match-quarter-away-header {
+    color: #f1b9bf;
+}
+
+.match-quarter-score {
+    color: white;
+    font-weight: bold;
+    text-align: right;
+}
+
+.match-quarter-total-score {
+    margin: 1rem 0.5rem 0 1rem;
+    font-size: xxx-large;
+    font-weight: bolder;
+    color: white;
+}
