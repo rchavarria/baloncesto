@@ -13,9 +13,9 @@ function ScheduledMatch({ match }) {
     </div>
 
     <div className="stadium-address">
-      <div className="stadium-address-name">{ match.stadium.address }</div>
+      <div className="stadium-address-name">{ match.home.stadium.address }</div>
       <div className="stadium-address-map">
-        <a href={ match.stadium.map }>mapa</a>
+        <a href={ match.home.stadium.map }>mapa</a>
       </div>
     </div>
   </div>;
