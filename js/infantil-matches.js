@@ -5,25 +5,19 @@ const matches = [
     away: teams.alboradaInf,
     played: true,
     tally: {
-      total: {
-        home: 54,
-        away: 21,
+      home: {
+        total: 54,
+        p1: 10,
+        p2: 11,
+        p3: 19,
+        p4: 14,
       },
-      p1: {
-        home: 10,
-        away: 2,
-      },
-      p2: {
-        home: 11,
-        away: 0,
-      },
-      p3: {
-        home: 19,
-        away: 9,
-      },
-      p4: {
-        home: 14,
-        away: 10,
+      away: {
+        total: 21,
+        p1: 2,
+        p2: 0,
+        p3: 9,
+        p4: 10,
       },
     }
   },
