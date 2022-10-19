@@ -19,7 +19,15 @@ function MatchDateTime({ date }) {
   }
 
   function formatTime() {
-    return `${date.getHours()}:${date.getMinutes()}`;
+    const hours = date.getHours();
+    if (hours < 3) {
+      // time not set yet
+      return '-:-';
+    }
+
+    const paddedHours = hours.toString().padStart(2, '0');
+    const paddedMinutes = date.getMinutes().toString().padStart(2, '0');
+    return `${paddedHours}:${paddedMinutes}`;
   }
 
   return <div className="match-date-time">
