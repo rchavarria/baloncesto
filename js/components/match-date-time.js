@@ -1,4 +1,4 @@
-function MatchDateTime({ date }) {
+function MatchDateTime({ date, map }) {
 
   function formatMonth() {
     switch (date.getMonth()) {
@@ -30,9 +30,20 @@ function MatchDateTime({ date }) {
     return `${paddedHours}:${paddedMinutes}`;
   }
 
+  function buildMapLink() {
+    if (!map) {
+      return <></>;
+    }
+
+    return <div style={{ marginTop: '1rem' }}>
+      <a href={map}>mapa</a>
+    </div>;
+  }
+
   return <div className="match-date-time">
     <div className="match-date-day">{ date.getDate() }</div>
     <div className="match-date-month">{ formatMonth() }</div>
     <div className="match-time">{ formatTime() }</div>
+    { buildMapLink() }
   </div>;
 }
