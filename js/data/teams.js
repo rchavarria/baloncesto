@@ -14,6 +14,7 @@ const teams = {
       address: 'Colegio Alborada, Alejo Carpentier, 27',
       map: 'https://maps.google.com',
     },
+    web: 'https://fbm.es/equipo-807696-7022/basket-alborada-rsda',
   },
   paracuellos: {
     name: 'BALONCESTO PARACUELLOS',
@@ -22,6 +23,7 @@ const teams = {
       address: 'Sala Escolar Virgen de la Rivera, camino Radar, 1',
       map: 'https://maps.google.com',
     },
+    web: 'https://fbm.es/equipo-806354-7022/baloncesto-paracuellos',
   },
   boadilla: {
     name: 'BOADILLA MONSTERS',
@@ -30,6 +32,7 @@ const teams = {
       address: 'Pabellon Felipe VI, Miguel Angel Cantero Oliva, 4',
       map: 'https://maps.google.com',
     },
+    web: 'https://fbm.es/equipo-806731-7022/boadilla-monsters',
   },
   osuna: {
     name: 'ALAMEDA DE OSUNA B',
@@ -38,6 +41,7 @@ const teams = {
       address: 'IES Alameda de Osuna, Antonio Sancha, 11, entrada por Brezos 2',
       map: 'https://maps.google.com',
     },
+    web: 'https://fbm.es/equipo-808579-7022/alameda-de-osuna-b',
   },
   alcobendas: {
     name: 'VALCUDE ALCOBENDAS B',
@@ -46,6 +50,7 @@ const teams = {
       address: 'Pabellón Amaya Valdemoro, crta Alcobendas-Barajas, km 1,200',
       map: 'https://maps.google.com',
     },
+    web: 'https://fbm.es/equipo-807910-7022/valcude-alcobendas-b',
   },
   isaac: {
     name: 'ISAAC NEWTON',
@@ -54,6 +59,7 @@ const teams = {
       address: 'IES Isaac Newton, Isla Malaita, 9',
       map: 'https://maps.google.com',
     },
+    web: 'https://fbm.es/equipo-808272-7022/isaac-newton',
   },
   paz: {
     name: 'LA PAZ C.D. VERDE',
@@ -62,6 +68,7 @@ const teams = {
       address: 'CP Miguel Delibes, Felipe II, 15',
       map: 'https://maps.google.com',
     },
+    web: 'https://fbm.es/equipo-808571-7022/la-paz-cd-verde',
   },
   fenix: {
     name: 'FENIX BASKET CLUB',
@@ -70,6 +77,7 @@ const teams = {
       address: 'Deportivo Municipal Ángel Nieto, crta Pozuelo-Boadilla Km 4',
       map: 'https://maps.google.com',
     },
+    web: 'https://fbm.es/equipo-808406-7022/fenix-basket-club',
   },
   salesianos: {
     name: 'SALESIANOS SOTO PIRATAS',
@@ -78,6 +86,7 @@ const teams = {
       address: 'Pabellón Soto del Real, El Egidillo, s/n',
       map: 'https://maps.google.com',
     },
+    web: 'https://fbm.es/equipo-808308-7022/salesianos-soto-piratas-',
   },
   revolution: {
     name: 'REVOLUTION',
@@ -86,6 +95,7 @@ const teams = {
       address: 'Av de los Poblados, 42',
       map: 'https://maps.google.com',
     },
+    web: 'https://fbm.es/equipo-807993-7022/revolution-',
   },
   veritas: {
     name: 'VERITAS POZUELO NEGRO',
@@ -94,5 +104,6 @@ const teams = {
       address: 'Instituto Veritas, Av Radio Televisión, 2',
       map: 'https://maps.google.com',
     },
+    web: 'https://fbm.es/equipo-808509-7022/veritas-pozuelo-negro',
   },
 }
