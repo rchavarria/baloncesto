@@ -9,7 +9,7 @@ const teams = {
   },
   alboradaInf: {
     name: 'BASKET ALBORADA RSDA',
-    logo: 'alb-logo',
+    logo: 'img/logos/alborada-infantil.jpg',
     stadium: {
       address: 'Colegio Alborada, Alejo Carpentier, 27',
       map: 'https://g.page/ColegioAlborada',
@@ -18,7 +18,7 @@ const teams = {
   },
   paracuellos: {
     name: 'BALONCESTO PARACUELLOS',
-    logo: 'par-logo',
+    logo: 'img/logos/paracuellos.jpg',
     stadium: {
       address: 'Sala Escolar Virgen de la Rivera, camino Radar, 1',
       map: 'https://goo.gl/maps/dWtvodFmdJmFjirY9',
@@ -27,7 +27,7 @@ const teams = {
   },
   boadilla: {
     name: 'BOADILLA MONSTERS',
-    logo: 'mon-logo',
+    logo: 'img/logos/boadilla.jpg',
     stadium: {
       address: 'Pabellon Felipe VI, Miguel Angel Cantero Oliva, 4',
       map: 'https://goo.gl/maps/6qyeGE4hgFcUGVQJA',
@@ -36,7 +36,7 @@ const teams = {
   },
   osuna: {
     name: 'ALAMEDA DE OSUNA B',
-    logo: 'osu-logo',
+    logo: 'img/logos/osuna.jpg',
     stadium: {
       address: 'IES Alameda de Osuna, Antonio Sancha, 11, entrada por Brezos 2',
       map: 'https://goo.gl/maps/Ht9kjnXKyDLQPBnW8',
@@ -45,7 +45,7 @@ const teams = {
   },
   alcobendas: {
     name: 'VALCUDE ALCOBENDAS B',
-    logo: 'val-logo',
+    logo: 'img/logos/alcobendas.jpg',
     stadium: {
       address: 'Pabellón Amaya Valdemoro, crta Alcobendas-Barajas, km 1,200',
       map: 'https://goo.gl/maps/QYrq9cDTn8rAvjMb7',
@@ -54,7 +54,7 @@ const teams = {
   },
   isaac: {
     name: 'ISAAC NEWTON',
-    logo: 'new-logo',
+    logo: 'img/logos/isaac.jpg',
     stadium: {
       address: 'IES Isaac Newton, Isla Malaita, 9',
       map: 'https://goo.gl/maps/uR4WhYqrgTxsBXNs6',
@@ -63,7 +63,7 @@ const teams = {
   },
   paz: {
     name: 'LA PAZ C.D. VERDE',
-    logo: 'paz-logo',
+    logo: 'img/logos/paz.jpg',
     stadium: {
       address: 'CP Miguel Delibes, Felipe II, 15',
       map: 'https://goo.gl/maps/WSisfE2BLgYrtMSC6',
@@ -72,7 +72,7 @@ const teams = {
   },
   fenix: {
     name: 'FENIX BASKET CLUB',
-    logo: 'fen-logo',
+    logo: 'img/logos/fenix.jpg',
     stadium: {
       address: 'Deportivo Municipal Ángel Nieto, crta Pozuelo-Boadilla Km 4',
       map: 'https://goo.gl/maps/vnhE3HPEKKE7SVFt7',
@@ -81,7 +81,7 @@ const teams = {
   },
   salesianos: {
     name: 'SALESIANOS SOTO PIRATAS',
-    logo: 'sal-logo',
+    logo: 'img/logos/salesianos.jpg',
     stadium: {
       address: 'Pabellón Soto del Real, El Egidillo, s/n',
       map: 'https://goo.gl/maps/DWsrqvpp4UXYsrXN8',
@@ -90,7 +90,7 @@ const teams = {
   },
   revolution: {
     name: 'REVOLUTION',
-    logo: 'rev-logo',
+    logo: 'img/logos/revolution.jpg',
     stadium: {
       address: 'Av de los Poblados, 72',
       map: 'https://g.page/CDMLasCruces',
@@ -99,7 +99,7 @@ const teams = {
   },
   veritas: {
     name: 'VERITAS POZUELO NEGRO',
-    logo: 'ver-logo',
+    logo: 'img/logos/veritas.jpg',
     stadium: {
       address: 'Instituto Veritas, Av Radio Televisión, 2',
       map: 'https://goo.gl/maps/WjbKLd3JSmByM2yF6',
