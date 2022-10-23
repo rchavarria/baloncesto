@@ -33,7 +33,7 @@ h1 {
     background-color: #6363aa;
 }
 
-.home-team-logo {
+.team-logo-container {
     width: 64px;
     height: 64px;
     margin: 1rem;
@@ -62,12 +62,6 @@ h1 {
 .away-team-name {
     margin: 1rem;
     color: white;
-}
-
-.away-team-logo {
-    width: 64px;
-    height: 64px;
-    margin: 1rem;
 }
 
 .stadium-address {
