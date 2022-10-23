@@ -19,6 +19,7 @@ const matches = [
         p3: 9,
         p4: 10,
       },
+      einar: 4,
     },
   },
   {
@@ -41,6 +42,7 @@ const matches = [
         p3: 4,
         p4: 8,
       },
+      einar: 4,
     },
   },
   {

@@ -23,6 +23,7 @@ const matches = [
         p5: 0,
         p6: 12,
       },
+      einar: 19,
     },
   },
   {
