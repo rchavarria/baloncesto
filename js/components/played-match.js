@@ -1,4 +1,17 @@
 function PlayedMatch({ match }) {
+
+  function MatchPart({ part, tallies, team }) {
+    const tally = tallies[team];
+    if (tally[part] === undefined) {
+      return <></>;
+    }
+
+    return <div className="match-quarter">
+      <div className={`match-quarter-${team}-header`}>{ part.toUpperCase() }</div>
+      <div className="match-quarter-score">{ tally[part] }</div>
+    </div>;
+  }
+
   return <div className="played-match">
     <MatchDateTime date={match.date} map={match.home.stadium.map}/>
 
@@ -9,22 +22,12 @@ function PlayedMatch({ match }) {
         </div>
         <div className="played-match-team-name">{ match.home.name }</div>
 
-        <div className="match-quarter">
-          <div className="match-quarter-home-header">P1</div>
-          <div className="match-quarter-score">{ match.tally.home.p1 }</div>
-        </div>
-        <div className="match-quarter">
-          <div className="match-quarter-home-header">P2</div>
-          <div className="match-quarter-score">{ match.tally.home.p2 }</div>
-        </div>
-        <div className="match-quarter">
-          <div className="match-quarter-home-header">P3</div>
-          <div className="match-quarter-score">{ match.tally.home.p3 }</div>
-        </div>
-        <div className="match-quarter">
-          <div className="match-quarter-home-header">P4</div>
-          <div className="match-quarter-score">{ match.tally.home.p4 }</div>
-        </div>
+        <MatchPart part={ 'p1' } tallies={ match.tally } team={'home'} />
+        <MatchPart part={ 'p2' } tallies={ match.tally } team={'home'} />
+        <MatchPart part={ 'p3' } tallies={ match.tally } team={'home'} />
+        <MatchPart part={ 'p4' } tallies={ match.tally } team={'home'} />
+        <MatchPart part={ 'p5' } tallies={ match.tally } team={'home'} />
+        <MatchPart part={ 'p6' } tallies={ match.tally } team={'home'} />
 
         <div className="match-quarter-total-score">{ match.tally.home.total }</div>
       </div>
@@ -35,22 +38,12 @@ function PlayedMatch({ match }) {
         </div>
         <div className="played-match-team-name">{ match.away.name }</div>
 
-        <div className="match-quarter">
-          <div className="match-quarter-away-header">P1</div>
-          <div className="match-quarter-score">{ match.tally.away.p1 }</div>
-        </div>
-        <div className="match-quarter">
-          <div className="match-quarter-away-header">P2</div>
-          <div className="match-quarter-score">{ match.tally.away.p2 }</div>
-        </div>
-        <div className="match-quarter">
-          <div className="match-quarter-away-header">P3</div>
-          <div className="match-quarter-score">{ match.tally.away.p3 }</div>
-        </div>
-        <div className="match-quarter">
-          <div className="match-quarter-away-header">P4</div>
-          <div className="match-quarter-score">{ match.tally.away.p4 }</div>
-        </div>
+        <MatchPart part={ 'p1' } tallies={ match.tally } team={'away'} />
+        <MatchPart part={ 'p2' } tallies={ match.tally } team={'away'} />
+        <MatchPart part={ 'p3' } tallies={ match.tally } team={'away'} />
+        <MatchPart part={ 'p4' } tallies={ match.tally } team={'away'} />
+        <MatchPart part={ 'p5' } tallies={ match.tally } team={'away'} />
+        <MatchPart part={ 'p6' } tallies={ match.tally } team={'away'} />
 
         <div className="match-quarter-total-score">{ match.tally.away.total }</div>
       </div>
