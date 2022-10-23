@@ -19,16 +19,32 @@ const matches = [
         p3: 9,
         p4: 10,
       },
-    }
+    },
   },
   {
     date: new Date('2022-10-22T10:00:00'),
     home: teams.alboradaSenior,
     away: teams.veritas,
-    played: false,
+    played: true,
+    tally: {
+      home: {
+        total: 69,
+        p1: 17,
+        p2: 22,
+        p3: 15,
+        p4: 15,
+      },
+      away: {
+        total: 18,
+        p1: 6,
+        p2: 0,
+        p3: 4,
+        p4: 8,
+      },
+    },
   },
   {
-    date: new Date('2022-11-06T00:00:00'),
+    date: new Date('2022-11-06T12:00:00'),
     home: teams.alboradaSenior,
     away: teams.paracuellos,
     played: false,
