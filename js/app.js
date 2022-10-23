@@ -1,6 +1,4 @@
 function App() {
-  const nextScheduledMatchIndex = 2;
-
   const played = matches.filter(m => m.played);
   const notPlayed = matches.filter(m => !m.played);
 

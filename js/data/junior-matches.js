@@ -26,7 +26,7 @@ const matches = [
     },
   },
   {
-    date: new Date('2022-11-06T09:00:00'),
+    date: new Date('2022-11-05T09:00:00'),
     home: teams.fuenlabrada,
     away: teams.alboradaJunior,
     played: false,
