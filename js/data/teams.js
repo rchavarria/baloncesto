@@ -1,7 +1,7 @@
 const teams = {
   template: {
     name: 'name',
-    logo: 'img/logs/none.jpg',
+    logo: 'img/logos/none.jpg',
     stadium: {
       address: 'address',
       map: 'https://maps.google.com',
@@ -10,7 +10,7 @@ const teams = {
   },
   descansa: {
     name: '** DESCANSA **',
-    logo: 'des-logo',
+    logo: 'img/logos/none.jpg',
     stadium: {
       address: 'n/a',
       map: 'https://maps.google.com',
@@ -82,7 +82,7 @@ const teams = {
   },
   fenixSenior: {
     name: 'FENIX BASKET CLUB',
-    logo: 'img/logos/fenix.jpg',
+    logo: 'img/logos/fenixSenior.jpg',
     stadium: {
       address: 'Deportivo Municipal Ángel Nieto, crta Pozuelo-Boadilla Km 4',
       map: 'https://goo.gl/maps/vnhE3HPEKKE7SVFt7',

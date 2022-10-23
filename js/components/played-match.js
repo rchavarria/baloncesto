@@ -4,7 +4,9 @@ function PlayedMatch({ match }) {
 
     <div className="played-match-teams">
       <div className="played-match-home-team">
-        <div className="home-team-logo">{ match.home.logo }</div>
+        <div className="home-team-logo">
+          <img className="team-logo" src={match.home.logo} />
+        </div>
         <div className="played-match-team-name">{ match.home.name }</div>
 
         <div className="match-quarter">
@@ -28,7 +30,9 @@ function PlayedMatch({ match }) {
       </div>
 
       <div className="played-match-away-team">
-        <div className="away-team-logo">{ match.away.logo }</div>
+        <div className="away-team-logo">
+          <img className="team-logo" src={match.away.logo} />
+        </div>
         <div className="played-match-team-name">{ match.away.name }</div>
 
         <div className="match-quarter">
