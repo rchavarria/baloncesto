@@ -13,7 +13,7 @@ function PlayedMatch({ match }) {
   }
 
   return <div className="played-match">
-    <MatchDateTime date={match.date} map={match.home.stadium.map}/>
+    <MatchDateTime date={match.date} stadium={match.home.stadium}/>
 
     <div className="played-match-teams">
       <div className="played-match-home-team">

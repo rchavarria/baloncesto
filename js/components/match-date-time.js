@@ -1,4 +1,4 @@
-function MatchDateTime({ date, map }) {
+function MatchDateTime({ date, stadium }) {
 
   function formatMonth() {
     switch (date.getMonth()) {
@@ -22,7 +22,7 @@ function MatchDateTime({ date, map }) {
     const hours = date.getHours();
     if (hours < 3) {
       // time not set yet
-      return '-:-';
+      return '--:--';
     }
 
     const paddedHours = hours.toString().padStart(2, '0');
@@ -31,12 +31,16 @@ function MatchDateTime({ date, map }) {
   }
 
   function buildMapLink() {
-    if (!map) {
+    if (!stadium) {
       return <></>;
     }
 
-    return <div style={{ marginTop: '1rem' }}>
-      <a href={map}>mapa</a>
+    return <div>
+      <a href={ stadium.map }>
+        <img src="img/icons/map.svg"
+             title={ stadium.address }
+             style={{ marginTop: '1rem', width: '2rem' }}/>
+      </a>
     </div>;
   }
 

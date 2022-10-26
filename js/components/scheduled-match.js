@@ -18,8 +18,12 @@ function ScheduledMatch({ match }) {
 
     <div className="stadium-address">
       <div className="stadium-address-name">{ match.home.stadium.address }</div>
-      <div className="stadium-address-map">
-        <a href={ match.home.stadium.map }>mapa</a>
+      <div>
+        <a href={ match.home.stadium.map }>
+          <img src="img/icons/map.svg"
+               title={ match.home.stadium.address }
+               className="stadium-address-map" />
+        </a>
       </div>
     </div>
   </div>;
