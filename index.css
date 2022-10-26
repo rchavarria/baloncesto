@@ -9,8 +9,9 @@ h1 {
 .scheduled-match {
     display: flex;
     flex-direction: column;
-    align-items: center;
     border: blue 3px solid;
+    margin: 1rem auto;
+    width: 40rem;
 }
 
 .teams-and-date {
@@ -24,10 +25,10 @@ h1 {
 }
 
 .home-team {
-    width: 38%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    flex: 1;
     justify-content: flex-end;
     align-items: stretch;
     background-color: #6363aa;
@@ -50,10 +51,10 @@ h1 {
 }
 
 .away-team {
-    width: 38%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    flex: 1;
     justify-content: flex-start;
     align-items: stretch;
     background-color: #ec4a55;
@@ -67,21 +68,22 @@ h1 {
 .stadium-address {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     margin-top: 0.5rem;
 }
 
 .stadium-address-name {
-    margin-right: 3rem;
+    flex: 1;
+    margin-left: 2rem;
 }
 
 .stadium-address-map {
-    margin-left: 3rem;
+    margin: 0 2rem;
+    width: 2rem;
 }
 
-.match-date-time {
-    width: 20%;
+.scheduled-match .match-date-time {
+    width: 17%;
     display: flex;
     flex-direction: column;
     background-color: bisque;
@@ -109,7 +111,7 @@ h1 {
 .played-match {
     display: flex;
     flex-direction: row;
-    width: 37rem;
+    width: 40rem;
     margin: 0 auto;
     border: #ec4a55 3px solid;
 }
@@ -121,7 +123,7 @@ h1 {
     text-align: center;
     background-color: bisque;
     padding: 0 2rem;
-    width: 3rem;
+    width: 4rem;
 }
 
 .played-match-teams {
