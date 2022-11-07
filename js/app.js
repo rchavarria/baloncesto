@@ -9,6 +9,9 @@ function App() {
     <h1>Partidos jugados</h1>
     { played.map((match, index) => <PlayedMatch key={index} match={match} />) }
 
+    <h1>Clasificación</h1>
+    <Standings />
+
     <h1>Partidos por jugar</h1>
     { notPlayed.map((match, index) => <ScheduledMatch key={index} match={match} />) }
   </>;
