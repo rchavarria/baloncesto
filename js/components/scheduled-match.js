@@ -3,7 +3,7 @@ function ScheduledMatch({ match }) {
     <div className="teams-and-date">
       <div className="home-team">
         <div className="team-logo-container">
-          <img className="team-logo" src={match.home.logo} />
+          <img className="team-logo" src={ match.home.logo } alt={ match.home.name } />
         </div>
         <div className="home-team-name">{ match.home.name }</div>
       </div>
@@ -11,7 +11,7 @@ function ScheduledMatch({ match }) {
       <div className="away-team">
         <div className="away-team-name">{ match.away.name }</div>
         <div className="team-logo-container">
-          <img className="team-logo" src={match.away.logo} />
+          <img className="team-logo" src={ match.away.logo } alt={ match.away.name } />
         </div>
       </div>
     </div>
