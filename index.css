@@ -44,6 +44,11 @@ h1, h2 {
     height: 64px;
 }
 
+.small-team-logo {
+    width: 24px;
+    height: 24px;
+}
+
 .home-team-name {
     margin: 1rem;
     color: white;
@@ -179,4 +184,74 @@ h1, h2 {
     font-size: xxx-large;
     font-weight: bolder;
     color: white;
+}
+
+/* spacing */
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: #ec4a55 3px solid;
+}
+
+.col-position {
+    width: 5rem;
+}
+
+.col-games {
+    width: 10rem;
+    text-align: center;
+}
+
+.col-wins {
+    width: 10rem;
+    text-align: center;
+}
+
+.col-loses {
+    width: 10rem;
+    text-align: center;
+}
+
+.col-draws {
+    width: 10rem;
+    text-align: center;
+}
+
+.col-score {
+    width: 10rem;
+    text-align: center;
+}
+
+.col-oppositeScore {
+    width: 10rem;
+    text-align: center;
+}
+
+.col-points {
+    width: 10rem;
+    text-align: center;
+}
+
+.row-alborada {
+    font-weight: bold;
+    background-color: #f1b9bf;
+}
+
+thead {
+    background-color: #6363aa;
+    color: white;
+}
+
+th, td {
+    padding: 1rem;
+}
+
+td img {
+    vertical-align: top;
+}
+
+td span {
+    margin: 1rem;
 }
