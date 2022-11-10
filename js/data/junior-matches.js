@@ -54,15 +54,15 @@ const matches = [
     },
   },
   {
-    date: new Date('2022-11-12T13:00:00'),
-    home: teams.alboradaJunior,
-    away: teams.pilaristas,
-    played: false,
-  },
-  {
     date: new Date('2022-11-20T00:00:00'),
     home: teams.sanfernando,
     away: teams.alboradaJunior,
+    played: false,
+  },
+  {
+    date: new Date('2022-11-25T19:00:00'),
+    home: teams.alboradaJunior,
+    away: teams.pilaristas,
     played: false,
   },
   {
