@@ -54,7 +54,7 @@ const matches = [
     },
   },
   {
-    date: new Date('2022-11-20T00:00:00'),
+    date: new Date('2022-11-19T09:30:00'),
     home: teams.sanfernando,
     away: teams.alboradaJunior,
     played: false,
