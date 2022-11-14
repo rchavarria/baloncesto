@@ -16,9 +16,9 @@ function Standings() {
       <td className="col-games">{ teamStanding.games }</td>
       <td className="col-wins">{ teamStanding.wins }</td>
       <td className="col-loses">{ teamStanding.loses }</td>
-      <td className="col-draws">{ teamStanding.draws }</td>
-      <td className="col-score">{ teamStanding.score }</td>
-      <td className="col-oppositeScore">{ teamStanding.oppositeScore }</td>
+      {/*<td className="col-draws">{ teamStanding.draws }</td>*/}
+      {/*<td className="col-score">{ teamStanding.score }</td>*/}
+      {/*<td className="col-oppositeScore">{ teamStanding.oppositeScore }</td>*/}
       <td className="col-points">{ teamStanding.points }</td>
     </tr>;
   }
@@ -30,9 +30,9 @@ function Standings() {
       <col className="col-games"></col>
       <col className="col-wins"></col>
       <col className="col-loses"></col>
-      <col className="col-draws"></col>
-      <col className="col-score"></col>
-      <col className="col-oppositeScore"></col>
+      {/*<col className="col-draws"></col>*/}
+      {/*<col className="col-score"></col>*/}
+      {/*<col className="col-oppositeScore"></col>*/}
       <col className="col-points"></col>
     </colgroup>
     <thead>
@@ -42,9 +42,9 @@ function Standings() {
         <th>Jugados</th>
         <th>Ganados</th>
         <th>Perdidos</th>
-        <th>Empatados</th>
-        <th>A favor</th>
-        <th>En contra</th>
+        {/*<th>Empatados</th>*/}
+        {/*<th>A favor</th>*/}
+        {/*<th>En contra</th>*/}
         <th>Puntos</th>
       </tr>
     </thead>
