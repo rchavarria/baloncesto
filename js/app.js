@@ -12,7 +12,7 @@ function App() {
 
     <h1>
       Clasificación
-      (ver la oficial <a href={officialStandings}>pdf</a>)
+      (ver la oficial en <a href={officialStandings}>pdf</a>)
     </h1>
     <Standings />
 
