@@ -98,12 +98,6 @@ const matches = [
     played: false,
   },
   {
-    date: new Date('2022-11-27T00:00:00'),
-    home: teams.osuna,
-    away: teams.alboradaSenior,
-    played: false,
-  },
-  {
     date: new Date('2022-12-11T00:00:00'),
     home: teams.alboradaSenior,
     away: teams.alcobendas,
@@ -116,7 +110,13 @@ const matches = [
     played: false,
   },
   {
-    date: new Date('2022-12-18T00:00:00'),
+    date: new Date('2022-12-18T16:00:00'),
+    home: teams.osuna,
+    away: teams.alboradaSenior,
+    played: false,
+  },
+  {
+    date: new Date('2022-12-17T00:00:00'),
     home: teams.paz,
     away: teams.alboradaSenior,
     played: false,
