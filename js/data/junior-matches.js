@@ -189,7 +189,7 @@ const matches = [
     },
   },
   {
-    date: new Date('2023-01-15T00:00:00'),
+    date: new Date('2023-01-14T12:00:00'),
     home: teams.alboradaJunior,
     away: teams.spinola,
     played: false,
