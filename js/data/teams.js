@@ -130,7 +130,7 @@ const teams = {
     logo: 'img/logos/valle.jpg',
     stadium: {
       address: 'EL VALLE SANCHINARRO, COLEGIO ANA DE AUSTRIA, 60 (Entrada Vicente Blasco Ibañez), Madrid',
-      map: 'https://maps.google.es',
+      map: 'https://goo.gl/maps/Ga6iavEyxoYJBedh7',
     },
     web: 'https://fbm.es/equipo-806284-7085/el-valle-cd-a',
   },
