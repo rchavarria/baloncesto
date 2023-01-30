@@ -256,7 +256,24 @@ const matches = [
     date: new Date('2023-01-28T10:00:00'),
     home: teams.alboradaSenior,
     away: teams.revolution,
-    played: false,
+    played: true,
+    tally: {
+      home: {
+        total: 37,
+        p1: 8,
+        p2: 7,
+        p3: 6,
+        p4: 16,
+      },
+      away: {
+        total: 48,
+        p1: 12,
+        p2: 14,
+        p3: 14,
+        p4: 8,
+      },
+      einar: 0,
+    },
   },
   {
     date: new Date('2023-02-05T00:00:00'),
