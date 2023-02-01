@@ -282,7 +282,7 @@ const matches = [
     played: false,
   },
   {
-    date: new Date('2023-02-19T00:00:00'),
+    date: new Date('2023-02-18T12:00:00'),
     home: teams.alboradaJunior,
     away: teams.sanfernando,
     played: false,

@@ -276,13 +276,13 @@ const matches = [
     },
   },
   {
-    date: new Date('2023-02-05T00:00:00'),
+    date: new Date('2023-02-04T11:15:00'),
     home: teams.veritas,
     away: teams.alboradaSenior,
     played: false,
   },
   {
-    date: new Date('2023-02-12T00:00:00'),
+    date: new Date('2023-02-11T10:30:00'),
     home: teams.paracuellos,
     away: teams.alboradaSenior,
     played: false,
