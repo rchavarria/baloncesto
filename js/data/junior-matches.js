@@ -273,13 +273,28 @@ const matches = [
     date: new Date('2023-02-04T16:00:00'),
     home: teams.alboradaJunior,
     away: teams.fuenlabrada,
-    played: false,
-  },
-  {
-    date: new Date('2023-02-12T00:00:00'),
-    home: teams.pilaristas,
-    away: teams.alboradaJunior,
-    played: false,
+    played: true,
+    tally: {
+      home: {
+        total: 20,
+        p1: 6,
+        p2: 2,
+        p3: 0,
+        p4: 1,
+        p5: 5,
+        p6: 6,
+      },
+      away: {
+        total: 60,
+        p1: 17,
+        p2: 8,
+        p3: 7,
+        p4: 14,
+        p5: 10,
+        p6: 4,
+      },
+      einar: 17,
+    },
   },
   {
     date: new Date('2023-02-18T12:00:00'),
@@ -315,6 +330,12 @@ const matches = [
     date: new Date('2023-03-26T00:00:00'),
     home: teams.alboradaJunior,
     away: teams.maravillas,
+    played: false,
+  },
+  {
+    date: new Date('2023-03-26T09:30:00'),
+    home: teams.pilaristas,
+    away: teams.alboradaJunior,
     played: false,
   },
 ];
