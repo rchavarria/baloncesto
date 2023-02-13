@@ -302,13 +302,47 @@ const matches = [
     date: new Date('2023-02-11T10:00:00'),
     home: teams.paracuellos,
     away: teams.alboradaSenior,
-    played: false,
+    played: true,
+    tally: {
+      home: {
+        total: 66,
+        p1: 15,
+        p2: 14,
+        p3: 25,
+        p4: 12,
+      },
+      away: {
+        total: 46,
+        p1: 11,
+        p2: 9,
+        p3: 16,
+        p4: 10,
+      },
+      einar: 0,
+    },
   },
   {
     date: new Date('2023-02-12T10:00:00'),
     home: teams.alboradaSenior,
     away: teams.boadilla,
-    played: false,
+    played: true,
+    tally: {
+      home: {
+        total: 14,
+        p1: 6,
+        p2: 5,
+        p3: 3,
+        p4: 0,
+      },
+      away: {
+        total: 65,
+        p1: 20,
+        p2: 17,
+        p3: 16,
+        p4: 12,
+      },
+      einar: 0,
+    },
   },
   {
     date: new Date('2023-02-18T12:00:00'),
@@ -317,7 +351,7 @@ const matches = [
     played: false,
   },
   {
-    date: new Date('2023-03-05T00:00:00'),
+    date: new Date('2023-03-04T10:00:00'),
     home: teams.alboradaSenior,
     away: teams.osuna,
     played: false,
