@@ -303,19 +303,19 @@ const matches = [
     played: false,
   },
   {
-    date: new Date('2023-02-20T00:00:00'),
+    date: new Date('2023-02-19T17:00:00'),
     home: teams.aranjuez,
     away: teams.alboradaJunior,
     played: false,
   },
   {
-    date: new Date('2023-03-05T00:00:00'),
+    date: new Date('2023-03-04T12:00:00'),
     home: teams.alboradaJunior,
     away: teams.saltium,
     played: false,
   },
   {
-    date: new Date('2023-03-12T00:00:00'),
+    date: new Date('2023-03-11T12:00:00'),
     home: teams.fenixJunior,
     away: teams.alboradaJunior,
     played: false,
