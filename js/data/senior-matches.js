@@ -348,7 +348,7 @@ const matches = [
     date: new Date('2023-02-18T12:00:00'),
     home: teams.descansa,
     away: teams.alboradaSenior,
-    played: false,
+    played: true,
   },
   {
     date: new Date('2023-03-04T10:00:00'),
