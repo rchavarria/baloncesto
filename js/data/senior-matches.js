@@ -354,7 +354,24 @@ const matches = [
     date: new Date('2023-03-04T10:00:00'),
     home: teams.alboradaSenior,
     away: teams.osuna,
-    played: false,
+    played: true,
+    tally: {
+      home: {
+        total: 29,
+        p1: 9,
+        p2: 7,
+        p3: 4,
+        p4: 9,
+      },
+      away: {
+        total: 26,
+        p1: 6,
+        p2: 0,
+        p3: 18,
+        p4: 2,
+      },
+      einar: 0,
+    },
   },
   {
     date: new Date('2023-03-12T00:00:00'),
