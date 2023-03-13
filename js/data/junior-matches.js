@@ -405,13 +405,13 @@ const matches = [
     },
   },
   {
-    date: new Date('2023-03-19T00:00:00'),
+    date: new Date('2023-03-18T13:00:00'),
     home: teams.spinola,
     away: teams.alboradaJunior,
     played: false,
   },
   {
-    date: new Date('2023-03-26T00:00:00'),
+    date: new Date('2023-03-25T12:00:00'),
     home: teams.alboradaJunior,
     away: teams.maravillas,
     played: false,
