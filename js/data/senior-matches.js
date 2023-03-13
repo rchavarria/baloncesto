@@ -374,10 +374,27 @@ const matches = [
     },
   },
   {
-    date: new Date('2023-03-12T00:00:00'),
+    date: new Date('2023-03-11T12:00:00'),
     home: teams.alcobendas,
     away: teams.alboradaSenior,
-    played: false,
+    played: true,
+    tally: {
+      home: {
+        total: 62,
+        p1: 15,
+        p2: 22,
+        p3: 13,
+        p4: 12,
+      },
+      away: {
+        total: 12,
+        p1: 6,
+        p2: 6,
+        p3: 0,
+        p4: 0,
+      },
+      einar: 0,
+    },
   },
   {
     date: new Date('2023-03-19T00:00:00'),
