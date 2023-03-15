@@ -349,6 +349,23 @@ const matches = [
     home: teams.descansa,
     away: teams.alboradaSenior,
     played: true,
+    tally: {
+      home: {
+        total: 0,
+        p1: 0,
+        p2: 0,
+        p3: 0,
+        p4: 0,
+      },
+      away: {
+        total: 0,
+        p1: 0,
+        p2: 0,
+        p3: 0,
+        p4: 0,
+      },
+      einar: 0,
+    },
   },
   {
     date: new Date('2023-03-04T10:00:00'),
