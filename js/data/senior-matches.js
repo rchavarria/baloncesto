@@ -417,7 +417,24 @@ const matches = [
     date: new Date('2023-03-25T19:30:00'),
     home: teams.paz,
     away: teams.alboradaSenior,
-    played: false,
+    played: true,
+    tally: {
+      home: {
+        total: 28,
+        p1: 12,
+        p2: 0,
+        p3: 10,
+        p4: 6,
+      },
+      away: {
+        total: 58,
+        p1: 8,
+        p2: 12,
+        p3: 18,
+        p4: 20,
+      },
+      einar: 0,
+    },
   },
   {
     date: new Date('2023-04-15T10:00:00'),
