@@ -408,3 +408,126 @@ const einarStatsJunior2023 = [
     valuation: 0,
   },
 ]
+
+const einarStatsSenior2023 = [
+  {
+    round: 1,
+    date: '2022-10-15T00:00:00',
+    team: {
+      short: 'r',
+      name: 'r',
+      venue: 'g.maps',
+    },
+    time: {
+      minutes: 23,
+      seconds: 46,
+    },
+    points: 2,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 1,
+      three: 0,
+    },
+    faults: 1,
+    valuation: -22,
+  },
+  {
+    round: 2,
+    date: '2022-10-22T00:00:00',
+    team: {
+      short: 'vpn',
+      name: 'vpn',
+      venue: 'g.maps',
+    },
+    time: {
+      minutes: 9,
+      seconds: 23,
+    },
+    points: 6,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 3,
+      three: 0,
+    },
+    faults: 0,
+    valuation: 15,
+  },
+  {
+    round: 3,
+    date: '2022-11-05T00:00:00',
+    team: {
+      short: 'bpa',
+      name: 'bpa',
+      venue: 'g.maps',
+    },
+    time: {
+      minutes: 12,
+      seconds: 45,
+    },
+    points: 8,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 4,
+      three: 0,
+    },
+    faults: 2,
+    valuation: 13,
+  },
+  {
+    round: 4,
+    date: '2022-12-17T00:00:00',
+    team: {
+      short: 'lpc',
+      name: 'lpc',
+      venue: 'g.maps',
+    },
+    time: {
+      minutes: 11,
+      seconds: 43,
+    },
+    points: 7,
+    throws: {
+      free: {
+        successful: 1,
+        total: 5,
+      },
+      two: 3,
+      three: 1,
+    },
+    faults: 2,
+    valuation: -2,
+  },
+  {
+    round: 5,
+    date: '2023-01-14T00:00:00',
+    team: {
+      short: 'fbc',
+      name: 'Fénix Basket Club',
+      venue: 'g.maps',
+    },
+    time: {
+      minutes: 24,
+      seconds: 26,
+    },
+    points: 11,
+    throws: {
+      free: {
+        successful: 3,
+        total: 8,
+      },
+      two: 4,
+      three: 0,
+    },
+    faults: 1,
+    valuation: 6,
+  },
+]
