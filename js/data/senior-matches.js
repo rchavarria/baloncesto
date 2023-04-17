@@ -437,10 +437,27 @@ const matches = [
     },
   },
   {
-    date: new Date('2023-04-15T10:00:00'),
+    date: new Date('2023-04-14T19:00:00'),
     home: teams.alboradaSenior,
     away: teams.fenixSenior,
-    played: false,
+    played: true,
+    tally: {
+      home: {
+        total: 22,
+        p1: 6,
+        p2: 6,
+        p3: 2,
+        p4: 8,
+      },
+      away: {
+        total: 40,
+        p1: 13,
+        p2: 14,
+        p3: 6,
+        p4: 7,
+      },
+      einar: 0,
+    },
   },
   {
     date: new Date('2023-04-21T19:30:00'),
