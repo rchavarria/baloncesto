@@ -384,6 +384,30 @@ const einarStatsJunior2023 = [
     valuation: 36,
   },
   {
+    round: 17,
+    date: '2023-04-23T00:00:00',
+    team: {
+      short: 'val',
+      name: 'Valcude Alcobendas',
+      venue: 'g.maps',
+    },
+    time: {
+      minutes: 32,
+      seconds: 0,
+    },
+    points: 8,
+    throws: {
+      free: {
+        successful: 0,
+        total: 5,
+      },
+      two: 4,
+      three: 0,
+    },
+    faults: 4,
+    valuation: 8,
+  },
+  {
     round: 0,
     date: '2023-00-00T00:00:00',
     team: {
@@ -529,5 +553,53 @@ const einarStatsSenior2023 = [
     },
     faults: 1,
     valuation: 6,
+  },
+  {
+    round: 6,
+    date: '2023-04-21T00:00:00',
+    team: {
+      short: 'ine',
+      name: 'Isaac Newton',
+      venue: 'g.maps',
+    },
+    time: {
+      minutes: 21,
+      seconds: 41,
+    },
+    points: 7,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 2,
+      three: 1,
+    },
+    faults: 1,
+    valuation: 4,
+  },
+  {
+    round: 0,
+    date: '2023-00-00T00:00:00',
+    team: {
+      short: 'x',
+      name: 'x',
+      venue: 'g.maps',
+    },
+    time: {
+      minutes: 0,
+      seconds: 0,
+    },
+    points: 0,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 0,
+      three: 0,
+    },
+    faults: 0,
+    valuation: 0,
   },
 ]
