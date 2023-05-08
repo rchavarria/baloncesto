@@ -207,8 +207,8 @@ const teams = {
     web: 'https://fbm.es/equipo-805705-7085/baloncesto-fuenlabrada',
   },
   estudiantesAlderete: {
-    name: 'Movistar Estudiantes Alderete',
-    logo: 'img/logos/none.jpg',
+    name: 'MOVISTAR ESTUDIANTES ALDERETE',
+    logo: 'img/logos/estudiantes.jpg',
     stadium: {
       address: 'Pabellon Colegio Pintor Rosales',
       map: 'https://goo.gl/maps/gp2cP5eiy17d5g9L8',
