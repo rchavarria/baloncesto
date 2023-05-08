@@ -408,6 +408,30 @@ const einarStatsJunior2023 = [
     valuation: 8,
   },
   {
+    round: 18,
+    date: '2023-05-06T00:00:00',
+    team: {
+      short: 'mea',
+      name: 'Movistar Estudiantes Alderete',
+      venue: 'g.maps',
+    },
+    time: {
+      minutes: 28,
+      seconds: 39,
+    },
+    points: 34,
+    throws: {
+      free: {
+        successful: 0,
+        total: 2,
+      },
+      two: 17,
+      three: 0,
+    },
+    faults: 0,
+    valuation: 37,
+  },
+  {
     round: 0,
     date: '2023-00-00T00:00:00',
     team: {
@@ -577,6 +601,30 @@ const einarStatsSenior2023 = [
     },
     faults: 1,
     valuation: 4,
+  },
+  {
+    round: 7,
+    date: '2023-05-06T00:00:00',
+    team: {
+      short: 'mar',
+      name: 'Maravillas',
+      venue: 'g.maps',
+    },
+    time: {
+      minutes: 10,
+      seconds: 23,
+    },
+    points: 2,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 1,
+      three: 0,
+    },
+    faults: 1,
+    valuation: -3,
   },
   {
     round: 0,
