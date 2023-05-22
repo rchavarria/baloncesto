@@ -26,11 +26,7 @@ const einarStatsJunior2023 = [
   {
     round: 1,
     date: '2022-10-22T00:00:00',
-    team: {
-      short: 'evc',
-      name: 'evc',
-      venue: 'g.maps',
-    },
+    team: teams.valle,
     time: {
       minutes: 26,
       seconds: 47,
@@ -50,11 +46,7 @@ const einarStatsJunior2023 = [
   {
     round: 2,
     date: '2022-11-05T00:00:00',
-    team: {
-      short: 'bfu',
-      name: 'Baloncesto Fuenlabrada',
-      venue: 'g.maps',
-    },
+    team: teams.fuenlabrada,
     time: {
       minutes: 31,
       seconds: 7,
@@ -74,11 +66,7 @@ const einarStatsJunior2023 = [
   {
     round: 3,
     date: '2022-11-19T00:00:00',
-    team: {
-      short: 'has',
-      name: 'has',
-      venue: 'g.maps',
-    },
+    team: teams.sanfernando,
     time: {
       minutes: 32,
       seconds: 0,
@@ -98,11 +86,7 @@ const einarStatsJunior2023 = [
   {
     round: 4,
     date: '2022-11-25T00:00:00',
-    team: {
-      short: 'pil',
-      name: 'Pilaristas',
-      venue: 'g.maps',
-    },
+    team: teams.pilaristas,
     time: {
       minutes: 31,
       seconds: 45,
@@ -122,11 +106,7 @@ const einarStatsJunior2023 = [
   {
     round: 5,
     date: '2022-12-10T00:00:00',
-    team: {
-      short: 'sab',
-      name: 'sab',
-      venue: 'g.maps',
-    },
+    team: teams.saltium,
     time: {
       minutes: 32,
       seconds: 0,
@@ -146,11 +126,7 @@ const einarStatsJunior2023 = [
   {
     round: 6,
     date: '2022-12-17T00:00:00',
-    team: {
-      short: 'fbc',
-      name: 'Fénix Basket Club',
-      venue: 'g.maps',
-    },
+    team: teams.fenixJunior,
     time: {
       minutes: 32,
       seconds: 0,
@@ -170,11 +146,7 @@ const einarStatsJunior2023 = [
   {
     round: 7,
     date: '2022-12-18T00:00:00',
-    team: {
-      short: 'oar',
-      name: 'Olímpico Aranjuez',
-      venue: 'g.maps',
-    },
+    team: teams.aranjuez,
     time: {
       minutes: 28,
       seconds: 54,
@@ -194,11 +166,7 @@ const einarStatsJunior2023 = [
   {
     round: 8,
     date: '2023-01-21T00:00:00',
-    team: {
-      short: 'mll',
-      name: 'La Salle Maravillas',
-      venue: 'g.maps',
-    },
+    team: teams.maravillas,
     time: {
       minutes: 27,
       seconds: 15,
@@ -218,11 +186,7 @@ const einarStatsJunior2023 = [
   {
     round: 9,
     date: '2023-01-28T00:00:00',
-    team: {
-      short: 'evc',
-      name: 'evc',
-      venue: 'g.maps',
-    },
+    team: teams.valle,
     time: {
       minutes: 32,
       seconds: 0,
@@ -242,11 +206,7 @@ const einarStatsJunior2023 = [
   {
     round: 10,
     date: '2023-02-04T00:00:00',
-    team: {
-      short: 'bfu',
-      name: 'Baloncesto Fuenlabrada',
-      venue: 'g.maps',
-    },
+    team: teams.fuenlabrada,
     time: {
       minutes: 31,
       seconds: 29,
@@ -266,11 +226,7 @@ const einarStatsJunior2023 = [
   {
     round: 11,
     date: '2023-02-19T00:00:00',
-    team: {
-      short: 'oar',
-      name: 'Olímpico Aranjuez',
-      venue: 'g.maps',
-    },
+    team: teams.aranjuez,
     time: {
       minutes: 32,
       seconds: 0,
@@ -290,11 +246,7 @@ const einarStatsJunior2023 = [
   {
     round: 12,
     date: '2023-03-04T00:00:00',
-    team: {
-      short: 'sab',
-      name: 'sab',
-      venue: 'g.maps',
-    },
+    team: teams.saltium,
     time: {
       minutes: 32,
       seconds: 0,
@@ -314,11 +266,7 @@ const einarStatsJunior2023 = [
   {
     round: 13,
     date: '2023-03-10T00:00:00',
-    team: {
-      short: 'has',
-      name: 'has',
-      venue: 'g.maps',
-    },
+    team: teams.sanfernando,
     time: {
       minutes: 30,
       seconds: 19,
@@ -338,11 +286,7 @@ const einarStatsJunior2023 = [
   {
     round: 14,
     date: '2023-03-12T00:00:00',
-    team: {
-      short: 'fbc',
-      name: 'Fénix Basket Club',
-      venue: 'g.maps',
-    },
+    team: teams.fenixJunior,
     time: {
       minutes: 32,
       seconds: 0,
@@ -362,11 +306,7 @@ const einarStatsJunior2023 = [
   {
     round: 15,
     date: '2023-03-18T00:00:00',
-    team: {
-      short: 'sch',
-      name: 'sch',
-      venue: 'g.maps',
-    },
+    team: teams.spinola,
     time: {
       minutes: 27,
       seconds: 10,
@@ -386,11 +326,7 @@ const einarStatsJunior2023 = [
   {
     round: 17,
     date: '2023-04-23T00:00:00',
-    team: {
-      short: 'val',
-      name: 'Valcude Alcobendas',
-      venue: 'g.maps',
-    },
+    team: teams.alcobendas,
     time: {
       minutes: 32,
       seconds: 0,
@@ -410,11 +346,7 @@ const einarStatsJunior2023 = [
   {
     round: 18,
     date: '2023-05-06T00:00:00',
-    team: {
-      short: 'mea',
-      name: 'Movistar Estudiantes Alderete',
-      venue: 'g.maps',
-    },
+    team: teams.estudiantesAlderete,
     time: {
       minutes: 28,
       seconds: 39,
@@ -434,11 +366,7 @@ const einarStatsJunior2023 = [
   {
     round: 19,
     date: '2023-05-13T00:00:00',
-    team: {
-      short: 'cin',
-      name: 'Issac Newton',
-      venue: 'g.maps',
-    },
+    team: teams.isaac,
     time: {
       minutes: 32,
       seconds: 0,
@@ -458,11 +386,7 @@ const einarStatsJunior2023 = [
   {
     round: 20,
     date: '2023-05-20T00:00:00',
-    team: {
-      short: 'val',
-      name: 'Valcude Alcobendas',
-      venue: 'g.maps',
-    },
+    team: teams.alcobendas,
     time: {
       minutes: 32,
       seconds: 0,
@@ -482,11 +406,7 @@ const einarStatsJunior2023 = [
   {
     round: 21,
     date: '2023-05-21T00:00:00',
-    team: {
-      short: 'cin',
-      name: 'Issac Newton',
-      venue: 'g.maps',
-    },
+    team: teams.isaac,
     time: {
       minutes: 32,
       seconds: 0,
@@ -629,11 +549,7 @@ const einarStatsSenior2023 = [
   {
     round: 5,
     date: '2023-01-14T00:00:00',
-    team: {
-      short: 'fbc',
-      name: 'Fénix Basket Club',
-      venue: 'g.maps',
-    },
+    team: teams.fenixSenior,
     time: {
       minutes: 24,
       seconds: 26,
@@ -653,11 +569,7 @@ const einarStatsSenior2023 = [
   {
     round: 6,
     date: '2023-04-21T00:00:00',
-    team: {
-      short: 'ine',
-      name: 'Isaac Newton',
-      venue: 'g.maps',
-    },
+    team: teams.isaac,
     time: {
       minutes: 21,
       seconds: 41,
@@ -677,11 +589,7 @@ const einarStatsSenior2023 = [
   {
     round: 7,
     date: '2023-05-06T00:00:00',
-    team: {
-      short: 'mar',
-      name: 'Maravillas',
-      venue: 'g.maps',
-    },
+    team: teams.maravillas,
     time: {
       minutes: 10,
       seconds: 23,
@@ -697,29 +605,5 @@ const einarStatsSenior2023 = [
     },
     faults: 1,
     valuation: -3,
-  },
-  {
-    round: 0,
-    date: '2023-00-00T00:00:00',
-    team: {
-      short: 'x',
-      name: 'x',
-      venue: 'g.maps',
-    },
-    time: {
-      minutes: 0,
-      seconds: 0,
-    },
-    points: 0,
-    throws: {
-      free: {
-        successful: 0,
-        total: 0,
-      },
-      two: 0,
-      three: 0,
-    },
-    faults: 0,
-    valuation: 0,
   },
 ]

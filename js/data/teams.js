@@ -1,6 +1,7 @@
 const teams = {
   template: {
     name: 'name',
+    short: 'short name used in the app',
     logo: 'img/logos/none.jpg',
     stadium: {
       address: 'address',
@@ -54,6 +55,7 @@ const teams = {
     web: 'https://fbm.es/equipo-808579-7022/alameda-de-osuna-b',
   },
   alcobendas: {
+    short: 'VAL',
     name: 'VALCUDE ALCOBENDAS B',
     logo: 'img/logos/alcobendas.jpg',
     stadium: {
@@ -63,6 +65,7 @@ const teams = {
     web: 'https://fbm.es/equipo-807910-7022/valcude-alcobendas-b',
   },
   isaac: {
+    short: 'CIN',
     name: 'ISAAC NEWTON',
     logo: 'img/logos/isaac.jpg',
     stadium: {
@@ -126,6 +129,7 @@ const teams = {
     web: 'https://fbm.es/equipo-807697-7085/basket-alborada-rsda',
   },
   valle: {
+    short: 'EVC',
     name: 'EL VALLE C.D. A',
     logo: 'img/logos/valle.jpg',
     stadium: {
@@ -135,6 +139,7 @@ const teams = {
     web: 'https://fbm.es/equipo-806284-7085/el-valle-cd-a',
   },
   pilaristas: {
+    short: 'PIL',
     name: 'PILARISTAS',
     logo: 'img/logos/pilaristas.jpg',
     stadium: {
@@ -144,6 +149,7 @@ const teams = {
     web: 'https://fbm.es/equipo-807202-7085/pilaristas',
   },
   spinola: {
+    short: 'SCH',
     name: 'SPÍNOLA CHAMARTÍN',
     logo: 'img/logos/spinola.jpg',
     stadium: {
@@ -153,6 +159,7 @@ const teams = {
     web: 'https://fbm.es/equipo-808435-7085/spinola-chamartin',
   },
   aranjuez: {
+    short: 'OAR',
     name: 'OLÍMPICO ARANJUEZ',
     logo: 'img/logos/aranjuez.jpg',
     stadium: {
@@ -162,6 +169,7 @@ const teams = {
     web: 'https://fbm.es/equipo-807103-7085/olimpico-aranjuez',
   },
   saltium: {
+    short: 'SAB',
     name: 'SALTIUM ALCORCON BASKET B',
     logo: 'img/logos/saltium.jpg',
     stadium: {
@@ -171,6 +179,7 @@ const teams = {
     web: 'https://fbm.es/equipo-806314-7085/saltium-alcorc%c3%b3n-basket-b',
   },
   fenixJunior: {
+    short: 'FBC',
     name: 'FENIX BASKET CLUB',
     logo: 'img/logos/fenixJunior.jpg',
     stadium: {
@@ -180,6 +189,7 @@ const teams = {
     web: 'https://fbm.es/equipo-808751-7085/fenix-basket-club',
   },
   sanfernando: {
+    short: 'HAS',
     name: 'CLUB BALONCESTO SAN FERNANDO',
     logo: 'img/logos/sanfernando.jpg',
     stadium: {
@@ -189,6 +199,7 @@ const teams = {
     web: 'https://fbm.es/equipo-808438-7085/hyundai-almoauto-san-fernando-2011',
   },
   maravillas: {
+    short: 'MLL',
     name: 'LA SALLE MARAVILLAS 11',
     logo: 'img/logos/maravillas.jpg',
     stadium: {
@@ -198,6 +209,7 @@ const teams = {
     web: 'https://fbm.es/equipo-808538-7085/maravillas-11',
   },
   fuenlabrada: {
+    short: 'BFU',
     name: 'BALONCESTO FUENLABRADA',
     logo: 'img/logos/fuenlabrada.jpg',
     stadium: {
@@ -207,6 +219,7 @@ const teams = {
     web: 'https://fbm.es/equipo-805705-7085/baloncesto-fuenlabrada',
   },
   estudiantesAlderete: {
+    short: 'MEA',
     name: 'MOVISTAR ESTUDIANTES ALDERETE',
     logo: 'img/logos/estudiantes.jpg',
     stadium: {
