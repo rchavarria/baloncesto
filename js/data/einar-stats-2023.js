@@ -432,6 +432,78 @@ const einarStatsJunior2023 = [
     valuation: 37,
   },
   {
+    round: 19,
+    date: '2023-05-13T00:00:00',
+    team: {
+      short: 'cin',
+      name: 'Issac Newton',
+      venue: 'g.maps',
+    },
+    time: {
+      minutes: 32,
+      seconds: 0,
+    },
+    points: 30,
+    throws: {
+      free: {
+        successful: 0,
+        total: 1,
+      },
+      two: 15,
+      three: 0,
+    },
+    faults: 1,
+    valuation: 35,
+  },
+  {
+    round: 20,
+    date: '2023-05-20T00:00:00',
+    team: {
+      short: 'val',
+      name: 'Valcude Alcobendas',
+      venue: 'g.maps',
+    },
+    time: {
+      minutes: 32,
+      seconds: 0,
+    },
+    points: 37,
+    throws: {
+      free: {
+        successful: 4,
+        total: 5,
+      },
+      two: 15,
+      three: 1,
+    },
+    faults: 3,
+    valuation: 12,
+  },
+  {
+    round: 21,
+    date: '2023-05-21T00:00:00',
+    team: {
+      short: 'cin',
+      name: 'Issac Newton',
+      venue: 'g.maps',
+    },
+    time: {
+      minutes: 32,
+      seconds: 0,
+    },
+    points: 27,
+    throws: {
+      free: {
+        successful: 1,
+        total: 2,
+      },
+      two: 10,
+      three: 2,
+    },
+    faults: 1,
+    valuation: 27,
+  },
+  {
     round: 0,
     date: '2023-00-00T00:00:00',
     team: {
