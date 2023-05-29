@@ -624,6 +624,27 @@ const matches = [
     date: new Date('2023-05-27T18:00:00'),
     home: teams.alboradaJunior,
     away: teams.estudiantesAlderete,
-    played: false,
+    played: true,
+    tally: {
+      home: {
+        total: 73,
+        p1: 14,
+        p2: 3,
+        p3: 16,
+        p4: 5,
+        p5: 20,
+        p6: 15,
+      },
+      away: {
+        total: 40,
+        p1: 4,
+        p2: 14,
+        p3: 3,
+        p4: 4,
+        p5: 13,
+        p6: 2,
+      },
+      einar: 28,
+    },
   },
 ];
