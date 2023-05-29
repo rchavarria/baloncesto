@@ -424,28 +424,24 @@ const einarStatsJunior2023 = [
     valuation: 27,
   },
   {
-    round: 0,
-    date: '2023-00-00T00:00:00',
-    team: {
-      short: 'x',
-      name: 'x',
-      venue: 'g.maps',
-    },
+    round: 22,
+    date: '2023-05-27T00:00:00',
+    team: teams.estudiantesAlderete,
     time: {
-      minutes: 32,
-      seconds: 0,
+      minutes: 27,
+      seconds: 27,
     },
-    points: 33,
+    points: 28,
     throws: {
       free: {
         successful: 0,
-        total: 0,
+        total: 1,
       },
-      two: 0,
+      two: 14,
       three: 0,
     },
     faults: 0,
-    valuation: 0,
+    valuation: 32,
   },
 ]
 
