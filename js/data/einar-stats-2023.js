@@ -443,6 +443,132 @@ const einarStatsJunior2023 = [
     faults: 0,
     valuation: 32,
   },
+  {
+    round: 23,
+    date: '2023-06-23T00:00:00',
+    team: teams.nextHoops,
+    time: {
+      minutes: 16,
+      seconds: 0,
+    },
+    points: 1,
+    throws: {
+      free: {
+        successful: 1,
+        total: 2,
+      },
+      two: 0,
+      three: 0,
+    },
+    rebounds: 7,
+    faults: 0,
+    valuation: 0,
+  },
+  {
+    round: 24,
+    date: '2023-06-23T00:00:00',
+    team: teams.teamBarea,
+    time: {
+      minutes: 16,
+      seconds: 0,
+    },
+    points: 2,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 1,
+      three: 0,
+    },
+    rebounds: 6,
+    faults: 1,
+    valuation: 0,
+  },
+  {
+    round: 25,
+    date: '2023-06-24T00:00:00',
+    team: teams.tripleThreat,
+    time: {
+      minutes: 20,
+      seconds: 0,
+    },
+    points: 10,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 5,
+      three: 0,
+    },
+    rebounds: 7,
+    faults: 0,
+    valuation: 0,
+  },
+  {
+    round: 26,
+    date: '2023-06-24T00:00:00',
+    team: teams.tripleThreat,
+    time: {
+      minutes: 16,
+      seconds: 0,
+    },
+    points: 4,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 2,
+      three: 0,
+    },
+    rebounds: 0,
+    faults: 0,
+    valuation: 0,
+  },
+  {
+    round: 27,
+    date: '2023-06-25T00:00:00',
+    team: teams.travelTeam,
+    time: {
+      minutes: 16,
+      seconds: 0,
+    },
+    points: 14,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 7,
+      three: 0,
+    },
+    rebounds: 0,
+    faults: 0,
+    valuation: 0,
+  },
+  {
+    round: 28,
+    date: '2023-06-25T00:00:00',
+    team: teams.teamBarea,
+    time: {
+      minutes: 24,
+      seconds: 0,
+    },
+    points: 6,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 3,
+      three: 0,
+    },
+    rebounds: 6,
+    faults: 3,
+    valuation: 0,
+  },
 ]
 
 const einarStatsSenior2023 = [

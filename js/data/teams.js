@@ -228,4 +228,54 @@ const teams = {
     },
     web: 'https://fbm.es/equipo-808335-8018/movistar-estudiantes-alderete',
   },
+  nextHoops: {
+    short: 'NHB',
+    name: 'Next Hoops Badalona',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'No Stadium',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  teamBarea: {
+    short: 'TBP',
+    name: 'Team Barea Puerto Rico',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'No Stadium',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  tripleThreat: {
+    short: 'TTT',
+    name: 'Triple Threat',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'No Stadium',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  roda: {
+    short: 'CLR',
+    name: 'CP La Roda',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'No Stadium',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  travelTeam: {
+    short: 'TTL',
+    name: 'Travel Team Lituania',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'No Stadium',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
 }
