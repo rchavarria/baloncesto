@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Temporada 2023/2024</title>
+
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+
+<h2>Temporada 2023/2024</h2>
+<div id="root"></div>
+
+<!-- react -->
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<!-- babel to support JSX -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<!-- my scripts -->
+<script>
+  const nextScheduledMatchIndex = 19;
+  // grupo oficial al que pertenece el equipo, útil para ver las clasificaciones
+  const officialStandingGroup = 7022;
+  // código de la última jornada
+  const lastMatchDay = 45849;
+</script>
+<script src="js/data/teams.js"></script>
+<script src="js/data/matches-2023-2024.js"></script>
+<script type="text/babel" src="js/components/match-date-time.js"></script>
+<script type="text/babel" src="js/components/played-match.js"></script>
+<script type="text/babel" src="js/components/scheduled-match.js"></script>
+<script type="text/babel" src="js/components/standings.js"></script>
+<script type="text/babel" src="js/app.js"></script>
+
+<!-- start React app -->
+<script type="text/babel">
+  const container = document.getElementById('root');
+  const root = ReactDOM.createRoot(container);
+  root.render(<App />);
+</script>
+
+</body>
+</html>

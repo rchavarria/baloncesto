@@ -18,6 +18,16 @@ const teams = {
     },
     web: 'https://web.com'
   },
+  alcobendasC: {
+    short: 'ALC',
+    name: 'Italtel Alcobendas C',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'No Stadium',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
   alboradaSenior: {
     name: 'BASKET ALBORADA RSDA',
     logo: 'img/logos/alborada.jpg',
@@ -271,6 +281,16 @@ const teams = {
   travelTeam: {
     short: 'TTL',
     name: 'Travel Team Lituania',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'No Stadium',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  leganes: {
+    short: 'ILE',
+    name: 'Innova-TSN Leganes',
     logo: 'img/logos/none.jpg',
     stadium: {
       address: 'No Stadium',
