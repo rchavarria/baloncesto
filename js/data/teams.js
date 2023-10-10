@@ -308,4 +308,14 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  torrelodones: {
+    short: 'BTR',
+    name: 'BT Torrelodones B',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'No Stadium',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
 }
