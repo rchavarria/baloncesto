@@ -318,4 +318,14 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  sanAgustin: {
+    short: 'SAM',
+    name: 'San Agustin Madrid',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'No Stadium',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
 }

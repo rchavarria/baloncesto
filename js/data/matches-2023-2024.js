@@ -68,4 +68,27 @@ const matches = [
       einar: 20,
     },
   },
+  {
+    date: new Date('2023-10-22T17:00:00'),
+    home: teams.alcobendasC,
+    away: teams.sanAgustin,
+    played: true,
+    tally: {
+      home: {
+        total: 86,
+        p1: 16,
+        p2: 14,
+        p3: 23,
+        p4: 33,
+      },
+      away: {
+        total: 85,
+        p1: 22,
+        p2: 21,
+        p3: 22,
+        p4: 20,
+      },
+      einar: 20,
+    },
+  },
 ];
