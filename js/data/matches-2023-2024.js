@@ -114,4 +114,27 @@ const matches = [
       einar: 8,
     },
   },
+  {
+    date: new Date('2023-11-12T16:45:00'),
+    home: teams.leganes,
+    away: teams.alcobendasC,
+    played: true,
+    tally: {
+      home: {
+        total: 79,
+        p1: 17,
+        p2: 18,
+        p3: 30,
+        p4: 14,
+      },
+      away: {
+        total: 72,
+        p1: 19,
+        p2: 20,
+        p3: 20,
+        p4: 13,
+      },
+      einar: 10,
+    },
+  },
 ];

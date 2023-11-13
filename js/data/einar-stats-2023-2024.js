@@ -143,4 +143,24 @@ const einarStatsJunior2023 = [
     faults: 2,
     valuation: 24,
   },
+  {
+    round: 6,
+    date: '2023-11-12T16:45:00',
+    team: teams.leganes,
+    time: {
+      minutes: 23,
+      seconds: 32,
+    },
+    points: 10,
+    throws: {
+      free: {
+        successful: 2,
+        total: 2,
+      },
+      two: 4,
+      three: 0,
+    },
+    faults: 2,
+    valuation: 6,
+  },
 ]
