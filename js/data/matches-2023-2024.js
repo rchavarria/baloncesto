@@ -137,4 +137,27 @@ const matches = [
       einar: 10,
     },
   },
+  {
+    date: new Date('2023-11-19T13:00:00'),
+    home: teams.alcobendasC,
+    away: teams.rozas,
+    played: true,
+    tally: {
+      home: {
+        total: 69,
+        p1: 23,
+        p2: 18,
+        p3: 14,
+        p4: 14,
+      },
+      away: {
+        total: 43,
+        p1: 6,
+        p2: 10,
+        p3: 13,
+        p4: 14,
+      },
+      einar: 8,
+    },
+  },
 ];
