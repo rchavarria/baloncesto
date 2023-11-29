@@ -183,4 +183,24 @@ const einarStatsJunior2023 = [
     faults: 2,
     valuation: 15,
   },
+  {
+    round: 8,
+    date: '2023-11-26T13:00:00',
+    team: teams.torrelodones,
+    time: {
+      minutes: 20,
+      seconds: 45,
+    },
+    points: 8,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 4,
+      three: 0,
+    },
+    faults: 0,
+    valuation: 16,
+  },
 ]

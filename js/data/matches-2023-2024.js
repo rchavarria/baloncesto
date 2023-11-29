@@ -160,4 +160,27 @@ const matches = [
       einar: 8,
     },
   },
+  {
+    date: new Date('2023-11-26T13:00:00'),
+    home: teams.alcobendasC,
+    away: teams.torrelodones,
+    played: true,
+    tally: {
+      home: {
+        total: 72,
+        p1: 24,
+        p2: 24,
+        p3: 22,
+        p4: 2,
+      },
+      away: {
+        total: 22,
+        p1: 7,
+        p2: 8,
+        p3: 7,
+        p4: 0,
+      },
+      einar: 8,
+    },
+  },
 ];
