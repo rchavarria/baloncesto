@@ -203,4 +203,24 @@ const einarStatsJunior2023 = [
     faults: 0,
     valuation: 16,
   },
+  {
+    round: 9,
+    date: '2023-12-03T10:45:00',
+    team: teams.sanAgustin,
+    time: {
+      minutes: 22,
+      seconds: 33,
+    },
+    points: 10,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 5,
+      three: 0,
+    },
+    faults: 4,
+    valuation: 23,
+  },
 ]
