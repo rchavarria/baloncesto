@@ -338,4 +338,44 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  juande: {
+    short: 'RFA',
+    name: 'Ricopia Funbal Juan de Austria Alcala',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'El Val',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  alcala: {
+    short: 'BAL',
+    name: 'B. Alcala',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Espartales',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  estudio: {
+    short: 'EST',
+    name: 'Estudio',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Estudio pabellon',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  estudiantes: {
+    short: 'ME-',
+    name: 'Movistar Estudiantes',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Magariños',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
 }
