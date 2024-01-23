@@ -263,4 +263,84 @@ const einarStatsJunior2023 = [
     faults: 0,
     valuation: 12,
   },
+  {
+    round: 11,
+    date: '2024-01-14T13:00:00',
+    team: teams.juande,
+    time: {
+      minutes: 23,
+      seconds: 31,
+    },
+    points: 12,
+    throws: {
+      free: {
+        successful: 4,
+        total: 9,
+      },
+      two: 4,
+      three: 0,
+    },
+    faults: 3,
+    valuation: 2,
+  },
+  {
+    round: 11,
+    date: '2024-01-14T11:15:00',
+    team: teams.estudio,
+    time: {
+      minutes: 1,
+      seconds: 27,
+    },
+    points: 0,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 0,
+      three: 0,
+    },
+    faults: 1,
+    valuation: -2,
+  },
+  {
+    round: 12,
+    date: '2024-01-21T13:15:00',
+    team: teams.estudiantes,
+    time: {
+      minutes: 19,
+      seconds: 35,
+    },
+    points: 6,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 3,
+      three: 0,
+    },
+    faults: 3,
+    valuation: 6,
+  },
+  {
+    round: 12,
+    date: '2024-01-21T18:30:00',
+    team: teams.estudiantes,
+    time: {
+      minutes: 1,
+      seconds: 46,
+    },
+    points: 0,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 0,
+      three: 0,
+    },
+    faults: 0,
+    valuation: 0,
+  },
 ]
