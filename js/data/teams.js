@@ -378,4 +378,24 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  canoe: {
+    short: 'RCN',
+    name: 'Real Canoe N.C.',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Pez Volador',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  realMadrid: {
+    short: 'RM-',
+    name: 'Real Madrid',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Valdebebas',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
 }
