@@ -391,5 +391,50 @@ const matches = [
       },
       einar: 0,
     },
+  {
+    date: new Date('2024-02-04T13:30:00'),
+    home: teams.fuenlabrada,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 63,
+        p1: 14,
+        p2: 11,
+        p3: 17,
+        p4: 21,
+      },
+      away: {
+        total: 73,
+        p1: 15,
+        p2: 12,
+        p3: 33,
+        p4: 13,
+      },
+      einar: 0,
+    },
+  },
+  {
+    date: new Date('2024-02-04T18:00:00'),
+    home: teams.alcobendasC,
+    away: teams.tresCantos,
+    played: true,
+    tally: {
+      home: {
+        total: 54,
+        p1: 6,
+        p2: 13,
+        p3: 15,
+        p4: 20,
+      },
+      away: {
+        total: 71,
+        p1: 18,
+        p2: 23,
+        p3: 17,
+        p4: 13,
+      },
+      einar: 14,
+    },
   },
 ];

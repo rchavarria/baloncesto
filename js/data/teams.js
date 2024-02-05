@@ -398,4 +398,14 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  tresCantos: {
+    short: 'TC-',
+    name: 'Tres Cantos',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Pabellon de la Luz',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
 }
