@@ -408,4 +408,24 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  alcorcon: {
+    short: 'ALC',
+    name: 'Alcorcon',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Alcorcon',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  atocha: {
+    short: 'VAT',
+    name: 'Colegio Virgen de Atocha',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Coletion Stella Maris, Vallecas',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
 }

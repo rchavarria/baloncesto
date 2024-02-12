@@ -423,4 +423,44 @@ const einarStatsJunior2023 = [
     faults: 2,
     valuation: -8,
   },
+  {
+    round: 15,
+    date: '2024-02-11T13:00:00',
+    team: teams.alcorcon,
+    time: {
+      minutes: 5,
+      seconds: 9,
+    },
+    points: 2,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 1,
+      three: 0,
+    },
+    faults: 0,
+    valuation: 0,
+  },
+  {
+    round: 15,
+    date: '2024-02-11T16:30:00',
+    team: teams.atocha,
+    time: {
+      minutes: 17,
+      seconds: 41,
+    },
+    points: 9,
+    throws: {
+      free: {
+        successful: 1,
+        total: 2,
+      },
+      two: 4,
+      three: 0,
+    },
+    faults: 3,
+    valuation: -2,
+  },
 ]
