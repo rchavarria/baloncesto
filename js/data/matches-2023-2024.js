@@ -576,4 +576,50 @@ const matches = [
       einar: 19,
     },
   },
+  {
+    date: new Date('2024-03-03T13:00:00'),
+    home: teams.alcobendasC,
+    away: teams.canoe,
+    played: true,
+    tally: {
+      home: {
+        total: 57,
+        p1: 19,
+        p2: 10,
+        p3: 12,
+        p4: 16,
+      },
+      away: {
+        total: 63,
+        p1: 21,
+        p2: 11,
+        p3: 25,
+        p4: 6,
+      },
+      einar: 16,
+    },
+  },
+  {
+    date: new Date('2024-03-03T18:00:00'),
+    home: teams.realMadrid,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 86,
+        p1: 27,
+        p2: 22,
+        p3: 17,
+        p4: 20,
+      },
+      away: {
+        total: 57,
+        p1: 12,
+        p2: 24,
+        p3: 10,
+        p4: 11,
+      },
+      einar: 4,
+    },
+  },
 ];
