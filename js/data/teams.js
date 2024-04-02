@@ -428,4 +428,44 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  azulejosMoncayoCBZ: {
+    short: 'CBZ',
+    name: 'Azulejos Moncayo CBZ',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  burgos2010: {
+    short: 'B10',
+    name: 'San Pablo Burgos 2010',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  burgos2011: {
+    short: 'B11',
+    name: 'San Pablo Burgos 2011',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  zaragoza: {
+    short: 'ZGZ',
+    name: 'Casadamunt Zaragoza',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
 }

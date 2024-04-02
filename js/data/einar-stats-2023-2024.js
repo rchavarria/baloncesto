@@ -663,4 +663,104 @@ const einarStatsJunior2023 = [
     faults: 1,
     valuation: 8,
   },
+  {
+    round: 20,
+    date: '2024-03-28T15:30:00',
+    team: teams.azulejosMoncayoCBZ,
+    time: {
+      minutes: 12,
+      seconds: 29,
+    },
+    points: 4,
+    throws: {
+      free: {
+        successful: 0,
+        total: 1,
+      },
+      two: 2,
+      three: 0,
+    },
+    faults: 1,
+    valuation: 17,
+  },
+  {
+    round: 20,
+    date: '2024-03-29T20:00:00',
+    team: teams.burgos2011,
+    time: {
+      minutes: 19,
+      seconds: 45,
+    },
+    points: 12,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 6,
+      three: 0,
+    },
+    faults: 1,
+    valuation: 32,
+  },
+  {
+    round: 20,
+    date: '2024-03-30T11:00:00',
+    team: teams.zaragoza,
+    time: {
+      minutes: 10,
+      seconds: 13,
+    },
+    points: 0,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 0,
+      three: 0,
+    },
+    faults: 1,
+    valuation: -13,
+  },
+  {
+    round: 20,
+    date: '2024-03-30T17:00:00',
+    team: teams.burgos2010,
+    time: {
+      minutes: 18,
+      seconds: 17,
+    },
+    points: 6,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 3,
+      three: 0,
+    },
+    faults: 4,
+    valuation: 16,
+  },
+  {
+    round: 20,
+    date: '2024-03-31T12:00:00',
+    team: teams.fuenlabrada,
+    time: {
+      minutes: 8,
+      seconds: 35,
+    },
+    points: 2,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 1,
+      three: 0,
+    },
+    faults: 2,
+    valuation: -7,
+  },
 ]
