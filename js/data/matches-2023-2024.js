@@ -831,4 +831,27 @@ const matches = [
       einar: 2,
     },
   },
+  {
+    date: new Date('2024-04-07T11:15:00'),
+    home: teams.parla,
+    away: teams.alcobendasC,
+    played: true,
+    tally: {
+      home: {
+        total: 47,
+        p1: 11,
+        p2: 14,
+        p3: 15,
+        p4: 7,
+      },
+      away: {
+        total: 69,
+        p1: 24,
+        p2: 18,
+        p3: 15,
+        p4: 12,
+      },
+      einar: 13,
+    },
+  },
 ];

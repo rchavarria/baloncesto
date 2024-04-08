@@ -763,4 +763,24 @@ const einarStatsJunior2023 = [
     faults: 2,
     valuation: -7,
   },
+  {
+    round: 21,
+    date: '2024-04-07T11:15:00',
+    team: teams.parla,
+    time: {
+      minutes: 23,
+      seconds: 3,
+    },
+    points: 13,
+    throws: {
+      free: {
+        successful: 1,
+        total: 2,
+      },
+      two: 6,
+      three: 0,
+    },
+    faults: 1,
+    valuation: 16,
+  },
 ]
