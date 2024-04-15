@@ -783,4 +783,24 @@ const einarStatsJunior2023 = [
     faults: 1,
     valuation: 16,
   },
+  {
+    round: 22,
+    date: '2024-04-13T18:00:00',
+    team: teams.alcala,
+    time: {
+      minutes: 28,
+      seconds: 50,
+    },
+    points: 16,
+    throws: {
+      free: {
+        successful: 0,
+        total: 1,
+      },
+      two: 8,
+      three: 0,
+    },
+    faults: 0,
+    valuation: 7,
+  },
 ]

@@ -854,4 +854,27 @@ const matches = [
       einar: 13,
     },
   },
+  {
+    date: new Date('2024-04-13T18:00:00'),
+    home: teams.alcala,
+    away: teams.alcobendasC,
+    played: true,
+    tally: {
+      home: {
+        total: 67,
+        p1: 13,
+        p2: 20,
+        p3: 15,
+        p4: 19,
+      },
+      away: {
+        total: 65,
+        p1: 26,
+        p2: 14,
+        p3: 8,
+        p4: 17,
+      },
+      einar: 16,
+    },
+  },
 ];
