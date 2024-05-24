@@ -843,4 +843,65 @@ const einarStatsJunior2023 = [
     faults: 2,
     valuation: 17,
   },
+  {
+    // puñetero partido donde se hizo un esguince de tobillo
+    round: 201,
+    date: '2024-05-03T11:00:00',
+    team: teams.humanitas,
+    time: {
+      minutes: 7,
+      seconds: 42,
+    },
+    points: 6,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 3,
+      three: 0,
+    },
+    faults: 1,
+    valuation: 9,
+  },
+  {
+    round: 202,
+    date: '2024-05-04T10:00:00',
+    team: teams.salvador,
+    time: {
+      minutes: 8,
+      seconds: 56,
+    },
+    points: 9,
+    throws: {
+      free: {
+        successful: 1,
+        total: 2,
+      },
+      two: 4,
+      three: 0,
+    },
+    faults: 2,
+    valuation: 14,
+  },
+  {
+    round: 203,
+    date: '2024-05-05T12:00:00',
+    team: teams.rozas,
+    time: {
+      minutes: 10,
+      seconds: 6,
+    },
+    points: 8,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 4,
+      three: 0,
+    },
+    faults: 1,
+    valuation: 4,
+  },
 ]

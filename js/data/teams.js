@@ -28,6 +28,15 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  seleccionMadrid: {
+    name: 'Seleccion 2011 C. Madrid',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'n/a',
+      map: 'https://maps.google.com',
+    },
+    web: 'https://web.com'
+  },
   alboradaSenior: {
     name: 'BASKET ALBORADA RSDA',
     logo: 'img/logos/alborada.jpg',
@@ -471,6 +480,76 @@ const teams = {
   parla: {
     short: 'PAR',
     name: 'Parla',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  humanitas: {
+    short: 'HUM',
+    name: 'Humanitas A',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  salvador: {
+    short: 'SAL',
+    name: 'El Salvador',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  krvavec: {
+    short: 'KRV',
+    name: 'Krvavec, Estonia',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  banelot: {
+    short: 'BEL',
+    name: 'Ban E Lot, Francia',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  pesaro: {
+    short: 'PES',
+    name: 'Pesaro, Italia',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  mexico: {
+    short: 'MEX',
+    name: 'Mexico',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  certifiedAhtletes: {
+    short: 'CAT',
+    name: 'Fikeo, Certified Ahtletes, Francia',
     logo: 'img/logos/none.jpg',
     stadium: {
       address: 'xxx',
