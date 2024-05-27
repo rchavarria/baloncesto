@@ -487,6 +487,16 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  zentro: {
+    short: 'ZBK',
+    name: 'Zentro Basket',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
   humanitas: {
     short: 'HUM',
     name: 'Humanitas A',

@@ -1107,4 +1107,27 @@ const matches = [
       einar: -1,
     },
   },
+  {
+    date: new Date('2024-05-26T18:00:00'),
+    home: teams.alcobendas,
+    away: teams.zentro,
+    played: true,
+    tally: {
+      home: {
+        total: 87,
+        p1: 28,
+        p2: 18,
+        p3: 23,
+        p4: 18,
+      },
+      away: {
+        total: 45,
+        p1: 15,
+        p2: 12,
+        p3: 11,
+        p4: 7,
+      },
+      einar: 10,
+    },
+  },
 ];

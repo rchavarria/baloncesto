@@ -904,4 +904,24 @@ const einarStatsJunior2023 = [
     faults: 1,
     valuation: 4,
   },
+  {
+    round: 25,
+    date: '2024-05-26T18:00:00',
+    team: teams.zentro,
+    time: {
+      minutes: 8,
+      seconds: 56,
+    },
+    points: 10,
+    throws: {
+      free: {
+        successful: 0,
+        total: 5,
+      },
+      two: 5,
+      three: 0,
+    },
+    faults: 0,
+    valuation: 13,
+  },
 ]
