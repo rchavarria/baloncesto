@@ -1153,4 +1153,27 @@ const matches = [
       einar: 7,
     },
   },
+  {
+    date: new Date('2024-06-09T18:00:00'),
+    home: teams.alcobendas,
+    away: teams.estudio,
+    played: true,
+    tally: {
+      home: {
+        total: 84,
+        p1: 27,
+        p2: 19,
+        p3: 30,
+        p4: 8,
+      },
+      away: {
+        total: 75,
+        p1: 21,
+        p2: 20,
+        p3: 12,
+        p4: 22,
+      },
+      einar: 2,
+    },
+  },
 ];

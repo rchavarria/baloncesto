@@ -944,4 +944,24 @@ const einarStatsJunior2023 = [
     faults: 0,
     valuation: 9,
   },
+  {
+    round: 27,
+    date: '2024-06-09T18:00:00',
+    team: teams.estudio,
+    time: {
+      minutes: 5,
+      seconds: 43,
+    },
+    points: 2,
+    throws: {
+      free: {
+        successful: 0,
+        total: 1,
+      },
+      two: 1,
+      three: 0,
+    },
+    faults: 2,
+    valuation: 3,
+  },
 ]
