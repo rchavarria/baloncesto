@@ -1,0 +1,48 @@
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.home {
+    color: blue;
+}
+
+.visit {
+    color: orange;
+}
+
+.team-name {
+    font-weight: bold;
+    width: 15em;
+}
+
+.quarters {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75em;
+    background-color: #f9f9f9;
+}
+
+.quarter {
+    text-align: center;
+    width: 3em;
+}
+
+.quarter .title {
+    color: black;
+    padding-bottom: 0.75em;
+    font-weight: bold;
+}
+
+.quarter .score {
+    font-size: 1em;
+}
+
+.total-score {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 3em;
+}
