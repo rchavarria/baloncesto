@@ -28,7 +28,6 @@ p {
 .timeline-item {
     padding: 3em 2em 2em;
     position: relative;
-    color: rgba(0, 0, 0, 0.7);
     border-left: 2px solid rgba(0, 0, 0, 0.3);
 }
 
@@ -37,8 +36,14 @@ p {
     margin: 0 0 .5em 0;
 }
 
+.timeline-item .description {
+    padding: 0 0 0 1.55em;
+    width: 75%;
+}
+
 .timeline-item::before {
     content: attr(date-is);
+    color: rgba(0, 0, 0, 0.7);
     position: absolute;
     left: 2em;
     font-weight: bold;
