@@ -19,6 +19,7 @@
 }
 
 .stat-column {
+    font-size: 1em;
     text-align: center;
 }
 
@@ -37,6 +38,17 @@
     cursor: pointer;
 }
 
-.stat-column .score {
-    font-size: 1em;
+.stat-column .opponent {
+    text-align: left;
+}
+
+.stat-column .mean {
+    text-align: right;
+    color: #aaaaaa;
+}
+
+.stat-column .total {
+    text-align: right;
+    color: #aaaaaa;
+    font-weight: bold;
 }
