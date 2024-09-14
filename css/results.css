@@ -18,10 +18,12 @@
     padding: 1em;
 }
 
+/* TODO rename home -> ourselves */
 .home {
     color: blue;
 }
 
+/* TODO rename visit -> opponent */
 .visit {
     color: orange;
 }
