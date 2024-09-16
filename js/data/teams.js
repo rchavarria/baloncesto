@@ -28,6 +28,16 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  alcobendasA: {
+    short: 'ALC',
+    name: 'Italtel Alcobendas A',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'No Stadium',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
   seleccionMadrid: {
     name: 'Seleccion 2011 C. Madrid',
     logo: 'img/logos/none.jpg',

@@ -93,8 +93,8 @@ const matches = [
   },
   {
     date: new Date('2023-11-05T16:15:00'),
-    home: teams.alcobendasC,
-    away: teams.torrejon,
+    home: teams.torrejon,
+    away: teams.alcobendasC,
     played: true,
     tally: {
       home: {
@@ -231,7 +231,7 @@ const matches = [
   },
   {
     date: new Date('2023-12-17T13:00:00'),
-    home: teams.alcobendas,
+    home: teams.alcobendasA,
     away: teams.fuenlabrada,
     played: true,
     tally: {
@@ -256,7 +256,7 @@ const matches = [
   },
   {
     date: new Date('2024-01-14T13:00:00'),
-    home: teams.alcobendas,
+    home: teams.alcobendasA,
     away: teams.juande,
     played: true,
     tally: {
@@ -279,7 +279,7 @@ const matches = [
   },
   {
     date: new Date('2024-01-14T11:15:00'),
-    home: teams.alcobendas,
+    home: teams.alcobendasA,
     away: teams.estudio,
     played: true,
     tally: {
@@ -326,7 +326,7 @@ const matches = [
   {
     date: new Date('2024-01-21T18:30:00'),
     home: teams.estudiantes,
-    away: teams.alcobendas,
+    away: teams.alcobendasA,
     played: true,
     tally: {
       home: {
@@ -371,7 +371,7 @@ const matches = [
   },
   {
     date: new Date('2024-01-28T19:00:00'),
-    home: teams.alcobendas,
+    home: teams.alcobendasA,
     away: teams.realMadrid,
     played: true,
     tally: {
@@ -395,7 +395,7 @@ const matches = [
   {
     date: new Date('2024-02-04T13:30:00'),
     home: teams.fuenlabrada,
-    away: teams.alcobendas,
+    away: teams.alcobendasA,
     played: true,
     tally: {
       home: {
@@ -440,7 +440,7 @@ const matches = [
   },
   {
     date: new Date('2024-02-11T13:00:00'),
-    home: teams.alcobendas,
+    home: teams.alcobendasA,
     away: teams.alcorcon,
     played: true,
     tally: {
@@ -510,7 +510,7 @@ const matches = [
   {
     date: new Date('2024-02-18T16:30:00'),
     home: teams.estudio,
-    away: teams.alcobendas,
+    away: teams.alcobendasA,
     played: true,
     tally: {
       home: {
@@ -532,7 +532,7 @@ const matches = [
   },
   {
     date: new Date('2024-02-25T13:00:00'),
-    home: teams.alcobendas,
+    home: teams.alcobendasA,
     away: teams.estudiantes,
     played: true,
     tally: {
@@ -602,7 +602,7 @@ const matches = [
   {
     date: new Date('2024-03-03T18:00:00'),
     home: teams.realMadrid,
-    away: teams.alcobendas,
+    away: teams.alcobendasA,
     played: true,
     tally: {
       home: {
@@ -647,7 +647,7 @@ const matches = [
   },
   {
     date: new Date('2024-03-10T13:00:00'),
-    home: teams.alcobendas,
+    home: teams.alcobendasA,
     away: teams.fuenlabrada,
     played: true,
     tally: {
@@ -673,7 +673,7 @@ const matches = [
   {
     date: new Date('2024-03-17T11:00:00'),
     home: teams.alcorcon,
-    away: teams.alcobendas,
+    away: teams.alcobendasA,
     played: true,
     tally: {
       home: {
@@ -879,7 +879,7 @@ const matches = [
   },
   {
     date: new Date('2024-04-28T11:30:00'),
-    home: teams.alcobendas,
+    home: teams.alcobendasA,
     away: teams.alcorcon,
     played: true,
     tally: {
@@ -1109,7 +1109,7 @@ const matches = [
   },
   {
     date: new Date('2024-05-26T18:00:00'),
-    home: teams.alcobendas,
+    home: teams.alcobendasA,
     away: teams.zentro,
     played: true,
     tally: {
@@ -1133,7 +1133,7 @@ const matches = [
   {
     date: new Date('2024-06-02T15:30:00'),
     home: teams.rozas,
-    away: teams.alcobendas,
+    away: teams.alcobendasA,
     played: true,
     tally: {
       home: {
@@ -1155,7 +1155,7 @@ const matches = [
   },
   {
     date: new Date('2024-06-09T18:00:00'),
-    home: teams.alcobendas,
+    home: teams.alcobendasA,
     away: teams.estudio,
     played: true,
     tally: {
