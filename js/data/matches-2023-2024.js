@@ -347,7 +347,7 @@ const matches = [
     },
   },
   {
-    date: new Date('2024-01-21T13:15:00'),
+    date: new Date('2024-01-28T13:15:00'),
     home: teams.canoe,
     away: teams.alcobendasC,
     played: true,
