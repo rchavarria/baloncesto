@@ -1,25 +1,25 @@
 const matches = [
   {
-    date: new Date('2023-09-24T13:00:00'),
-    home: teams.alcobendasC,
-    away: teams.leganes,
+    date: new Date('2024-09-25T19:00:00'),
+    home: teams.realMadrid,
+    away: teams.alcobendas,
     played: true,
     tally: {
       home: {
-        total: 79,
-        p1: 14,
-        p2: 21,
-        p3: 16,
-        p4: 28,
+        total: 83,
+        p1: 29,
+        p2: 20,
+        p3: 17,
+        p4: 17,
       },
       away: {
-        total: 77,
+        total: 61,
         p1: 20,
-        p2: 16,
-        p3: 28,
-        p4: 13,
+        p2: 11,
+        p3: 22,
+        p4: 8,
       },
-      einar: 4,
+      einar: 13,
     },
   },
 ];

@@ -25,22 +25,22 @@ const stats = [
   },
   {
     round: 1,
-    date: '2023-09-24T13:00:00',
-    team: teams.leganes,
+    date: '2024-09-25T19:00:00',
+    team: teams.realMadrid,
     time: {
-      minutes: 18,
-      seconds: 53,
+      minutes: 31,
+      seconds: 25,
     },
-    points: 4,
+    points: 13,
     throws: {
       free: {
-        successful: 0,
-        total: 1,
+        successful: 1,
+        total: 2,
       },
-      two: 2,
+      two: 6,
       three: 0,
     },
-    faults: 4,
-    valuation: 11,
+    faults: 1,
+    valuation: -11,
   },
 ]
