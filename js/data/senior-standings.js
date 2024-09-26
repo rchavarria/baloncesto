@@ -30,7 +30,7 @@ const standings = [
     points: 34,
   },
   {
-    team: teams.alcobendas,
+    team: teams.valcude,
     games: 19,
     wins: 12,
     loses: 7,

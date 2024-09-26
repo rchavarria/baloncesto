@@ -488,7 +488,7 @@ const matches = [
   {
     date: new Date('2023-04-22T12:00:00'),
     home: teams.alboradaJunior,
-    away: teams.alcobendas,
+    away: teams.valcude,
     played: true,
     tally: {
       home: {
@@ -568,7 +568,7 @@ const matches = [
   },
   {
     date: new Date('2023-05-20T11:15:00'),
-    home: teams.alcobendas,
+    home: teams.valcude,
     away: teams.alboradaJunior,
     played: true,
     tally: {

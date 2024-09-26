@@ -117,7 +117,7 @@ const matches = [
   {
     date: new Date('2022-12-10T18:00:00'),
     home: teams.alboradaSenior,
-    away: teams.alcobendas,
+    away: teams.valcude,
     played: true,
     tally: {
       home: {
@@ -392,7 +392,7 @@ const matches = [
   },
   {
     date: new Date('2023-03-11T12:00:00'),
-    home: teams.alcobendas,
+    home: teams.valcude,
     away: teams.alboradaSenior,
     played: true,
     tally: {

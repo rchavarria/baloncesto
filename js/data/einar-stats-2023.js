@@ -326,7 +326,7 @@ const einarStatsJunior2023 = [
   {
     round: 17,
     date: '2023-04-23T00:00:00',
-    team: teams.alcobendas,
+    team: teams.valcude,
     time: {
       minutes: 32,
       seconds: 0,
@@ -386,7 +386,7 @@ const einarStatsJunior2023 = [
   {
     round: 20,
     date: '2023-05-20T00:00:00',
-    team: teams.alcobendas,
+    team: teams.valcude,
     time: {
       minutes: 32,
       seconds: 0,

@@ -83,7 +83,7 @@ const teams = {
     },
     web: 'https://fbm.es/equipo-808579-7022/alameda-de-osuna-b',
   },
-  alcobendas: {
+  valcude: {
     short: 'VAL',
     name: 'VALCUDE ALCOBENDAS B',
     logo: 'img/logos/alcobendas.jpg',
