@@ -45,4 +45,27 @@ const matches = [
       einar: 12,
     },
   },
+  {
+    date: new Date('2024-10-06T19:30:00'),
+    home: teams.sba,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 89,
+        p1: 24,
+        p2: 29,
+        p3: 15,
+        p4: 21,
+      },
+      away: {
+        total: 111,
+        p1: 29,
+        p2: 27,
+        p3: 31,
+        p4: 24,
+      },
+      einar: 13,
+    },
+  },
 ];
