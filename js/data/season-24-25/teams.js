@@ -102,8 +102,8 @@ const teams = {
     name: 'Real Madrid',
     logo: 'img/logos/none.jpg',
     stadium: {
-      address: 'Valdebebas',
-      map: 'https://goo.gl/maps/xxx',
+      address: 'Ciudad Deportiva Real Madrid',
+      map: 'https://maps.app.goo.gl/fFvrcjJjE7FvPuMq8',
     },
     web: 'https://fbm.es/',
   },
@@ -112,7 +112,7 @@ const teams = {
     name: 'Alcorcon',
     logo: 'img/logos/none.jpg',
     stadium: {
-      address: 'Alcorcon',
+      address: 'La Canaleja',
       map: 'https://goo.gl/maps/xxx',
     },
     web: 'https://fbm.es/',
@@ -124,6 +124,16 @@ const teams = {
     stadium: {
       address: 'xxx',
       map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  sba: {
+    short: 'SBA',
+    name: 'Spanish Basketball Academy',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'SBA Arena',
+      map: 'https://maps.app.goo.gl/VuXT5q4kwEMsbGQL9',
     },
     web: 'https://fbm.es/',
   },

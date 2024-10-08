@@ -45,7 +45,7 @@ const stats = [
   },
   {
     round: 2,
-    date: '2024-09-19T11:15:00',
+    date: '2024-09-29T11:15:00',
     team: teams.alcorcon,
     time: {
       minutes: 33,
@@ -62,5 +62,25 @@ const stats = [
     },
     faults: 3,
     valuation: 24,
+  },
+  {
+    round: 3,
+    date: '2024-10-06T19:30:00',
+    team: teams.sba,
+    time: {
+      minutes: 23,
+      seconds: 10,
+    },
+    points: 13,
+    throws: {
+      free: {
+        successful: 1,
+        total: 2,
+      },
+      two: 6,
+      three: 0,
+    },
+    faults: 4,
+    valuation: 19,
   },
 ]
