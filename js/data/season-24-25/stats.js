@@ -83,4 +83,44 @@ const stats = [
     faults: 4,
     valuation: 19,
   },
+  {
+    round: 104,
+    date: '2024-10-19T16:45:00',
+    team: teams.murcia,
+    time: {
+      minutes: 25,
+      seconds: 0,
+    },
+    points: 13,
+    throws: {
+      free: {
+        successful: 1,
+        total: 7,
+      },
+      two: 6,
+      three: 0,
+    },
+    faults: 2,
+    valuation: 0,
+  },
+  {
+    round: 4,
+    date: '2024-10-20T11:30:00',
+    team: teams.canoe,
+    time: {
+      minutes: 29,
+      seconds: 56,
+    },
+    points: 18,
+    throws: {
+      free: {
+        successful: 4,
+        total: 5,
+      },
+      two: 7,
+      three: 0,
+    },
+    faults: 2,
+    valuation: 16,
+  },
 ]

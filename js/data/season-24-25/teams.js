@@ -137,4 +137,14 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  murcia: {
+    short: 'MUR',
+    name: 'UCAM Murcia',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Murcia',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
 }

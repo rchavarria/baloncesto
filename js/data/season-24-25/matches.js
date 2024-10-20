@@ -68,4 +68,50 @@ const matches = [
       einar: 13,
     },
   },
+  {
+    date: new Date('2024-10-19T16:45:00'),
+    home: teams.alcobendas,
+    away: teams.murcia,
+    played: true,
+    tally: {
+      home: {
+        total: 68,
+        p1: 22,
+        p2: 9,
+        p3: 21,
+        p4: 16,
+      },
+      away: {
+        total: 76,
+        p1: 13,
+        p2: 20,
+        p3: 16,
+        p4: 27,
+      },
+      einar: 13,
+    },
+  },
+  {
+    date: new Date('2024-10-20T11:30:00'),
+    home: teams.alcobendas,
+    away: teams.canoe,
+    played: true,
+    tally: {
+      home: {
+        total: 82,
+        p1: 21,
+        p2: 23,
+        p3: 19,
+        p4: 19,
+      },
+      away: {
+        total: 69,
+        p1: 14,
+        p2: 14,
+        p3: 16,
+        p4: 25,
+      },
+      einar: 18,
+    },
+  },
 ];
