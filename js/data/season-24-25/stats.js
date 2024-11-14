@@ -123,4 +123,24 @@ const stats = [
     faults: 2,
     valuation: 16,
   },
+  {
+    round: 5,
+    date: '2024-10-27T18:00:00',
+    team: teams.rozas,
+    time: {
+      minutes: 29,
+      seconds: 40,
+    },
+    points: 14,
+    throws: {
+      free: {
+        successful: 0,
+        total: 2,
+      },
+      two: 7,
+      three: 0,
+    },
+    faults: 2,
+    valuation: 3,
+  },
 ]
