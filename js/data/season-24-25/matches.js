@@ -137,4 +137,27 @@ const matches = [
       einar: 14,
     },
   },
+  {
+    date: new Date('2024-11-10T13:30:00'),
+    home: teams.alcobendas,
+    away: teams.realMadrid,
+    played: true,
+    tally: {
+      home: {
+        total: 76,
+        p1: 26,
+        p2: 17,
+        p3: 12,
+        p4: 21,
+      },
+      away: {
+        total: 86,
+        p1: 17,
+        p2: 25,
+        p3: 26,
+        p4: 18,
+      },
+      einar: 20,
+    },
+  },
 ];
