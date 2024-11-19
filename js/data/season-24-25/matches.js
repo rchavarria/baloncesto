@@ -160,4 +160,27 @@ const matches = [
       einar: 20,
     },
   },
+  {
+    date: new Date('2024-11-17T13:30:00'),
+    home: teams.alcorcon,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 70,
+        p1: 18,
+        p2: 19,
+        p3: 20,
+        p4: 13,
+      },
+      away: {
+        total: 94,
+        p1: 28,
+        p2: 22,
+        p3: 21,
+        p4: 123,
+      },
+      einar: 13,
+    },
+  },
 ];
