@@ -178,9 +178,32 @@ const matches = [
         p1: 28,
         p2: 22,
         p3: 21,
-        p4: 123,
+        p4: 23,
       },
       einar: 13,
+    },
+  },
+  {
+    date: new Date('2024-11-2T18:00:00'),
+    home: teams.seleccionMadrid,
+    away: teams.estudiantes,
+    played: true,
+    tally: {
+      home: {
+        total: 63,
+        p1: 13,
+        p2: 19,
+        p3: 24,
+        p4: 7,
+      },
+      away: {
+        total: 100,
+        p1: 18,
+        p2: 23,
+        p3: 31,
+        p4: 28,
+      },
+      einar: 4,
     },
   },
 ];
