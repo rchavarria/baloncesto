@@ -184,7 +184,7 @@ const matches = [
     },
   },
   {
-    date: new Date('2024-11-2T18:00:00'),
+    date: new Date('2024-11-22T18:00:00'),
     home: teams.seleccionMadrid,
     away: teams.estudiantes,
     played: true,
@@ -204,6 +204,29 @@ const matches = [
         p4: 28,
       },
       einar: 4,
+    },
+  },
+  {
+    date: new Date('2024-11-23T09:00:00'),
+    home: teams.seleccionMadrid,
+    away: teams.barcelona,
+    played: true,
+    tally: {
+      home: {
+        total: 39,
+        p1: 12,
+        p2: 9,
+        p3: 9,
+        p4: 9,
+      },
+      away: {
+        total: 104,
+        p1: 33,
+        p2: 26,
+        p3: 22,
+        p4: 23,
+      },
+      einar: 7,
     },
   },
 ];

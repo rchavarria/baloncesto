@@ -147,4 +147,14 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  barcelona: {
+    short: 'BAR',
+    name: 'Barça',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Barcelona',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
 }
