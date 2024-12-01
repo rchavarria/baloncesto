@@ -243,4 +243,24 @@ const stats = [
     faults: 2,
     valuation: 33,
   },
+  {
+    round: 9,
+    date: '2024-12-01T13:00:00',
+    team: teams.canoe,
+    time: {
+      minutes: 27,
+      seconds: 13,
+    },
+    points: 8,
+    throws: {
+      free: {
+        successful: 2,
+        total: 4,
+      },
+      two: 3,
+      three: 0,
+    },
+    faults: 3,
+    valuation: 2,
+  },
 ]

@@ -252,4 +252,27 @@ const matches = [
       einar: 16,
     },
   },
+  {
+    date: new Date('2024-12-01T13:00:00'),
+    home: teams.canoe,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 72,
+        p1: 21,
+        p2: 13,
+        p3: 17,
+        p4: 21,
+      },
+      away: {
+        total: 68,
+        p1: 17,
+        p2: 16,
+        p3: 15,
+        p4: 20,
+      },
+      einar: 8,
+    },
+  },
 ];
