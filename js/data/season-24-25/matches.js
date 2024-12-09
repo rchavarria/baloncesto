@@ -275,4 +275,27 @@ const matches = [
       einar: 8,
     },
   },
+  {
+    date: new Date('2024-12-07T16:00:00'),
+    home: teams.estudiantes,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 87,
+        p1: 15,
+        p2: 22,
+        p3: 24,
+        p4: 26,
+      },
+      away: {
+        total: 83,
+        p1: 28,
+        p2: 14,
+        p3: 13,
+        p4: 28,
+      },
+      einar: 14,
+    },
+  },
 ];
