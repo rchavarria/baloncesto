@@ -157,4 +157,14 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  valencia: {
+    short: 'VAL',
+    name: 'Valencia',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Valencia',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbcv.es/',
+  },
 }

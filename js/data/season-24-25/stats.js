@@ -283,4 +283,24 @@ const stats = [
     faults: 2,
     valuation: -1,
   },
+  {
+    round: 204,
+    date: '2024-12-22T15:00:00',
+    team: teams.valencia,
+    time: {
+      minutes: 25,
+      seconds: 1,
+    },
+    points: 8,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 4,
+      three: 0,
+    },
+    faults: 3,
+    valuation: 14,
+  },
 ]
