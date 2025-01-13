@@ -177,4 +177,14 @@ const teams = {
     },
     web: 'https://www.basquetcatala.cat',
   },
+  aragon: {
+    short: 'ARA',
+    name: 'Aragón',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Aragón',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fabasket.com',
+  },
 }
