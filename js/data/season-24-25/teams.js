@@ -187,4 +187,14 @@ const teams = {
     },
     web: 'https://fabasket.com',
   },
+  canarias: {
+    short: 'CAN',
+    name: 'Canarias',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Canarias',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fcbaloncesto.es/',
+  },
 }

@@ -367,4 +367,27 @@ const matches = [
       einar: 6,
     },
   },
+  {
+    date: new Date('2024-12-30T09:30:00'),
+    home: teams.seleccionMadrid,
+    away: teams.canarias,
+    played: true,
+    tally: {
+      home: {
+        total: 74,
+        p1: 18,
+        p2: 29,
+        p3: 15,
+        p4: 12,
+      },
+      away: {
+        total: 52,
+        p1: 12,
+        p2: 13,
+        p3: 12,
+        p4: 15,
+      },
+      einar: 4,
+    },
+  },
 ];

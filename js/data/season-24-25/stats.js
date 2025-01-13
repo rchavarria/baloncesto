@@ -343,4 +343,24 @@ const stats = [
     faults: 3,
     valuation: 3,
   },
+  {
+    round: 207,
+    date: '2024-12-30T09:30:00',
+    team: teams.canarias,
+    time: {
+      minutes: 11,
+      seconds: 38,
+    },
+    points: 4,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 2,
+      three: 0,
+    },
+    faults: 5,
+    valuation: 3,
+  },
 ]
