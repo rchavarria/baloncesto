@@ -363,4 +363,44 @@ const stats = [
     faults: 5,
     valuation: 3,
   },
+  {
+    round: 208,
+    date: '2025-01-03T13:30:00',
+    team: teams.murcia,
+    time: {
+      minutes: 13,
+      seconds: 9,
+    },
+    points: 2,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 1,
+      three: 0,
+    },
+    faults: 3,
+    valuation: 22,
+  },
+  {
+    round: 209,
+    date: '2025-01-04T09:30:00',
+    team: teams.melilla,
+    time: {
+      minutes: 6,
+      seconds: 56,
+    },
+    points: 5,
+    throws: {
+      free: {
+        successful: 1,
+        total: 2,
+      },
+      two: 2,
+      three: 0,
+    },
+    faults: 2,
+    valuation: 11,
+  },
 ]

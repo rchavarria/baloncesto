@@ -391,7 +391,7 @@ const matches = [
     },
   },
   {
-    date: new Date('2024-12-30T09:30:00'),
+    date: new Date('2025-01-03T13:30:00'),
     home: teams.seleccionMadrid,
     away: teams.murcia,
     played: true,
@@ -411,6 +411,29 @@ const matches = [
         p4: 4,
       },
       einar: 2,
+    },
+  },
+  {
+    date: new Date('2025-01-04T09:30:00'),
+    home: teams.seleccionMadrid,
+    away: teams.melilla,
+    played: true,
+    tally: {
+      home: {
+        total: 56,
+        p1: 15,
+        p2: 16,
+        p3: 25,
+        p4: 0,
+      },
+      away: {
+        total: 5,
+        p1: 2,
+        p2: 3,
+        p3: 0,
+        p4: 0,
+      },
+      einar: 5,
     },
   },
 ];

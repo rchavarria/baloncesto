@@ -197,4 +197,14 @@ const teams = {
     },
     web: 'https://fcbaloncesto.es/',
   },
+  melilla: {
+    short: 'MEL',
+    name: 'Melilla',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Melilla',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://federacion-baloncesto-melilla.es/',
+  },
 }
