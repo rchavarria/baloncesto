@@ -167,4 +167,14 @@ const teams = {
     },
     web: 'https://fbcv.es/',
   },
+  catalunya: {
+    short: 'CAT',
+    name: 'Cataluña',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Cataluña',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://www.basquetcatala.cat',
+  },
 }
