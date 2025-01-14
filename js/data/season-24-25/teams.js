@@ -207,4 +207,24 @@ const teams = {
     },
     web: 'https://federacion-baloncesto-melilla.es/',
   },
+  baleares: {
+    short: 'BAL',
+    name: 'Baleares',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Baleares',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://federacion-baloncesto-baleares.es/',
+  },
+  galicia: {
+    short: 'GAL',
+    name: 'Galicia',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Galicia',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://federacion-baloncesto-galicia.es/',
+  },
 }

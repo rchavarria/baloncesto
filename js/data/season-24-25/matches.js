@@ -459,4 +459,27 @@ const matches = [
       einar: 8,
     },
   },
+  {
+    date: new Date('2025-01-05T15:30:00'),
+    home: teams.seleccionMadrid,
+    away: teams.baleares,
+    played: true,
+    tally: {
+      home: {
+        total: 86,
+        p1: 22,
+        p2: 20,
+        p3: 28,
+        p4: 16,
+      },
+      away: {
+        total: 55,
+        p1: 18,
+        p2: 13,
+        p3: 11,
+        p4: 13,
+      },
+      einar: 9,
+    },
+  },
 ];
