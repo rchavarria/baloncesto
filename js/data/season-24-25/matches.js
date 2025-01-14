@@ -436,4 +436,27 @@ const matches = [
       einar: 5,
     },
   },
+  {
+    date: new Date('2025-01-04T17:30:00'),
+    home: teams.seleccionMadrid,
+    away: teams.canarias,
+    played: true,
+    tally: {
+      home: {
+        total: 80,
+        p1: 14,
+        p2: 26,
+        p3: 19,
+        p4: 21,
+      },
+      away: {
+        total: 61,
+        p1: 11,
+        p2: 16,
+        p3: 19,
+        p4: 15,
+      },
+      einar: 8,
+    },
+  },
 ];
