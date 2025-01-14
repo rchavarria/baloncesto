@@ -482,4 +482,27 @@ const matches = [
       einar: 9,
     },
   },
+  {
+    date: new Date('2025-01-06T19:30:00'),
+    home: teams.seleccionMadrid,
+    away: teams.galicia,
+    played: true,
+    tally: {
+      home: {
+        total: 79,
+        p1: 19,
+        p2: 26,
+        p3: 20,
+        p4: 14,
+      },
+      away: {
+        total: 45,
+        p1: 11,
+        p2: 10,
+        p3: 12,
+        p4: 12,
+      },
+      einar: 0,
+    },
+  },
 ];

@@ -443,4 +443,24 @@ const stats = [
     faults: 2,
     valuation: 14,
   },
+  {
+    round: 212,
+    date: '2025-01-06T19:30:00',
+    team: teams.baleares,
+    time: {
+      minutes: 20,
+      seconds: 49,
+    },
+    points: 0,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 0,
+      three: 0,
+    },
+    faults: 5,
+    valuation: 1,
+  },
 ]
