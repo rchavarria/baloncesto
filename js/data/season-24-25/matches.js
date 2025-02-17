@@ -643,4 +643,27 @@ const matches = [
       einar: 17,
     },
   },
+  {
+    date: new Date('2025-02-16T11:15:00'),
+    home: teams.alcobendas,
+    away: teams.estudiantes,
+    played: true,
+    tally: {
+      home: {
+        total: 75,
+        p1: 12,
+        p2: 20,
+        p3: 23,
+        p4: 20,
+      },
+      away: {
+        total: 55,
+        p1: 11,
+        p2: 8,
+        p3: 13,
+        p4: 23,
+      },
+      einar: 17,
+    },
+  },
 ];
