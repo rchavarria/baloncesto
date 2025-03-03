@@ -689,4 +689,27 @@ const matches = [
       einar: 9,
     },
   },
+  {
+    date: new Date('2025-03-02T11:15:00'),
+    home: teams.alcobendas,
+    away: teams.realMadrid,
+    played: true,
+    tally: {
+      home: {
+        total: 58,
+        p1: 15,
+        p2: 7,
+        p3: 26,
+        p4: 10,
+      },
+      away: {
+        total: 90,
+        p1: 31,
+        p2: 14,
+        p3: 14,
+        p4: 31,
+      },
+      einar: 12,
+    },
+  },
 ];
