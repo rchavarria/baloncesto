@@ -643,4 +643,24 @@ const stats = [
     faults: 1,
     valuation: -20,
   },
+  {
+    round: 318,
+    date: '2025-03-03T18:30:00',
+    team: teams.valcude,
+    time: {
+      minutes: 7,
+      seconds: 2,
+    },
+    points: 2,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 1,
+      three: 0,
+    },
+    faults: 2,
+    valuation: 6,
+  },
 ]

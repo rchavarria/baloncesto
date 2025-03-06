@@ -712,4 +712,27 @@ const matches = [
       einar: 12,
     },
   },
+  {
+    date: new Date('2025-03-03T18:30:00'),
+    home: teams.valcude,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 70,
+        p1: 24,
+        p2: 10,
+        p3: 18,
+        p4: 18,
+      },
+      away: {
+        total: 79,
+        p1: 22,
+        p2: 21,
+        p3: 15,
+        p4: 21,
+      },
+      einar: 2,
+    },
+  },
 ];
