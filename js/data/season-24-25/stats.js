@@ -663,4 +663,24 @@ const stats = [
     faults: 2,
     valuation: 6,
   },
+  {
+    round: 19,
+    date: '2025-03-09T09:15:00',
+    team: teams.urosRivas,
+    time: {
+      minutes: 22,
+      seconds: 4,
+    },
+    points: 13,
+    throws: {
+      free: {
+        successful: 1,
+        total: 2,
+      },
+      two: 6,
+      three: 0,
+    },
+    faults: 3,
+    valuation: 34,
+  },
 ]

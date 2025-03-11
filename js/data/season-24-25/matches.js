@@ -735,4 +735,27 @@ const matches = [
       einar: 2,
     },
   },
+  {
+    date: new Date('2025-03-09T09:15:00'),
+    home: teams.alcobendas,
+    away: teams.urosRivas,
+    played: true,
+    tally: {
+      home: {
+        total: 91,
+        p1: 25,
+        p2: 16,
+        p3: 29,
+        p4: 21,
+      },
+      away: {
+        total: 55,
+        p1: 8,
+        p2: 18,
+        p3: 20,
+        p4: 9,
+      },
+      einar: 13,
+    },
+  },
 ];
