@@ -758,4 +758,27 @@ const matches = [
       einar: 13,
     },
   },
+  {
+    date: new Date('2025-03-16T12:30:00'),
+    home: teams.tresCantos,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 23,
+        p1: 9,
+        p2: 12,
+        p3: 2,
+        p4: 0,
+      },
+      away: {
+        total: 73,
+        p1: 18,
+        p2: 29,
+        p3: 26,
+        p4: 0,
+      },
+      einar: 6,
+    },
+  },
 ];
