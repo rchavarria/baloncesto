@@ -781,4 +781,27 @@ const matches = [
       einar: 6,
     },
   },
+  {
+    date: new Date('2025-03-22T18:30:00'),
+    home: teams.alcobendas,
+    away: teams.torrejon,
+    played: true,
+    tally: {
+      home: {
+        total: 74,
+        p1: 22,
+        p2: 13,
+        p3: 20,
+        p4: 19,
+      },
+      away: {
+        total: 70,
+        p1: 15,
+        p2: 17,
+        p3: 19,
+        p4: 19,
+      },
+      einar: 2,
+    },
+  },
 ];
