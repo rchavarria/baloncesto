@@ -514,8 +514,8 @@ const stats = [
     points: 10,
     throws: {
       free: {
-        successful: 0,
-        total: 0,
+        successful: 2,
+        total: 2,
       },
       two: 4,
       three: 0,
