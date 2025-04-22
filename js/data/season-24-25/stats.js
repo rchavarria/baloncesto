@@ -723,4 +723,24 @@ const stats = [
     faults: 2,
     valuation: 1,
   },
+  {
+    round: 401,
+    date: '2025-04-17T17:45:00',
+    team: teams.torrelodones,
+    time: {
+      minutes: 17,
+      seconds: 53,
+    },
+    points: 12,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 6,
+      three: 0,
+    },
+    faults: 1,
+    valuation: 26,
+  },
 ]

@@ -804,4 +804,27 @@ const matches = [
       einar: 2,
     },
   },
+  {
+    date: new Date('2025-04-17T17:45:00'),
+    home: teams.alcobendas,
+    away: teams.torrelodones,
+    played: true,
+    tally: {
+      home: {
+        total: 73,
+        p1: 23,
+        p2: 23,
+        p3: 15,
+        p4: 12,
+      },
+      away: {
+        total: 47,
+        p1: 14,
+        p2: 11,
+        p3: 8,
+        p4: 14,
+      },
+      einar: 12,
+    },
+  },
 ];
