@@ -823,4 +823,24 @@ const stats = [
     faults: 3,
     valuation: 3,
   },
+  {
+    round: 406,
+    date: '2025-04-20T09:00:00',
+    team: teams.laso,
+    time: {
+      minutes: 0,
+      seconds: 0,
+    },
+    points: 0,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 0,
+      three: 0,
+    },
+    faults: 0,
+    valuation: 0,
+  },
 ]

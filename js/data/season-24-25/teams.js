@@ -138,6 +138,16 @@ const teams = {
     },
     web: 'https://federacion-baloncesto-galicia.es/',
   },
+  laso: {
+    short: 'LAS',
+    name: 'Pablo Laso Academy',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'n/a',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
   lleida: {
     short: 'LLE',
     name: 'Lleida',

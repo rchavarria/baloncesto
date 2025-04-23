@@ -919,4 +919,27 @@ const matches = [
       einar: 3,
     },
   },
+  {
+    date: new Date('2025-04-20T09:00:00'),
+    home: teams.alcobendas,
+    away: teams.laso,
+    played: true,
+    tally: {
+      home: {
+        total: 62,
+        p1: 16,
+        p2: 19,
+        p3: 14,
+        p4: 13,
+      },
+      away: {
+        total: 51,
+        p1: 14,
+        p2: 9,
+        p3: 18,
+        p4: 10,
+      },
+      einar: 0,
+    },
+  },
 ];
