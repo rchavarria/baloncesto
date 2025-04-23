@@ -763,4 +763,24 @@ const stats = [
     faults: 0,
     valuation: 22,
   },
+  {
+    round: 403,
+    date: '2025-04-18T19:00:00',
+    team: teams.tarragona,
+    time: {
+      minutes: 23,
+      seconds: 47,
+    },
+    points: 11,
+    throws: {
+      free: {
+        successful: 1,
+        total: 7,
+      },
+      two: 5,
+      three: 0,
+    },
+    faults: 1,
+    valuation: 25,
+  },
 ]

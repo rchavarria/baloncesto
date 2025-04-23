@@ -850,4 +850,27 @@ const matches = [
       einar: 6,
     },
   },
+  {
+    date: new Date('2025-04-18T12:45:00'),
+    home: teams.alcobendas,
+    away: teams.tarragona,
+    played: true,
+    tally: {
+      home: {
+        total: 74,
+        p1: 27,
+        p2: 26,
+        p3: 12,
+        p4: 9,
+      },
+      away: {
+        total: 49,
+        p1: 14,
+        p2: 14,
+        p3: 11,
+        p4: 10,
+      },
+      einar: 11,
+    },
+  },
 ];
