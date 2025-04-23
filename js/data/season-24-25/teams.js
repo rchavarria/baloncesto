@@ -138,6 +138,16 @@ const teams = {
     },
     web: 'https://federacion-baloncesto-galicia.es/',
   },
+  lleida: {
+    short: 'LLE',
+    name: 'Lleida',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Lleida',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fed-cat-bal.cat',
+  },
   melilla: {
     short: 'MEL',
     name: 'Melilla',

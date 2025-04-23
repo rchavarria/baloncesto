@@ -783,4 +783,24 @@ const stats = [
     faults: 1,
     valuation: 25,
   },
+  {
+    round: 404,
+    date: '2025-04-19T09:30:00',
+    team: teams.lleida,
+    time: {
+      minutes: 19,
+      seconds: 27,
+    },
+    points: 8,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 4,
+      three: 0,
+    },
+    faults: 2,
+    valuation: 21,
+  },
 ]
