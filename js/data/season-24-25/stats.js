@@ -743,4 +743,24 @@ const stats = [
     faults: 1,
     valuation: 26,
   },
+  {
+    round: 402,
+    date: '2025-04-18T12:45:00',
+    team: teams.alicante,
+    time: {
+      minutes: 15,
+      seconds: 13,
+    },
+    points: 6,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 3,
+      three: 0,
+    },
+    faults: 0,
+    valuation: 22,
+  },
 ]

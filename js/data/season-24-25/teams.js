@@ -19,6 +19,16 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  alicante: {
+    short: 'ALI',
+    name: 'Alicante',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'n/a',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbcv.es/',
+  },
   aragon: {
     short: 'ARA',
     name: 'Aragón',
@@ -186,6 +196,15 @@ const teams = {
       map: 'https://maps.google.com',
     },
     web: 'https://web.com',
+  },
+  tarragona: {
+    name: 'Tarragona',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'n/a',
+      map: 'https://maps.google.com',
+    },
+    web: 'https://fed-cat-bal.cat',
   },
   template: {
     name: 'name',
