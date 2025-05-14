@@ -965,4 +965,27 @@ const matches = [
       einar: 8,
     },
   },
+  {
+    date: new Date('2025-05-10T11:30:00'),
+    home: teams.alcorcon,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 79,
+        p1: 18,
+        p2: 13,
+        p3: 27,
+        p4: 21,
+      },
+      away: {
+        total: 63,
+        p1: 14,
+        p2: 12,
+        p3: 16,
+        p4: 21,
+      },
+      einar: 9,
+    },
+  },
 ];

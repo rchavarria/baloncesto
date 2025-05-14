@@ -863,4 +863,24 @@ const stats = [
     faults: 4,
     valuation: 5,
   },
+  {
+    round: 22,
+    date: '2025-05-10T11:30:00',
+    team: teams.alcorcon,
+    time: {
+      minutes: 27,
+      seconds: 4,
+    },
+    points: 9,
+    throws: {
+      free: {
+        successful: 1,
+        total: 3,
+      },
+      two: 4,
+      three: 0,
+    },
+    faults: 1,
+    valuation: -19,
+  },
 ]
