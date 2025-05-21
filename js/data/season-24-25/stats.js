@@ -884,23 +884,23 @@ const stats = [
     valuation: -19,
   },
   {
-    round: 24,
-    date: '2025-05-17T12:30:00',
-    team: teams.rozas,
+    round: 25,
+    date: '2025-05-18T12:30:00',
+    team: teams.realMadrid,
     time: {
-      minutes: 20,
-      seconds: 32,
+      minutes: 35,
+      seconds: 25,
     },
-    points: 11,
+    points: 9,
     throws: {
       free: {
         successful: 3,
         total: 3,
       },
-      two: 4,
+      two: 3,
       three: 0,
     },
-    faults: 2,
-    valuation: 23,
+    faults: 0,
+    valuation: -25,
   },
 ]
