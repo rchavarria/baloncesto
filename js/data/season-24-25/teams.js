@@ -286,4 +286,14 @@ const teams = {
     },
     web: 'https://fgb.ga/',
   },
+  elche: {
+    short: 'ELC',
+    name: 'Elche',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fgb.ga/',
+  },
 }

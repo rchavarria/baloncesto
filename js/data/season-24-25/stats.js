@@ -903,4 +903,24 @@ const stats = [
     faults: 2,
     valuation: 23,
   },
+  {
+    round: 502,
+    date: '2025-06-02T10:30:00',
+    team: teams.elche,
+    time: {
+      minutes: 40,
+      seconds: 0,
+    },
+    points: 14,
+    throws: {
+      free: {
+        successful: 0,
+        total: 1,
+      },
+      two: 7,
+      three: 0,
+    },
+    faults: 2,
+    valuation: -28,
+  },
 ]
