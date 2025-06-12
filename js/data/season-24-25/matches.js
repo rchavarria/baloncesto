@@ -1034,4 +1034,27 @@ const matches = [
       einar: 9,
     },
   },
+  {
+    date: new Date('2025-05-18T12:30:00'),
+    home: teams.alcobendas,
+    away: teams.obradoiro,
+    played: true,
+    tally: {
+      home: {
+        total: 90,
+        p1: 20,
+        p2: 29,
+        p3: 30,
+        p4: 11,
+      },
+      away: {
+        total: 72,
+        p1: 23,
+        p2: 7,
+        p3: 17,
+        p4: 25,
+      },
+      einar: 13,
+    },
+  },
 ];

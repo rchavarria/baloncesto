@@ -276,4 +276,14 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  obradoiro: {
+    short: 'OBR',
+    name: 'Obradoiro',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fgb.ga/',
+  },
 }
