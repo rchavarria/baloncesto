@@ -98,6 +98,16 @@ const teams = {
     },
     web: 'https://web.com',
   },
+  elche: {
+    short: 'ELC',
+    name: 'Elche',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fgb.ga/',
+  },
   estudiantes: {
     short: 'ME-',
     name: 'Movistar Estudiantes',
@@ -138,6 +148,16 @@ const teams = {
     },
     web: 'https://federacion-baloncesto-galicia.es/',
   },
+  joventut: {
+    short: 'CJB',
+    name: 'Joventut de Badalona',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fgb.ga/',
+  },
   laso: {
     short: 'LAS',
     name: 'Pablo Laso Academy',
@@ -177,6 +197,16 @@ const teams = {
       map: 'https://goo.gl/maps/xxx',
     },
     web: 'https://fbm.es/',
+  },
+  obradoiro: {
+    short: 'OBR',
+    name: 'Obradoiro',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fgb.ga/',
   },
   realMadrid: {
     short: 'RM-',
@@ -275,25 +305,5 @@ const teams = {
       map: 'https://goo.gl/maps/xxx',
     },
     web: 'https://fbm.es/',
-  },
-  obradoiro: {
-    short: 'OBR',
-    name: 'Obradoiro',
-    logo: 'img/logos/none.jpg',
-    stadium: {
-      address: 'xxx',
-      map: 'https://goo.gl/maps/xxx',
-    },
-    web: 'https://fgb.ga/',
-  },
-  elche: {
-    short: 'ELC',
-    name: 'Elche',
-    logo: 'img/logos/none.jpg',
-    stadium: {
-      address: 'xxx',
-      map: 'https://goo.gl/maps/xxx',
-    },
-    web: 'https://fgb.ga/',
   },
 }
