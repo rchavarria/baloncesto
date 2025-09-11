@@ -24,7 +24,7 @@ const stats = [
     valuation: 'valoracion (aunque no se como se calcula)',
   },
   {
-    round: 1101,
+    round: 9901,
     date: '2025-09-06T12:00:00',
     team: teams.rozas,
     time: {
@@ -35,7 +35,27 @@ const stats = [
     throws: {
       free: {
         successful: -1,
-        total: -2,
+        total: -1,
+      },
+      two: -1,
+      three: 0,
+    },
+    faults: -1,
+    valuation: -1,
+  },
+  {
+    round: 9901,
+    date: '2025-09-07T11:15:00',
+    team: teams.godella,
+    time: {
+      minutes: -1,
+      seconds: -1,
+    },
+    points: -1,
+    throws: {
+      free: {
+        successful: -1,
+        total: -1,
       },
       two: -1,
       three: 0,

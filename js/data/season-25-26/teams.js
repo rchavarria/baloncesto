@@ -148,6 +148,16 @@ const teams = {
     },
     web: 'https://federacion-baloncesto-galicia.es/',
   },
+  godella: {
+    short: 'GOD',
+    name: 'LHorta Godella',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Valencia',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://federacion-baloncesto-valencia.es/',
+  },
   joventut: {
     short: 'CJB',
     name: 'Joventut de Badalona',
