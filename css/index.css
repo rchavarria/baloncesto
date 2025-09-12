@@ -31,11 +31,11 @@ p {
     border-left: 2px solid rgba(0, 0, 0, 0.3);
 }
 
-.timeline-item .u15 {
+.timeline-item.u15 {
     background-color: azure;
 }
 
-.timeline-item .u16 {
+.timeline-item.u16 {
     /*background-color: azure;*/
 }
 
