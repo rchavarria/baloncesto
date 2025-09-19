@@ -98,6 +98,16 @@ const teams = {
     },
     web: 'https://web.com',
   },
+  distrito: {
+    short: 'DOL',
+    name: 'Distrito Olímpico',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
   elche: {
     short: 'ELC',
     name: 'Elche',

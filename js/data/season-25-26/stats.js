@@ -83,4 +83,24 @@ const stats = [
     faults: -1,
     valuation: -1,
   },
+  {
+    round: 9904,
+    date: '2025-09-18T20:00:00',
+    team: teams.distrito,
+    time: {
+      minutes: 20,
+      seconds: 0,
+    },
+    points: -1,
+    throws: {
+      free: {
+        successful: -1,
+        total: -1,
+      },
+      two: -1,
+      three: 0,
+    },
+    faults: -1,
+    valuation: -1,
+  },
 ]
