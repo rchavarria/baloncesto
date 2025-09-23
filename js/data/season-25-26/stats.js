@@ -105,7 +105,7 @@ const stats = [
   },
   {
     round: 1001,
-    date: '2025-09-20T22:00:00',
+    date: '2025-09-20T11:00:00',
     team: teams.realMadrid,
     time: {
       minutes: 17,
@@ -129,5 +129,25 @@ const stats = [
     faults: 2,
     plusMinus: 0,
     valuation: -5,
+  },
+  {
+    round: 1101,
+    date: '2025-09-20T18:30:00',
+    team: teams.alcorcon,
+    time: {
+      minutes: 17,
+      seconds: 48,
+    },
+    points: 6,
+    throws: {
+      free: {
+        successful: 2,
+        total: 4,
+      },
+      two: 2,
+      three: 0,
+    },
+    faults: 1,
+    valuation: 3,
   },
 ]
