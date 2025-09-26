@@ -5,6 +5,16 @@
     <title>Resultados</title>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400,500&display=swap');
+
+        @font-face {
+            font-family: 'BD Central';
+            src: url('fonts/bd-central.ttf')format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -62,9 +72,14 @@
             /*min-height: 150px;*/
         }
 
-        .row-home-team, .row-visit-team {
-            flex: 1;
+        .row-home-team {
             /*min-height: 100px;*/
+            flex: 1;
+        }
+
+        .row-visit-team {
+            /*min-height: 100px;*/
+            flex: 1;
         }
 
         .row-results {
@@ -112,27 +127,40 @@
         }
 
         .header-title.category {
-            color: red;
+            color: #C00000;
+            font-family: 'Saira Condensed', sans-serif;
+            font-weight: 500;
+            font-size: x-large;
         }
 
         .header-title.result {
-            color: green;
+            color: #1E2B50;
+            font-family: 'Saira Condensed', sans-serif;
+            /*font-weight: 400;*/
+            font-weight: bold;
+            font-size: xx-large;
         }
 
         .row-home-team .col {
-            background: linear-gradient(145deg, #e74c3c, #c0392b);
+            /*background: linear-gradient(145deg, #e74c3c, #c0392b);*/
             flex: 1;
             align-items: center;
             justify-content: left;
-            font-size: xxx-large;
+            color: #C00000;
+            font-family: 'Saira Condensed', sans-serif;
+            font-weight: bolder;
+            font-size: 4.25em;
         }
 
         .row-visit-team .col {
-            background: linear-gradient(145deg, #e74c3c, #c0392b);
+            /*background: linear-gradient(145deg, #e74c3c, #c0392b);*/
             flex: 1;
             align-items: center;
             justify-content: right;
-            font-size: xx-large;
+            color: #FFC90E;
+            font-family: 'Saira Condensed', sans-serif;
+            font-weight: bold;
+            font-size: 3em;
         }
 
         .row-results .col {
@@ -147,16 +175,23 @@
         }
 
         .row-results .col-tally span {
+            font-family: "BD Central", sans-serif;
             font-weight: bold;
-            font-size: 5em;
+        }
+
+        .dash-tally {
+            color: #C00000;
+            font-size: 4em;
         }
 
         .home-tally {
-            color: red;
+            color: #C00000;
+            font-size: 5em;
         }
 
         .visit-tally {
-            color: green;
+            color: #FFC90E;
+            font-size: 4.5em;
         }
 
         .logo {
@@ -207,40 +242,16 @@
 
     <div class="row row-results">
         <div class="col">
-            <img class="logo" src="img/new-logos/alcobendas.jpg">
+            <img class="logo" src="img/new-logos/alcobendas-transparent.png">
         </div>
         <div class="col col-tally">
             <span class="home-tally">99</span>
-            <span>-</span>
+            <span class="dash-tally">-</span>
             <span class="visit-tally">00</span>
         </div>
         <div class="col">
             <img class="logo" src="img/new-logos/zentro-transparent.png">
         </div>
-    </div>
-</div>
-
-<div class="flex-container">
-    <div class="row header-row">
-        <div class="col col-fbm">Columna 1</div>
-        <div class="col col-headers">
-            <div class="header-title">Sub-fila 1</div>
-            <div class="header-title">Sub-fila 2</div>
-        </div>
-    </div>
-
-    <div class="row row-home-team">
-        <div class="col">Fila 2 - Sin dividir</div>
-    </div>
-
-    <div class="row row-visit-team">
-        <div class="col">Fila 3 - Sin dividir</div>
-    </div>
-
-    <div class="row row-results">
-        <div class="col">Columna 1</div>
-        <div class="col">Columna 2</div>
-        <div class="col">Columna 3</div>
     </div>
 </div>
 
