@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            /*background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);*/
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /*padding: 20px;*/
+        }
+
+        .container {
+            /*width: 90%;*/
+            /*max-width: 1200px;*/
+            /*background-color: rgba(255, 255, 255, 0.95);*/
+            /*border-radius: 12px;*/
+            /*box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);*/
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+            /*padding: 30px;*/
+            margin: 20px 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .flex-container {
+            border-radius: 5px;
+            padding: 3px;
+            border: black solid 1px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            min-height: 300px;
+        }
+
+        .row {
+            display: flex;
+            gap: 20px;
+        }
+
+        .header-row {
+            flex: 3;
+            /*min-height: 150px;*/
+        }
+
+        .row-home-team, .row-visit-team {
+            flex: 1;
+            /*min-height: 100px;*/
+        }
+
+        .row-results {
+            flex: 4;
+            /*min-height: 120px;*/
+        }
+
+        .col {
+            /*background: linear-gradient(145deg, #3498db, #2980b9);*/
+            border-radius: 8px;
+            padding: 5px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /*font-weight: bold;*/
+            /*font-size: 1.2rem;*/
+            /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+            /*transition: transform 0.3s, box-shadow 0.3s;*/
+        }
+
+        .col-fbm {
+            flex: 1;
+            /*background: linear-gradient(145deg, #2ecc71, #27ae60);*/
+        }
+
+        .col-headers {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .header-title {
+            width: 100%;
+            flex: 1;
+            /*background: linear-gradient(145deg, #9b59b6, #8e44ad);*/
+            /*border-radius: 6px;*/
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            font-size: xx-large;
+            /*color: #3c3caa;*/
+        }
+
+        .header-title.category {
+            color: red;
+        }
+
+        .header-title.result {
+            color: green;
+        }
+
+        .row-home-team .col {
+            background: linear-gradient(145deg, #e74c3c, #c0392b);
+            flex: 1;
+            align-items: center;
+            justify-content: left;
+            font-size: xxx-large;
+        }
+
+        .row-visit-team .col {
+            background: linear-gradient(145deg, #e74c3c, #c0392b);
+            flex: 1;
+            align-items: center;
+            justify-content: right;
+            font-size: xx-large;
+        }
+
+        .row-results .col {
+            /*background: linear-gradient(145deg, #f39c12, #e67e22);*/
+            flex: 1;
+            color: black;
+        }
+
+        .row-results .col-tally {
+            flex: 2;
+            min-width: 250px;
+        }
+
+        .row-results .col-tally span {
+            font-weight: bold;
+            font-size: 5em;
+        }
+
+        .home-tally {
+            color: red;
+        }
+
+        .visit-tally {
+            color: green;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+        }
+
+        /*@media (max-width: 768px) {*/
+        /*    .row {*/
+        /*        flex-direction: column;*/
+        /*    }*/
+
+        /*    .header-row, .row-results {*/
+        /*        min-height: auto;*/
+        /*    }*/
+
+        /*    .col-headers {*/
+        /*        min-height: 200px;*/
+        /*    }*/
+        /*}*/
+    </style>
+
+</head>
+<body class="container">
+
+<div class="flex-container">
+    <div class="row header-row">
+        <div class="col col-fbm">
+            <img src="img/new-logos/fbm-logo-colores-2025-no-ibrcj.png">
+        </div>
+        <div class="col col-headers">
+            <div class="header-title category">Cadete 2011</div>
+            <div class="header-title result">🤩 Resultado Final</div>
+        </div>
+    </div>
+
+    <div class="row row-home-team">
+        <div class="col">
+            CB ALCOBENDAS
+        </div>
+    </div>
+
+    <div class="row row-visit-team">
+        <div class="col">
+            ZENTRO BASKET
+        </div>
+    </div>
+
+    <div class="row row-results">
+        <div class="col">
+            <img class="logo" src="img/new-logos/alcobendas.jpg">
+        </div>
+        <div class="col col-tally">
+            <span class="home-tally">99</span>
+            <span>-</span>
+            <span class="visit-tally">00</span>
+        </div>
+        <div class="col">
+            <img class="logo" src="img/new-logos/zentro-transparent.png">
+        </div>
+    </div>
+</div>
+
+<div class="flex-container">
+    <div class="row header-row">
+        <div class="col col-fbm">Columna 1</div>
+        <div class="col col-headers">
+            <div class="header-title">Sub-fila 1</div>
+            <div class="header-title">Sub-fila 2</div>
+        </div>
+    </div>
+
+    <div class="row row-home-team">
+        <div class="col">Fila 2 - Sin dividir</div>
+    </div>
+
+    <div class="row row-visit-team">
+        <div class="col">Fila 3 - Sin dividir</div>
+    </div>
+
+    <div class="row row-results">
+        <div class="col">Columna 1</div>
+        <div class="col">Columna 2</div>
+        <div class="col">Columna 3</div>
+    </div>
+</div>
+
+</body>
+</html>
