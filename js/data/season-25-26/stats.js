@@ -177,4 +177,24 @@ const stats = [
     plusMinus: 0,
     valuation: 6,
   },
+  {
+    round: 1102,
+    date: '2025-09-28T20:15:00',
+    team: teams.zentro,
+    time: {
+      minutes: 21,
+      seconds: 20,
+    },
+    points: 15,
+    throws: {
+      free: {
+        successful: 1,
+        total: 3,
+      },
+      two: 7,
+      three: 0,
+    },
+    faults: 1,
+    valuation: 12,
+  },
 ]

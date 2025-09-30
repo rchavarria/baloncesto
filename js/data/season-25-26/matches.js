@@ -139,4 +139,27 @@ const matches = [
       einar: 6,
     },
   },
+  {
+    date: new Date('2025-09-28T20:15:00'),
+    home: teams.zentro,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 71,
+        p1: 14,
+        p2: 22,
+        p3: 17,
+        p4: 18,
+      },
+      away: {
+        total: 88,
+        p1: 24,
+        p2: 22,
+        p3: 23,
+        p4: 19,
+      },
+      einar: 15,
+    },
+  },
 ];
