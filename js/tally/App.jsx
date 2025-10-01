@@ -13,12 +13,12 @@ const App = () => {
     const key = event.target.value;
     const teams = {
       coslada: {
-        name: 'COSLADA',
+        name: 'CB COSLADA',
         logo: 'img/new-logos/coslada-transparent.png',
       },
       patrocinio: {
-        name: 'PATROCINIO',
-        logo: 'logo-patrocinio.png',
+        name: 'PATROCINIO SAN JOSE',
+        logo: 'img/new-logos/patrocinio-transparent.png',
       },
     }
 
