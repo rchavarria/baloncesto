@@ -8,13 +8,14 @@ const App = () => {
   return (
     <div>
       <div className="data-input">
+        <label htmlFor="tallies">Marcador:</label>
         <input
+          id="tallies"
           type="text"
           value={tallies}
           onChange={handleInputChange}
           placeholder="Escribe algo..."
         />
-        <p>Valor actual: {tallies}</p>
       </div>
 
       <div className="flex-container">
@@ -24,7 +25,7 @@ const App = () => {
           </div>
           <div className="col col-headers">
             <div className="header-title category">Cadete 2011</div>
-            <div className="header-title result">🤩 Resultado Final</div>
+            <FinalResult tallies={tallies} />
           </div>
         </div>
 
