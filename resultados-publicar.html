@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400,500&display=swap');
+
+        @font-face {
+            font-family: 'BD Central';
+            src: url('fonts/bd-central.ttf')format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            /*background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);*/
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /*padding: 20px;*/
+        }
+
+        .data-input {
+            margin-bottom: 50px;
+        }
+
+        .container {
+            /*width: 90%;*/
+            /*max-width: 1200px;*/
+            /*background-color: rgba(255, 255, 255, 0.95);*/
+            /*border-radius: 12px;*/
+            /*box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);*/
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+            /*padding: 30px;*/
+            margin: 20px 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .flex-container {
+            border-radius: 5px;
+            padding: 3px;
+            border: black solid 1px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            min-height: 300px;
+        }
+
+        .row {
+            display: flex;
+            gap: 20px;
+        }
+
+        .header-row {
+            flex: 3;
+            /*min-height: 150px;*/
+        }
+
+        .row-home-team {
+            /*min-height: 100px;*/
+            flex: 1;
+        }
+
+        .row-visit-team {
+            /*min-height: 100px;*/
+            flex: 1;
+        }
+
+        .row-results {
+            flex: 4;
+            /*min-height: 120px;*/
+        }
+
+        .col {
+            /*background: linear-gradient(145deg, #3498db, #2980b9);*/
+            border-radius: 8px;
+            padding: 5px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /*font-weight: bold;*/
+            /*font-size: 1.2rem;*/
+            /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+            /*transition: transform 0.3s, box-shadow 0.3s;*/
+        }
+
+        .col-fbm {
+            flex: 1;
+            /*background: linear-gradient(145deg, #2ecc71, #27ae60);*/
+        }
+
+        .col-headers {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .header-title {
+            width: 100%;
+            flex: 1;
+            /*background: linear-gradient(145deg, #9b59b6, #8e44ad);*/
+            /*border-radius: 6px;*/
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            font-size: xx-large;
+            /*color: #3c3caa;*/
+        }
+
+        .header-title.category {
+            color: #C00000;
+            font-family: 'Saira Condensed', sans-serif;
+            font-weight: 500;
+            font-size: x-large;
+        }
+
+        .header-title.result {
+            color: #1E2B50;
+            font-family: 'Saira Condensed', sans-serif;
+            /*font-weight: 400;*/
+            font-weight: bold;
+            font-size: xx-large;
+        }
+
+        .row-home-team .col {
+            /*background: linear-gradient(145deg, #e74c3c, #c0392b);*/
+            flex: 1;
+            align-items: center;
+            justify-content: left;
+            color: #C00000;
+            font-family: 'Saira Condensed', sans-serif;
+            font-weight: bolder;
+            font-size: 4.25em;
+        }
+
+        .row-visit-team .col {
+            /*background: linear-gradient(145deg, #e74c3c, #c0392b);*/
+            flex: 1;
+            align-items: center;
+            justify-content: right;
+            color: #FFC90E;
+            font-family: 'Saira Condensed', sans-serif;
+            font-weight: bold;
+            font-size: 3em;
+        }
+
+        .row-results .col {
+            /*background: linear-gradient(145deg, #f39c12, #e67e22);*/
+            flex: 1;
+            color: black;
+        }
+
+        .row-results .col-tally {
+            flex: 2;
+            min-width: 250px;
+        }
+
+        .row-results .col-tally span {
+            font-family: "BD Central", sans-serif;
+            font-weight: bold;
+        }
+
+        .dash-tally {
+            color: #C00000;
+            font-size: 4em;
+        }
+
+        .home-tally {
+            color: #C00000;
+            font-size: 5em;
+        }
+
+        .visit-tally {
+            color: #FFC90E;
+            font-size: 4.5em;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+        }
+
+        /*@media (max-width: 768px) {*/
+        /*    .row {*/
+        /*        flex-direction: column;*/
+        /*    }*/
+
+        /*    .header-row, .row-results {*/
+        /*        min-height: auto;*/
+        /*    }*/
+
+        /*    .col-headers {*/
+        /*        min-height: 200px;*/
+        /*    }*/
+        /*}*/
+    </style>
+
+</head>
+<body class="container">
+
+<div id="root"></div>
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<!-- My Code -->
+<script type="text/javascript" src="./js/data/season-25-26/teams.js"></script>
+<script type="text/babel" src="./js/tally/FinalResult.jsx"></script>
+<script type="text/babel" src="./js/tally/Tallies.jsx"></script>
+<script type="text/babel" src="./js/tally/App.jsx"></script>
+<script type="text/babel" src="./js/tally/init.jsx"></script>
+
+</body>
+</html>
