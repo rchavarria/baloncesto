@@ -217,43 +217,66 @@
 </head>
 <body class="container">
 
-<div class="flex-container">
-    <div class="row header-row">
-        <div class="col col-fbm">
-            <img src="img/new-logos/fbm-logo-colores-2025-no-ibrcj.png">
-        </div>
-        <div class="col col-headers">
-            <div class="header-title category">Cadete 2011</div>
-            <div class="header-title result">🤩 Resultado Final</div>
-        </div>
-    </div>
+<div id="root"></div>
 
-    <div class="row row-home-team">
-        <div class="col">
-            CB ALCOBENDAS
-        </div>
-    </div>
+<!-- React y ReactDOM -->
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
-    <div class="row row-visit-team">
-        <div class="col">
-            ZENTRO BASKET
-        </div>
-    </div>
+<!-- Babel para transformar JSX -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    <div class="row row-results">
-        <div class="col">
-            <img class="logo" src="img/new-logos/alcobendas-transparent.png">
-        </div>
-        <div class="col col-tally">
-            <span class="home-tally">99</span>
-            <span class="dash-tally">-</span>
-            <span class="visit-tally">00</span>
-        </div>
-        <div class="col">
-            <img class="logo" src="img/new-logos/zentro-transparent.png">
-        </div>
-    </div>
-</div>
+<!-- Configurar Babel para módulos -->
+<script type="text/babel" data-type="module">
+  // Babel procesará los imports automáticamente
+</script>
+
+<!-- Tu script con tipo "text/babel" -->
+<script type="text/babel" src="./js/tally/Tallies.jsx"></script>
+<script type="text/babel" src="./js/tally/App.jsx"></script>
+<script type="text/babel" src="./js/tally/init.jsx"></script>
+
+
+
+
+
+<!--<div class="flex-container">-->
+<!--    <div class="row header-row">-->
+<!--        <div class="col col-fbm">-->
+<!--            <img src="img/new-logos/fbm-logo-colores-2025-no-ibrcj.png">-->
+<!--        </div>-->
+<!--        <div class="col col-headers">-->
+<!--            <div class="header-title category">Cadete 2011</div>-->
+<!--            <div class="header-title result">🤩 Resultado Final</div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="row row-home-team">-->
+<!--        <div class="col">-->
+<!--            CB ALCOBENDAS-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="row row-visit-team">-->
+<!--        <div class="col">-->
+<!--            ZENTRO BASKET-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="row row-results">-->
+<!--        <div class="col">-->
+<!--            <img class="logo" src="img/new-logos/alcobendas-transparent.png">-->
+<!--        </div>-->
+<!--        <div class="col col-tally">-->
+<!--            <span class="home-tally">99</span>-->
+<!--            <span class="dash-tally">-</span>-->
+<!--            <span class="visit-tally">00</span>-->
+<!--        </div>-->
+<!--        <div class="col">-->
+<!--            <img class="logo" src="img/new-logos/zentro-transparent.png">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 </body>
 </html>
