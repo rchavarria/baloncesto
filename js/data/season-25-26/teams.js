@@ -89,6 +89,16 @@ const teams = {
     },
     web: 'https://www.basquetcatala.cat',
   },
+  coslada: {
+    short: 'COS',
+    name: 'C.B. Coslada',
+    logo: 'img/new-logos/coslada-transparent.png',
+    stadium: {
+      address: 'Coslada',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es',
+  },
   descansa: {
     name: '** DESCANSA **',
     logo: 'img/logos/none.jpg',
@@ -227,6 +237,16 @@ const teams = {
       map: 'https://goo.gl/maps/xxx',
     },
     web: 'https://fgb.ga/',
+  },
+  patrocinio: {
+    short: 'PSJ',
+    name: 'Patrocinio San José',
+    logo: 'img/new-logos/patrocinio-transparent.png',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
   },
   realMadrid: {
     short: 'RM-',

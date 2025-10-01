@@ -11,18 +11,21 @@ const App = () => {
 
   const handleSelectChange = (event) => {
     const key = event.target.value;
-    const teams = {
-      coslada: {
-        name: 'CB COSLADA',
-        logo: 'img/new-logos/coslada-transparent.png',
-      },
-      patrocinio: {
-        name: 'PATROCINIO SAN JOSE',
-        logo: 'img/new-logos/patrocinio-transparent.png',
-      },
+    // const teams = {
+    //   coslada: {
+    //     name: 'CB COSLADA',
+    //     logo: 'img/new-logos/coslada-transparent.png',
+    //   },
+    //   patrocinio: {
+    //     name: 'PATROCINIO SAN JOSE',
+    //     logo: 'img/new-logos/patrocinio-transparent.png',
+    //   },
+    // }
+
+    if (teams[key]) {
+      setOpponentTeam(teams[key]);
     }
 
-    setOpponentTeam(teams[key]);
     setSelectedOpponentKey(event.target.value);
   };
 
