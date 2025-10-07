@@ -197,4 +197,24 @@ const stats = [
     faults: 1,
     valuation: 12,
   },
+  {
+    round: 1103,
+    date: '2025-10-04T11:15:00',
+    team: teams.coslada,
+    time: {
+      minutes: 13,
+      seconds: 12,
+    },
+    points: 7,
+    throws: {
+      free: {
+        successful: 1,
+        total: 4,
+      },
+      two: 3,
+      three: 0,
+    },
+    faults: 4,
+    valuation: 0,
+  },
 ]

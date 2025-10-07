@@ -162,4 +162,27 @@ const matches = [
       einar: 15,
     },
   },
+  {
+    date: new Date('2025-10-04T11:15:00'),
+    home: teams.alcobendas,
+    away: teams.coslada,
+    played: true,
+    tally: {
+      home: {
+        total: 80,
+        p1: 15,
+        p2: 24,
+        p3: 24,
+        p4: 17,
+      },
+      away: {
+        total: 43,
+        p1: 13,
+        p2: 11,
+        p3: 13,
+        p4: 6,
+      },
+      einar: 7,
+    },
+  },
 ];
