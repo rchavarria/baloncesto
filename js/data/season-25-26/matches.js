@@ -185,4 +185,29 @@ const matches = [
       einar: 7,
     },
   },
+  {
+    date: new Date('2025-10-04T18:15:00'),
+    home: teams.patrocinio,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 84,
+        p1: 21,
+        p2: 20,
+        p3: 14,
+        p4: 20,
+        ot1: 9,
+      },
+      away: {
+        total: 90,
+        p1: 20,
+        p2: 17,
+        p3: 27,
+        p4: 11,
+        ot1: 15,
+      },
+      einar: 6,
+    },
+  },
 ];
