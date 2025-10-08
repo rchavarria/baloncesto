@@ -131,7 +131,7 @@ const teams = {
   estudiantes: {
     short: 'ME-',
     name: 'Movistar Estudiantes',
-    logo: 'img/logos/none.jpg',
+    logo: 'img/new-logos/estudiantes.jpg',
     stadium: {
       address: 'Magariños',
       map: 'https://goo.gl/maps/xxx',
@@ -326,8 +326,18 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
-  valencia: {
+  valcude: {
     short: 'VAL',
+    name: 'Valcude Alcobendas',
+    logo: 'img/new-logos/valcude-transparent.png',
+    stadium: {
+      address: 'Valencia',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbcv.es/',
+  },
+  valencia: {
+    short: 'VLC',
     name: 'Valencia',
     logo: 'img/logos/none.jpg',
     stadium: {

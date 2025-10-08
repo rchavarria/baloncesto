@@ -1,4 +1,15 @@
+/**
+ * Main App
+ *
+ * @returns {JSX.Element}
+ * @constructor
+ */
 const App = () => {
+  /*
+  * Opponents teams must be loaded from a `teams.js` file
+  * Each team must have a `name` and a `logo` property, so that
+  * they're rendered correctly in this page
+  */
   const defaultOpponentTeam = { name: 'ELIGE UN EQUIPO RIVAL', logo: 'img/new-logos/alcobendas-transparent.png' };
   const [selectedAge, setSelectedAge] = React.useState('2011');
   const [selectedOpponentKey, setSelectedOpponentKey] = React.useState('');
@@ -11,16 +22,6 @@ const App = () => {
 
   const handleSelectChange = (event) => {
     const key = event.target.value;
-    // const teams = {
-    //   coslada: {
-    //     name: 'CB COSLADA',
-    //     logo: 'img/new-logos/coslada-transparent.png',
-    //   },
-    //   patrocinio: {
-    //     name: 'PATROCINIO SAN JOSE',
-    //     logo: 'img/new-logos/patrocinio-transparent.png',
-    //   },
-    // }
 
     if (teams[key]) {
       setOpponentTeam(teams[key]);
@@ -46,8 +47,8 @@ const App = () => {
         <label htmlFor="opponent">Equipo rival:</label>
         <select id="opponent" value={selectedOpponentKey} onChange={handleSelectChange}>
           <option value="">Equipo rival</option>
-          <option value="coslada">Coslada</option>
-          <option value="patrocinio">Patrocinio</option>
+          <option value="valcude">Valcude 2010</option>
+          <option value="estudiantes">Estudiantes 2010</option>
         </select>
         <br />
 
@@ -58,7 +59,9 @@ const App = () => {
       <div className="flex-container">
         <div className="row header-row">
           <div className="col col-fbm">
-            <img src="img/new-logos/fbm-logo-colores-2025-no-ibrcj.png"/>
+            <img src="img/new-logos/fbm-logo-colores-2025-no-ibrcj.png"
+                 alt="logo FBM"
+            />
           </div>
           <div className="col col-headers">
             <div className="header-title category">Cadete {selectedAge}</div>
@@ -80,7 +83,10 @@ const App = () => {
 
         <div className="row row-results">
           <div className="col">
-            <img className="logo" src="img/new-logos/alcobendas-transparent.png"/>
+            <img className="logo"
+                 src="img/new-logos/alcobendas-transparent.png"
+                 alt="alcobendas logo"
+            />
           </div>
           <Tallies tallies={tallies} />
           <div className="col">
