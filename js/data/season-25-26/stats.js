@@ -215,6 +215,7 @@ const stats = [
       three: 0,
     },
     faults: 4,
+    plusMinus: 22,
     valuation: 0,
   },
   {
@@ -241,7 +242,7 @@ const stats = [
       },
     },
     faults: 4,
-    plusMinus: 0,
+    plusMinus: 7,
     valuation: 4,
   },
 ]
