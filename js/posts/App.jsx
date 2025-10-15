@@ -1,7 +1,10 @@
 const BACKGROUND_IMAGES = {
-  first: 'img/posts/poster-resultado-01.jpg',
-  second: 'img/posts/poster-resultado-02.jpg',
-  third: 'img/posts/poster-resultado-03.jpg',
+  white: 'img/posts/equipo-blanco.jpg',
+  ball: 'img/posts/balon.jpg',
+  ferrandiz: 'img/posts/ferrandiz.jpg',
+  moneando: 'img/posts/moneando.jpg',
+  rm: 'img/posts/rm.jpg',
+  shoes: 'img/posts/zapas.jpg',
 }
 
 /**
@@ -21,7 +24,7 @@ const App = () => {
   const [selectedOpponentKey, setSelectedOpponentKey] = React.useState('');
   const [tallies, setTallies] = React.useState('99-00');
   const [opponentTeam, setOpponentTeam] = React.useState(defaultOpponentTeam);
-  const [background, setBackground] = React.useState(BACKGROUND_IMAGES.first);
+  const [background, setBackground] = React.useState(BACKGROUND_IMAGES.shoes);
 
   const handleInputChange = (event) => {
     setTallies(event.target.value);
@@ -53,8 +56,12 @@ const App = () => {
         <label htmlFor="opponent">Imagen de fondo:</label>
         <select id="opponent" value={selectedBackgroundKey} onChange={handleSelectBackgroundChange}>
           <option value="">Imagen</option>
-          <option value="first">Primera</option>
-          <option value="second">Segunda</option>
+          <option value="ball">Balon</option>
+          <option value="white">Equipo blanco</option>
+          <option value="ferrandiz">Ferrandiz</option>
+          <option value="moneando">Moneando</option>
+          <option value="rm">Real Madrid</option>
+          <option value="shoes">Zapas</option>
         </select>
         <br/>
 
