@@ -5,6 +5,34 @@
     <title>Resultados</title>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400,500&display=swap');
+
+        @font-face {
+            font-family: 'BD Central';
+            src: url('fonts/bd-central.ttf')format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .data-input {
+            width: 50%;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .data-input label {
+            margin-right: 20px;
+        }
+
         .poster-container {
             position: relative;
             margin: 3em auto;
@@ -101,37 +129,17 @@
 </head>
 <body>
 
-<div class="poster-container">
-    <img class="poster-image" src="img/posts/poster-resultado-01.jpg" />
-    <div class="bottom-overlay">
-        <div class="row">
-            <div class="col col-home-team">
-                CB ALCOBENDAS
-            </div>
-            <div class="col col-visit-team">
-                ESTUDIANTES
-            </div>
-        </div>
+<div id="root"></div>
 
-        <div class="row row-results">
-            <div class="col">
-                <img class="logo"
-                     src="img/new-logos/alcobendas-transparent.png"
-                     alt="alcobendas logo"
-                />
-            </div>
-            <div class="col col-tally">
-                <span class="home-tally">99</span>
-                <span class="dash-tally">-</span>
-                <span class="visit-tally">00</span>
-            </div>
-            <div class="col">
-                <img class="logo" src="img/new-logos/alcobendas-transparent.png" alt="opponent logo"/>
-            </div>
-        </div>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    </div>
-</div>
+<!-- My Code -->
+<script type="text/javascript" src="./js/data/season-25-26/teams.js"></script>
+<script type="text/babel" src="./js/posts/Tallies.jsx"></script>
+<script type="text/babel" src="./js/posts/App.jsx"></script>
+<script type="text/babel" src="./js/posts/init.jsx"></script>
 
 </body>
 </html>
