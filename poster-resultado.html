@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados</title>
+
+    <style>
+        .poster-container {
+            position: relative;
+            margin: 3em auto;
+            width: 600px;
+            height: 600px;
+        }
+
+        .poster-image {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .bottom-overlay {
+            position: absolute;
+            top: 60%;
+            width: 100%;
+            height: 40%;
+            background: rgba(192, 0, 0, 0.7);
+
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .row {
+            display: flex;
+            gap: 20px;
+        }
+
+        .col {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .col-home-team {
+            flex: 1;
+            justify-content: left;
+            padding-left: 5px;
+            color: white;
+            font-family: 'Saira Condensed', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+        }
+
+        .col-visit-team {
+            flex: 1;
+            justify-content: right;
+            padding-right: 5px;
+            color: #FFC90E;
+            font-family: 'Saira Condensed', sans-serif;
+            font-weight: bold;
+            font-size: 2.5em;
+        }
+
+        .row-results .col {
+            flex: 1;
+        }
+
+        .row-results .col-tally {
+            flex: 2;
+            min-width: 250px;
+        }
+
+        .row-results .col-tally span {
+            font-family: "BD Central", sans-serif;
+            font-weight: bold;
+        }
+
+        .dash-tally {
+            color: white;
+            font-size: 3em;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .home-tally {
+            color: white;
+            font-size: 5em;
+        }
+
+        .visit-tally {
+            color: #FFC90E;
+            font-size: 4.5em;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="poster-container">
+    <img class="poster-image" src="img/posts/poster-resultado-01.jpg" />
+    <div class="bottom-overlay">
+        <div class="row">
+            <div class="col col-home-team">
+                CB ALCOBENDAS
+            </div>
+            <div class="col col-visit-team">
+                ESTUDIANTES
+            </div>
+        </div>
+
+        <div class="row row-results">
+            <div class="col">
+                <img class="logo"
+                     src="img/new-logos/alcobendas-transparent.png"
+                     alt="alcobendas logo"
+                />
+            </div>
+            <div class="col col-tally">
+                <span class="home-tally">99</span>
+                <span class="dash-tally">-</span>
+                <span class="visit-tally">00</span>
+            </div>
+            <div class="col">
+                <img class="logo" src="img/new-logos/alcobendas-transparent.png" alt="opponent logo"/>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
