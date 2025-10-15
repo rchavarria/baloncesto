@@ -130,7 +130,7 @@ const teams = {
   },
   estudiantes: {
     short: 'ME-',
-    name: 'Movistar Estudiantes',
+    name: 'M. Estudiantes',
     logo: 'img/new-logos/estudiantes.jpg',
     stadium: {
       address: 'Magariños',
