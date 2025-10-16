@@ -1,3 +1,19 @@
+/**
+ * Logos de los clubes
+ *
+ * Conseguir imágenes de logos para carteles de la temporada
+ * Igual que CD Estudio, Alcobendas tiene los de Clupik
+ * (de echo, parece la misma web)
+ *
+ * [Club Baloncesto Alcobendas | Baloncesto Alcobendas](https://www.cbalcobendas.es/es/games?show=all&from=2025-04-30T22:00:00.000Z&to=2025-05-31T21:59:59.999Z)
+ *
+ * FBM TV también tiene algunos
+ * [fbmTV - La televisión/OTT de la Federación de Baloncesto de Madrid](https://fbmtv.fbm.es/es/archivo)
+ *
+ * CD Estudio tiene unos buenos, transparentes, de Clupik
+ * [Club Deportivo Estudio - C.D. Estudio](https://www.cdestudio.com/es/games?show=all&from=2025-04-30T22:00:00.000Z&to=2025-05-31T21:59:59.999Z)
+ *
+ */
 const teams = {
   alcobendas: {
     short: 'ALC',
@@ -131,7 +147,7 @@ const teams = {
   estudiantes: {
     short: 'ME-',
     name: 'M. Estudiantes',
-    logo: 'img/new-logos/estudiantes.jpg',
+    logo: 'img/new-logos/estudiantes.png',
     stadium: {
       address: 'Magariños',
       map: 'https://goo.gl/maps/xxx',
