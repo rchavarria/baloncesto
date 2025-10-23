@@ -166,8 +166,8 @@ const teams = {
   },
   fuenlabrada: {
     short: 'BFU',
-    name: 'BALONCESTO FUENLABRADA',
-    logo: 'img/logos/fuenlabrada.jpg',
+    name: 'B. Fuenlabrada',
+    logo: 'img/new-logos/fuenlabrada.jpg',
     stadium: {
       address: 'EL ARROYO, PABELLON, FUENTESAUCO, 1',
       map: 'https://goo.gl/maps/4jHQkBhDBQ4G9H3c8',
@@ -281,6 +281,16 @@ const teams = {
     stadium: {
       address: 'No Stadium',
       map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
+  sanJorge: {
+    short: 'SJO',
+    name: 'San Jorge',
+    logo: 'img/new-logos/san-jorge.jpg',
+    stadium: {
+      address: 'SBA Arena',
+      map: 'https://maps.app.goo.gl/VuXT5q4kwEMsbGQL9',
     },
     web: 'https://fbm.es/',
   },
