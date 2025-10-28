@@ -256,4 +256,27 @@ const matches = [
       einar: 6,
     },
   },
+  {
+    date: new Date('2025-10-25T11:15:00'),
+    home: teams.alcobendas,
+    away: teams.sanJorge,
+    played: true,
+    tally: {
+      home: {
+        total: 63,
+        p1: 16,
+        p2: 15,
+        p3: 23,
+        p4: 9,
+      },
+      away: {
+        total: 77,
+        p1: 24,
+        p2: 9,
+        p3: 16,
+        p4: 28,
+      },
+      einar: 7,
+    },
+  },
 ];

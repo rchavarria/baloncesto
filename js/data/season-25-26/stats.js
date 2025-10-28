@@ -293,4 +293,25 @@ const stats = [
     plusMinus: 17,
     valuation: 2,
   },
+  {
+    round: 1105,
+    date: '2025-10-25T11:15:00',
+    team: teams.sanJorge,
+    time: {
+      minutes: 27,
+      seconds: 6,
+    },
+    points: 7,
+    throws: {
+      free: {
+        successful: 1,
+        total: 2,
+      },
+      two: 3,
+      three: 0,
+    },
+    faults: 0,
+    plusMinus: -2,
+    valuation: 6,
+  },
 ]
