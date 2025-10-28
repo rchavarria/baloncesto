@@ -314,4 +314,31 @@ const stats = [
     plusMinus: -2,
     valuation: 6,
   },
+  {
+    round: 1005,
+    date: '2025-10-26T12:00:00',
+    team: teams.fuenlabrada,
+    time: {
+      minutes: 16,
+      seconds: 24,
+    },
+    points: 1,
+    throws: {
+      free: {
+        successful: 1,
+        total: 2,
+      },
+      two: {
+        successful: 0,
+        total: 2,
+      },
+      three: {
+        successful: 0,
+        total: 0,
+      },
+    },
+    faults: 4,
+    plusMinus: -14,
+    valuation: -4,
+  },
 ]

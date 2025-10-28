@@ -279,4 +279,27 @@ const matches = [
       einar: 7,
     },
   },
+  {
+    date: new Date('2025-10-26T12:00:00'),
+    home: teams.fuenlabrada,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 86,
+        p1: 25,
+        p2: 27,
+        p3: 17,
+        p4: 17,
+      },
+      away: {
+        total: 66,
+        p1: 22,
+        p2: 11,
+        p3: 12,
+        p4: 21,
+      },
+      einar: 1,
+    },
+  },
 ];
