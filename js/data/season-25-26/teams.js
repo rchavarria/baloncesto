@@ -27,8 +27,8 @@ const teams = {
   },
   alcorcon: {
     short: 'ALC',
-    name: 'Alcorcon',
-    logo: 'img/logos/none.jpg',
+    name: 'Alcorcón',
+    logo: 'img/new-logos/alcorcon-transparent.png',
     stadium: {
       address: 'La Canaleja',
       map: 'https://goo.gl/maps/xxx',
@@ -267,7 +267,7 @@ const teams = {
   realMadrid: {
     short: 'RM-',
     name: 'Real Madrid',
-    logo: 'img/logos/none.jpg',
+    logo: 'img/new-logos/real-madrid-transparent.png',
     stadium: {
       address: 'Ciudad Deportiva Real Madrid',
       map: 'https://maps.app.goo.gl/fFvrcjJjE7FvPuMq8',

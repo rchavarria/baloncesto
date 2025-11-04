@@ -25,7 +25,7 @@ const App = () => {
   const [selectedOpponentKey, setSelectedOpponentKey] = React.useState('');
   const [tallies, setTallies] = React.useState('99-00');
   const [opponentTeam, setOpponentTeam] = React.useState(defaultOpponentTeam);
-  const [background, setBackground] = React.useState(BACKGROUND_IMAGES.team);
+  const [background, setBackground] = React.useState(BACKGROUND_IMAGES.rm);
 
   const handleInputChange = (event) => {
     setTallies(event.target.value);
@@ -70,8 +70,8 @@ const App = () => {
         <label htmlFor="opponent">Equipo rival:</label>
         <select id="opponent" value={selectedOpponentKey} onChange={handleSelectChange}>
           <option value="">Equipo rival</option>
-          <option value="fuenlabrada">Fuenlabrada 2010</option>
-          <option value="sanJorge">San Jorge 2010</option>
+          <option value="realMadrid">Real Madrid 2010</option>
+          <option value="alcorcon">Alcorcón 2010</option>
         </select>
         <br/>
 
