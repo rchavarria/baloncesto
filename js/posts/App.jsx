@@ -1,9 +1,16 @@
 const BACKGROUND_IMAGES = {
   ball: 'img/posts/balon.jpg',
+  bench: 'img/posts/banquillo.jpg',
   ferrandiz: 'img/posts/ferrandiz.jpg',
+  fives: 'img/posts/saludando.jpg',
+  free_throw: 'img/posts/tiro-libre.jpg',
+  group: 'img/posts/grupal.jpg',
   moneando: 'img/posts/moneando.jpg',
+  rebound: 'img/posts/rebote.jpg',
   rm: 'img/posts/rm.jpg',
+  running: 'img/posts/carrera.jpg',
   shoes: 'img/posts/zapas.jpg',
+  start_play: 'img/posts/inicio-jugada.jpg',
   team: 'img/posts/equipo.jpg',
   white: 'img/posts/equipo-blanco.jpg',
 }
@@ -59,11 +66,19 @@ const App = () => {
           <option value="">Imagen</option>
           <option value="team">Equipo (presentacion)</option>
           <option value="ball">Balon</option>
-          <option value="white">Equipo blanco</option>
+          <option value="bench">Banquillo</option>
           <option value="ferrandiz">Ferrandiz</option>
+          <option value="fives">Saludando</option>
+          <option value="free_throw">Tiro libre</option>
+          <option value="group">Grupal equipo</option>
           <option value="moneando">Moneando</option>
+          <option value="rebound">Rebote</option>
           <option value="rm">Real Madrid</option>
+          <option value="running">En carrera</option>
           <option value="shoes">Zapas</option>
+          <option value="start_play">Inicio jugada</option>
+          <option value="shoes">Zapas</option>
+          <option value="white">Equipo blanco</option>
         </select>
         <br/>
 
