@@ -359,7 +359,7 @@ const stats = [
       three: 0,
     },
     faults: 0,
-    plusMinus: 1e-9,
+    plusMinus: -17,
     valuation: 6,
   },
   {
@@ -386,7 +386,7 @@ const stats = [
       },
     },
     faults: 1,
-    plusMinus: 1e-9,
+    plusMinus: -18,
     valuation: 7,
   },
 ]
