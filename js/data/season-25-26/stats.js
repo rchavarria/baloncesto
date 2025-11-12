@@ -341,4 +341,25 @@ const stats = [
     plusMinus: -14,
     valuation: -4,
   },
+  {
+    round: 1106,
+    date: '2025-11-09T13:30:00',
+    team: teams.alcorcon,
+    time: {
+      minutes: 13,
+      seconds: 45,
+    },
+    points: 6,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 3,
+      three: 0,
+    },
+    faults: 0,
+    plusMinus: 1e-9,
+    valuation: 6,
+  },
 ]
