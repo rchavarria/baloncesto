@@ -276,8 +276,8 @@ const teams = {
   },
   rozas: {
     short: 'CBR',
-    name: 'Las Rozas B',
-    logo: 'img/logos/none.jpg',
+    name: 'Las Rozas',
+    logo: 'img/new-logos/rozas-transparent.png',
     stadium: {
       address: 'No Stadium',
       map: 'https://goo.gl/maps/xxx',
@@ -375,7 +375,7 @@ const teams = {
   zentro: {
     short: 'ZBK',
     name: 'Zentro Basket',
-    logo: 'img/logos/none.jpg',
+    logo: 'img/new-logos/zentro-transparent.png',
     stadium: {
       address: 'xxx',
       map: 'https://goo.gl/maps/xxx',

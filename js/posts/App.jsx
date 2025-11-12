@@ -85,8 +85,8 @@ const App = () => {
         <label htmlFor="opponent">Equipo rival:</label>
         <select id="opponent" value={selectedOpponentKey} onChange={handleSelectChange}>
           <option value="">Equipo rival</option>
-          <option value="realMadrid">Real Madrid 2010</option>
-          <option value="alcorcon">Alcorcón 2010</option>
+          <option value="rozas">Las Rozas 2010</option>
+          <option value="zentro">Zentro Basket</option>
         </select>
         <br/>
 
