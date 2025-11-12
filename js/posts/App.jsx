@@ -129,6 +129,8 @@ const App = () => {
           </div>
 
         </div>
+
+        <Emoji tallies={tallies} />
       </div>
     </div>
   );
