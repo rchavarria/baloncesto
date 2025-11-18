@@ -410,4 +410,31 @@ const stats = [
     plusMinus: 8,
     valuation: 4,
   },
+  {
+    round: 1007,
+    date: '2025-11-16T13:30:00',
+    team: teams.rozas,
+    time: {
+      minutes: 18,
+      seconds: 7,
+    },
+    points: 6,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: {
+        successful: 3,
+        total: 6,
+      },
+      three: {
+        successful: 0,
+        total: 0,
+      },
+    },
+    faults: 4,
+    plusMinus: 8,
+    valuation: 2,
+  },
 ]

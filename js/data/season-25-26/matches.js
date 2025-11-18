@@ -371,4 +371,27 @@ const matches = [
       einar: 10,
     },
   },
+  {
+    date: new Date('2025-11-16T15:30:00'),
+    home: teams.rozas,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 62,
+        p1: 16,
+        p2: 10,
+        p3: 15,
+        p4: 21,
+      },
+      away: {
+        total: 72,
+        p1: 14,
+        p2: 15,
+        p3: 23,
+        p4: 20,
+      },
+      einar: 6,
+    },
+  },
 ];
