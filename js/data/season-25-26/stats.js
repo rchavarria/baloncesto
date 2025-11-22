@@ -437,4 +437,31 @@ const stats = [
     plusMinus: 8,
     valuation: 2,
   },
+  {
+    round: 110201,
+    date: '2025-11-21T19:45:00',
+    team: teams.realMadrid,
+    time: {
+      minutes: 18,
+      seconds: 49,
+    },
+    points: 10,
+    throws: {
+      free: {
+        successful: 2,
+        total: 2,
+      },
+      two: {
+        successful: 4,
+        total: 5,
+      },
+      three: {
+        successful: 0,
+        total: 2,
+      },
+    },
+    faults: 2,
+    plusMinus: -13,
+    valuation: 7,
+  },
 ]
