@@ -491,4 +491,31 @@ const stats = [
     plusMinus: 6,
     valuation: 11,
   },
+  {
+    round: 110203,
+    date: '2025-11-23T09:00:00',
+    team: teams.seleccionMadrid,
+    time: {
+      minutes: 31,
+      seconds: 1,
+    },
+    points: 16,
+    throws: {
+      free: {
+        successful: 6,
+        total: 12,
+      },
+      two: {
+        successful: 5,
+        total: 8,
+      },
+      three: {
+        successful: 0,
+        total: 0,
+      },
+    },
+    faults: 4,
+    plusMinus: 6,
+    valuation: 14,
+  },
 ]
