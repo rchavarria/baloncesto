@@ -464,4 +464,31 @@ const stats = [
     plusMinus: -13,
     valuation: 7,
   },
+  {
+    round: 110202,
+    date: '2025-11-22T11:15:00',
+    team: teams.joventut,
+    time: {
+      minutes: 25,
+      seconds: 14,
+    },
+    points: 8,
+    throws: {
+      free: {
+        successful: 2,
+        total: 7,
+      },
+      two: {
+        successful: 4,
+        total: 4,
+      },
+      three: {
+        successful: 0,
+        total: 0,
+      },
+    },
+    faults: 2,
+    plusMinus: 6,
+    valuation: 11,
+  },
 ]
