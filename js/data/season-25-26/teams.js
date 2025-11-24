@@ -110,8 +110,8 @@ const teams = {
     name: 'C.B. Coslada',
     logo: 'img/new-logos/coslada-transparent.png',
     stadium: {
-      address: 'Coslada',
-      map: 'https://goo.gl/maps/xxx',
+      address: 'El Plantío',
+      map: 'https://maps.app.goo.gl/fxf4qD9A851t9SHMA',
     },
     web: 'https://fbm.es',
   },
