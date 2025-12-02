@@ -518,4 +518,25 @@ const stats = [
     plusMinus: 6,
     valuation: 14,
   },
+  {
+    round: 1108,
+    date: '2025-11-27T19:45:00',
+    team: teams.coslada,
+    time: {
+      minutes: 12,
+      seconds: 4,
+    },
+    points: 2,
+    throws: {
+      free: {
+        successful: 2,
+        total: 2,
+      },
+      two: 0,
+      three: 0,
+    },
+    faults: 3,
+    plusMinus: 3,
+    valuation: -1,
+  },
 ]
