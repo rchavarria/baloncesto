@@ -539,4 +539,31 @@ const stats = [
     plusMinus: 3,
     valuation: -1,
   },
+  {
+    round: 1009,
+    date: '2025-11-30T11:30:00',
+    team: teams.estudiantes,
+    time: {
+      minutes: 20,
+      seconds: 27,
+    },
+    points: 6,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: {
+        successful: 3,
+        total: 3,
+      },
+      three: {
+        successful: 0,
+        total: 0,
+      },
+    },
+    faults: 4,
+    plusMinus: -32,
+    valuation: 5,
+  },
 ]

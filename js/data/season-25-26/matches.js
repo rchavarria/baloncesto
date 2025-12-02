@@ -451,7 +451,7 @@ const matches = [
         p1: 11,
         p2: 28,
         p3: 20,
-        p4: 125,
+        p4: 25,
       },
       away: {
         total: 67,
@@ -461,6 +461,29 @@ const matches = [
         p4: 6,
       },
       einar: 2,
+    },
+  },
+  {
+    date: new Date('2025-11-30T11:30:00'),
+    home: teams.estudiantes,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 103,
+        p1: 31,
+        p2: 32,
+        p3: 22,
+        p4: 18,
+      },
+      away: {
+        total: 52,
+        p1: 15,
+        p2: 7,
+        p3: 18,
+        p4: 12,
+      },
+      einar: 6,
     },
   },
 ];
