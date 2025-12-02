@@ -566,4 +566,25 @@ const stats = [
     plusMinus: -32,
     valuation: 5,
   },
+  {
+    round: 1109,
+    date: '2025-11-30T18:00:00',
+    team: teams.valcude,
+    time: {
+      minutes: 25,
+      seconds: 20,
+    },
+    points: 17,
+    throws: {
+      free: {
+        successful: 1,
+        total: 3,
+      },
+      two: 8,
+      three: 0,
+    },
+    faults: 4,
+    plusMinus: 28,
+    valuation: 13,
+  },
 ]
