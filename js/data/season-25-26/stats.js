@@ -587,4 +587,31 @@ const stats = [
     plusMinus: 28,
     valuation: 13,
   },
+  {
+    round: 1008,
+    date: '2025-12-13T13:15:00',
+    team: teams.patrocinio,
+    time: {
+      minutes: 0,
+      seconds: 0,
+    },
+    points: 0,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: {
+        successful: 0,
+        total: 0,
+      },
+      three: {
+        successful: 0,
+        total: 0,
+      },
+    },
+    faults: 0,
+    plusMinus: 0,
+    valuation: 0,
+  },
 ]
