@@ -616,6 +616,27 @@ const stats = [
   },
   {
     round: 1110,
+    date: '2025-12-13T20:15:00',
+    team: teams.sanJorge,
+    time: {
+      minutes: 17,
+      seconds: 44,
+    },
+    points: 4,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 2,
+      three: 0,
+    },
+    faults: 4,
+    plusMinus: 10,
+    valuation: 0,
+  },
+  {
+    round: 1010,
     date: '2025-12-14T18:00:00',
     team: teams.fuenlabrada,
     time: {
