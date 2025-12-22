@@ -758,4 +758,31 @@ const stats = [
     plusMinus: 3,
     valuation: 6,
   },
+  {
+    round: 21105,
+    date: '2025-12-21T11:00:00',
+    team: teams.elche,
+    time: {
+      minutes: 31,
+      seconds: 52,
+    },
+    points: 11,
+    throws: {
+      free: {
+        successful: 1,
+        total: 2,
+      },
+      two: {
+        successful: 5,
+        total: 10,
+      },
+      three: {
+        successful: 0,
+        total: 2,
+      },
+    },
+    faults: 2,
+    plusMinus: 6,
+    valuation: 10,
+  },
 ]
