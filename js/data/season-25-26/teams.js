@@ -224,6 +224,16 @@ const teams = {
     },
     web: 'https://fed-cat-bal.cat',
   },
+  malaga: {
+    short: 'UMA',
+    name: 'Unicaja Málaga',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Málaga',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://federacion-baloncesto-andalucia.es/',
+  },
   melilla: {
     short: 'MEL',
     name: 'Melilla',
@@ -341,6 +351,16 @@ const teams = {
       map: 'https://goo.gl/maps/xxx',
     },
     web: 'https://fbm.es/',
+  },
+  torrent: {
+    short: 'NBT',
+    name: 'NB Torrent',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'No Stadium',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbcv.es/',
   },
   urosRivas: {
     short: 'URO',

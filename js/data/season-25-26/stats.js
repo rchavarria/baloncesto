@@ -656,4 +656,52 @@ const stats = [
     plusMinus: -2,
     valuation: 5,
   },
+  {
+    round: 21101,
+    date: '2025-12-19T10:00:00',
+    team: teams.malaga,
+    time: {
+      minutes: -1,
+      seconds: -1,
+    },
+    points: -1,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 0,
+      three: 0,
+    },
+    faults: 0,
+    plusMinus: 0,
+    valuation: 0,
+  },
+  {
+    round: 21102,
+    date: '2025-12-19T17:00:00',
+    team: teams.torrent,
+    time: {
+      minutes: 22,
+      seconds: 55,
+    },
+    points: 11,
+    throws: {
+      free: {
+        successful: 3,
+        total: 5,
+      },
+      two: {
+        successful: 4,
+        total: 8,
+      },
+      three: {
+        successful: 0,
+        total: 2,
+      },
+    },
+    faults: 5,
+    plusMinus: 36,
+    valuation: 15,
+  },
 ]

@@ -555,7 +555,7 @@ const matches = [
       einar: 4,
     },
   },
-    {
+  {
     date: new Date('2025-12-14T18:00:00'),
     home: teams.alcobendas,
     away: teams.fuenlabrada,
@@ -576,6 +576,52 @@ const matches = [
         p4: 18,
       },
       einar: 7,
+    },
+  },
+  {
+    date: new Date('2025-12-19T10:00:00'),
+    home: teams.alcobendas,
+    away: teams.malaga,
+    played: true,
+    tally: {
+      home: {
+        total: 54,
+        p1: 17,
+        p2: 11,
+        p3: 15,
+        p4: 11,
+      },
+      away: {
+        total: 58,
+        p1: 13,
+        p2: 14,
+        p3: 16,
+        p4: 15,
+      },
+      einar: -1,
+    },
+  },
+  {
+    date: new Date('2025-12-19T17:00:00'),
+    home: teams.alcobendas,
+    away: teams.torrent,
+    played: true,
+    tally: {
+      home: {
+        total: 102,
+        p1: 31,
+        p2: 29,
+        p3: 20,
+        p4: 22,
+      },
+      away: {
+        total: 59,
+        p1: 17,
+        p2: 7,
+        p3: 22,
+        p4: 13,
+      },
+      einar: 11,
     },
   },
 ];
