@@ -264,6 +264,16 @@ const teams = {
     },
     web: 'https://fgb.ga/',
   },
+  olivar: {
+    short: 'OLV',
+    name: 'El Olivar',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Zaragoza',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://federacion-baloncesto-aragonesa.ga/',
+  },
   patrocinio: {
     short: 'PSJ',
     name: 'Patrocinio San José',
