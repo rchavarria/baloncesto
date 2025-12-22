@@ -647,4 +647,27 @@ const matches = [
       einar: 10,
     },
   },
+  {
+    date: new Date('2025-12-20T19:30:00'),
+    home: teams.alcobendas,
+    away: teams.betis,
+    played: true,
+    tally: {
+      home: {
+        total: 61,
+        p1: 14,
+        p2: 15,
+        p3: 10,
+        p4: 22,
+      },
+      away: {
+        total: 57,
+        p1: 5,
+        p2: 19,
+        p3: 15,
+        p4: 18,
+      },
+      einar: 2,
+    },
+  },
 ];

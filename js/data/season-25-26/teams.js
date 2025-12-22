@@ -75,6 +75,16 @@ const teams = {
     },
     web: 'https://fbm.es/',
   },
+  betis: {
+    short: '87S',
+    name: 'Caja 87 Sevilla',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Sevilla',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://andaluza-de-baloncesto.es/',
+  },
   canarias: {
     short: 'CAN',
     name: 'Canarias',

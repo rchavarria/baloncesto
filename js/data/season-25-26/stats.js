@@ -678,6 +678,33 @@ const stats = [
     valuation: 0,
   },
   {
+    round: 21102,
+    date: '2025-12-19T17:00:00',
+    team: teams.torrent,
+    time: {
+      minutes: 22,
+      seconds: 55,
+    },
+    points: 11,
+    throws: {
+      free: {
+        successful: 3,
+        total: 5,
+      },
+      two: {
+        successful: 4,
+        total: 8,
+      },
+      three: {
+        successful: 0,
+        total: 2,
+      },
+    },
+    faults: 5,
+    plusMinus: 36,
+    valuation: 15,
+  },
+  {
     round: 21103,
     date: '2025-12-20T10:00:00',
     team: teams.olivar,
@@ -703,5 +730,32 @@ const stats = [
     faults: 2,
     plusMinus: 2,
     valuation: 8,
+  },
+  {
+    round: 21104,
+    date: '2025-12-20T19:30:00',
+    team: teams.betis,
+    time: {
+      minutes: 16,
+      seconds: 40,
+    },
+    points: 2,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: {
+        successful: 1,
+        total: 3,
+      },
+      three: {
+        successful: 0,
+        total: 1,
+      },
+    },
+    faults: 2,
+    plusMinus: 3,
+    valuation: 6,
   },
 ]
