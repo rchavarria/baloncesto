@@ -785,4 +785,31 @@ const stats = [
     plusMinus: 6,
     valuation: 10,
   },
+  {
+    round: 31101,
+    date: '2025-12-27T18:45:00',
+    team: teams.canarias,
+    time: {
+      minutes: -1,
+      seconds: -1,
+    },
+    points: 2,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: {
+        successful: 1,
+        total: 1,
+      },
+      three: {
+        successful: 0,
+        total: 0,
+      },
+    },
+    faults: 4,
+    plusMinus: 0,
+    valuation: 0,
+  },
 ]
