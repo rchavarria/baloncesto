@@ -284,6 +284,16 @@ const teams = {
     },
     web: 'https://federacion-baloncesto-aragonesa.ga/',
   },
+  oporto: {
+    short: 'OPO',
+    name: 'Oporto',
+    logo: 'img/logos/none.jpg',
+    stadium: {
+      address: 'Oporto',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://federacion-baloncesto-portugal.pt/',
+  },
   patrocinio: {
     short: 'PSJ',
     name: 'Patrocinio San José',

@@ -716,4 +716,27 @@ const matches = [
       einar: 2,
     },
   },
+  {
+    date: new Date('2025-12-28T10:15:00'),
+    home: teams.seleccionMadrid,
+    away: teams.oporto,
+    played: true,
+    tally: {
+      home: {
+        total: 98,
+        p1: -1,
+        p2: 40,
+        p3: -1,
+        p4: -1,
+      },
+      away: {
+        total: 71,
+        p1: -1,
+        p2: 41,
+        p3: -1,
+        p4: -1,
+      },
+      einar: 16,
+    },
+  },
 ];

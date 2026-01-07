@@ -812,4 +812,31 @@ const stats = [
     plusMinus: 0,
     valuation: 0,
   },
+  {
+    round: 31102,
+    date: '2025-12-28T10:15:00',
+    team: teams.oporto,
+    time: {
+      minutes: -1,
+      seconds: -1,
+    },
+    points: 16,
+    throws: {
+      free: {
+        successful: 5,
+        total: 6,
+      },
+      two: {
+        successful: 4,
+        total: 4,
+      },
+      three: {
+        successful: 1,
+        total: 1,
+      },
+    },
+    faults: 2,
+    plusMinus: 0,
+    valuation: 0,
+  },
 ]
