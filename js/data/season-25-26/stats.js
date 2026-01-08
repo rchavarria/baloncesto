@@ -839,4 +839,31 @@ const stats = [
     plusMinus: 0,
     valuation: 0,
   },
+  {
+    round: 21106,
+    date: '2026-01-02T10:30:00',
+    team: teams.fuenlabrada,
+    time: {
+      minutes: -1,
+      seconds: -1,
+    },
+    points: -1,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: {
+        successful: 0,
+        total: 0,
+      },
+      three: {
+        successful: 0,
+        total: 0,
+      },
+    },
+    faults: -1,
+    plusMinus: 0,
+    valuation: 0,
+  },
 ]
