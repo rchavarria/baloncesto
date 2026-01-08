@@ -762,4 +762,27 @@ const matches = [
       einar: -1,
     },
   },
+  {
+    date: new Date('2026-01-02T18:30:00'),
+    home: teams.alcobendas,
+    away: teams.zentro,
+    played: true,
+    tally: {
+      home: {
+        total: 81,
+        p1: 18,
+        p2: 18,
+        p3: 18,
+        p4: 27,
+      },
+      away: {
+        total: 64,
+        p1: 15,
+        p2: 15,
+        p3: 15,
+        p4: 20,
+      },
+      einar: -1,
+    },
+  },
 ];
