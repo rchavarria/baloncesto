@@ -194,6 +194,16 @@ const teams = {
     },
     web: 'https://federacion-baloncesto-galicia.es/',
   },
+  getafe: {
+    short: 'GET',
+    name: 'Getafe',
+    logo: 'img/new-logos/getafe-transparent.png',
+    stadium: {
+      address: 'Getafe',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://www.cbgetafe.es',
+  },
   godella: {
     short: 'GOD',
     name: 'LHorta Godella',
