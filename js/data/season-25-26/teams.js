@@ -224,6 +224,16 @@ const teams = {
     },
     web: 'https://fgb.ga/',
   },
+  juande: {
+    short: 'CBJA',
+    name: 'Juan de Austria',
+    logo: 'img/new-logos/juande-transparent.png',
+    stadium: {
+      address: 'xxx',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
   laso: {
     short: 'LAS',
     name: 'Pablo Laso Academy',
