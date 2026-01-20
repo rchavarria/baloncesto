@@ -412,6 +412,16 @@ const teams = {
     },
     web: 'https://fbcv.es/',
   },
+  tresCantos: {
+    short: 'TRC',
+    name: 'Tres Cantos',
+    logo: 'img/new-logos/tres-cantos-transparent.png',
+    stadium: {
+      address: 'Tres Cantos',
+      map: 'https://goo.gl/maps/xxx',
+    },
+    web: 'https://fbm.es/',
+  },
   urosRivas: {
     short: 'URO',
     name: 'Uros de Rivas',

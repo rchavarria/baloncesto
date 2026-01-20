@@ -6,6 +6,7 @@ const BACKGROUND_IMAGES = {
   free_throw: 'img/posts/tiro-libre.jpg',
   group: 'img/posts/grupal.jpg',
   moneando: 'img/posts/moneando.jpg',
+  premio: 'img/posts/premio.jpg',
   rebound: 'img/posts/rebote.jpg',
   rm: 'img/posts/rm.jpg',
   running: 'img/posts/carrera.jpg',
@@ -72,6 +73,7 @@ const App = () => {
           <option value="free_throw">Tiro libre</option>
           <option value="group">Grupal equipo</option>
           <option value="moneando">Moneando</option>
+          <option value="premio">Premio</option>
           <option value="rebound">Rebote</option>
           <option value="rm">Real Madrid</option>
           <option value="running">En carrera</option>
@@ -85,8 +87,8 @@ const App = () => {
         <label htmlFor="opponent">Equipo rival:</label>
         <select id="opponent" value={selectedOpponentKey} onChange={handleSelectChange}>
           <option value="">Equipo rival</option>
-          <option value="rozas">Las Rozas U16</option>
-          <option value="juande">Juande Alcala</option>
+          <option value="realMadrid">Real Madrid</option>
+          <option value="tresCantos">Tres Cantos</option>
         </select>
         <br/>
 
