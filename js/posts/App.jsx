@@ -1,6 +1,8 @@
 const BACKGROUND_IMAGES = {
   ball: 'img/posts/balon.jpg',
   bench: 'img/posts/banquillo.jpg',
+  circle_logo: 'img/posts/circulo-sobre-logo.jpg',
+  bench_up: 'img/posts/banquillo-in-crescendo.jpg',
   ferrandiz: 'img/posts/ferrandiz.jpg',
   fives: 'img/posts/saludando.jpg',
   free_throw: 'img/posts/tiro-libre.jpg',
@@ -68,6 +70,8 @@ const App = () => {
           <option value="team">Equipo (presentacion)</option>
           <option value="ball">Balon</option>
           <option value="bench">Banquillo</option>
+          <option value="bench_up">Banquillo in Crescendo</option>
+          <option value="circle_logo">Círculo</option>
           <option value="ferrandiz">Ferrandiz</option>
           <option value="fives">Saludando</option>
           <option value="free_throw">Tiro libre</option>
