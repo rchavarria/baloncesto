@@ -946,4 +946,27 @@ const matches = [
       einar: 11,
     },
   },
+  {
+    date: new Date('2026-01-25T18:00:00'),
+    home: teams.alcobendas,
+    away: teams.tresCantos,
+    played: true,
+    tally: {
+      home: {
+        total: 73,
+        p1: 19,
+        p2: 16,
+        p3: 19,
+        p4: 19,
+      },
+      away: {
+        total: 67,
+        p1: 20,
+        p2: 16,
+        p3: 10,
+        p4: 21,
+      },
+      einar: 11,
+    },
+  },
 ];

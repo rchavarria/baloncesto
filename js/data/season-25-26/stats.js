@@ -1052,4 +1052,25 @@ const stats = [
     plusMinus: 14,
     valuation: 6,
   },
+  {
+    round: 1013,
+    date: '2026-01-25T18:00:00',
+    team: teams.tresCantos,
+    time: {
+      minutes: 27,
+      seconds: 54,
+    },
+    points: 11,
+    throws: {
+      free: {
+        successful: 3,
+        total: 5,
+      },
+      two: 4,
+      three: 0,
+    },
+    faults: 3,
+    plusMinus: -5,
+    valuation: 6,
+  },
 ]
