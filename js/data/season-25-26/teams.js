@@ -137,10 +137,10 @@ const teams = {
   distrito: {
     short: 'DOL',
     name: 'Distrito Olímpico',
-    logo: 'img/logos/none.jpg',
+    logo: 'img/new-logos/distrito-olimpico-transparent.png',
     stadium: {
-      address: 'xxx',
-      map: 'https://goo.gl/maps/xxx',
+      address: 'Pabellon Circular, San Blas, Madrid',
+      map: 'https://maps.app.goo.gl/js3ZMW8qMWA5Y9fM8',
     },
     web: 'https://fbm.es/',
   },

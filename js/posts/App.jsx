@@ -93,6 +93,8 @@ const App = () => {
           <option value="">Equipo rival</option>
           <option value="realMadrid">Real Madrid</option>
           <option value="tresCantos">Tres Cantos</option>
+          <option value="distrito">Distrito Olímpico</option>
+          <option value="fuenlabrada">Fuenlabrada</option>
         </select>
         <br/>
 
