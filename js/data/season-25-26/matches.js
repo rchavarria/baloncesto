@@ -969,4 +969,50 @@ const matches = [
       einar: 11,
     },
   },
+  {
+    date: new Date('2026-01-31T20:30:00'),
+    home: teams.distrito,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 94,
+        p1: 24,
+        p2: 29,
+        p3: 21,
+        p4: 20,
+      },
+      away: {
+        total: 88,
+        p1: 20,
+        p2: 19,
+        p3: 23,
+        p4: 26,
+      },
+      einar: 0,
+    },
+  },
+  {
+    date: new Date('2026-02-01T18:00:00'),
+    home: teams.alcobendas,
+    away: teams.fuenlabrada,
+    played: true,
+    tally: {
+      home: {
+        total: 93,
+        p1: 18,
+        p2: 21,
+        p3: 29,
+        p4: 25,
+      },
+      away: {
+        total: 91,
+        p1: 21,
+        p2: 21,
+        p3: 19,
+        p4: 30,
+      },
+      einar: 13,
+    },
+  },
 ];
