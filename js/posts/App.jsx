@@ -1,8 +1,13 @@
 const BACKGROUND_IMAGES = {
+  antela: 'img/posts/antela.jpg',
+  aware: 'img/posts/atento.jpg',
   ball: 'img/posts/balon.jpg',
   bench: 'img/posts/banquillo.jpg',
-  circle_logo: 'img/posts/circulo-sobre-logo.jpg',
   bench_up: 'img/posts/banquillo-in-crescendo.jpg',
+  box_out: 'img/posts/cerrando-rebot.jpg',
+  celebration: 'img/posts/celebrando.jpg',
+  circle_logo: 'img/posts/circulo-sobre-logo.jpg',
+  drive: 'img/posts/entrada.jpg',
   ferrandiz: 'img/posts/ferrandiz.jpg',
   fives: 'img/posts/saludando.jpg',
   free_throw: 'img/posts/tiro-libre.jpg',
@@ -15,7 +20,10 @@ const BACKGROUND_IMAGES = {
   shoes: 'img/posts/zapas.jpg',
   start_play: 'img/posts/inicio-jugada.jpg',
   team: 'img/posts/equipo.jpg',
+  tor_nuk: 'img/posts/tor-nuk.jpg',
+  thankfull: 'img/posts/agradecidos.jpg',
   white: 'img/posts/equipo-blanco.jpg',
+  www: 'img/posts/www.jpg',
 }
 
 /**
@@ -67,11 +75,14 @@ const App = () => {
         <label htmlFor="opponent">Imagen de fondo:</label>
         <select id="opponent" value={selectedBackgroundKey} onChange={handleSelectBackgroundChange}>
           <option value="">Imagen</option>
-          <option value="team">Equipo (presentacion)</option>
+          <option value="antela">En el Antela</option>
+          <option value="aware">Atento</option>
           <option value="ball">Balon</option>
           <option value="bench">Banquillo</option>
           <option value="bench_up">Banquillo in Crescendo</option>
+          <option value="box_out">Cerrando el rebote</option>
           <option value="circle_logo">Círculo</option>
+          <option value="drive">Entrada</option>
           <option value="ferrandiz">Ferrandiz</option>
           <option value="fives">Saludando</option>
           <option value="free_throw">Tiro libre</option>
@@ -83,8 +94,10 @@ const App = () => {
           <option value="running">En carrera</option>
           <option value="shoes">Zapas</option>
           <option value="start_play">Inicio jugada</option>
-          <option value="shoes">Zapas</option>
+          <option value="team">Equipo (presentacion)</option>
+          <option value="tor_nuk">Rodeado de Tor y Nuk</option>
           <option value="white">Equipo blanco</option>
+          <option value="www">Ppiernas en W</option>
         </select>
         <br/>
 
