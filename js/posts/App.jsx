@@ -108,6 +108,11 @@ const App = () => {
           <option value="tresCantos">Tres Cantos</option>
           <option value="distrito">Distrito Olímpico</option>
           <option value="fuenlabrada">Fuenlabrada</option>
+          <option value="canoe">Distrito Olímpico</option>
+          <option value="getafe">Fuenlabrada</option>
+          <option value="rozas">Las Rozas</option>
+          <option value="juande">Juand</option>
+          <option value="alcorcon">Alcorcón</option>
         </select>
         <br/>
 
