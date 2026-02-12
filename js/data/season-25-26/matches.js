@@ -1038,4 +1038,27 @@ const matches = [
       einar: 8,
     },
   },
+  {
+    date: new Date('2026-02-08T16:00:00'),
+    home: teams.canoe,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 81,
+        p1: 17,
+        p2: 17,
+        p3: 17,
+        p4: 30,
+      },
+      away: {
+        total: 61,
+        p1: 13,
+        p2: 14,
+        p3: 16,
+        p4: 18,
+      },
+      einar: 5,
+    },
+  },
 ];
