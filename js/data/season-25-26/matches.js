@@ -1015,4 +1015,27 @@ const matches = [
       einar: 13,
     },
   },
+  {
+    date: new Date('2026-02-07T17:00:00'),
+    home: teams.alcobendas,
+    away: teams.getafe,
+    played: true,
+    tally: {
+      home: {
+        total: 91,
+        p1: 30,
+        p2: 21,
+        p3: 22,
+        p4: 18,
+      },
+      away: {
+        total: 61,
+        p1: 15,
+        p2: 20,
+        p3: 11,
+        p4: 15,
+      },
+      einar: 8,
+    },
+  },
 ];
