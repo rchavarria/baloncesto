@@ -97,7 +97,7 @@ const App = () => {
           <option value="team">Equipo (presentacion)</option>
           <option value="tor_nuk">Rodeado de Tor y Nuk</option>
           <option value="white">Equipo blanco</option>
-          <option value="www">Ppiernas en W</option>
+          <option value="www">Piernas en W</option>
         </select>
         <br/>
 
@@ -108,10 +108,10 @@ const App = () => {
           <option value="tresCantos">Tres Cantos</option>
           <option value="distrito">Distrito Olímpico</option>
           <option value="fuenlabrada">Fuenlabrada</option>
-          <option value="canoe">Distrito Olímpico</option>
-          <option value="getafe">Fuenlabrada</option>
+          <option value="canoe">Canoe</option>
+          <option value="getafe">Getafe</option>
           <option value="rozas">Las Rozas</option>
-          <option value="juande">Juand</option>
+          <option value="juande">Juande</option>
           <option value="alcorcon">Alcorcón</option>
         </select>
         <br/>
