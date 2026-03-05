@@ -1220,4 +1220,25 @@ const stats = [
     plusMinus: -13,
     valuation: 5,
   },
+  {
+    round: 1017,
+    date: '2026-03-03T20:00:00',
+    team: teams.juande,
+    time: {
+      minutes: 17,
+      seconds: 4,
+    },
+    points: 8,
+    throws: {
+      free: {
+        successful: 0,
+        total: 2,
+      },
+      two: 4,
+      three: 0,
+    },
+    faults: 3,
+    plusMinus: 20,
+    valuation: 3,
+  },
 ]

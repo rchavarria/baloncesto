@@ -1130,4 +1130,27 @@ const matches = [
       einar: 8,
     },
   },
+  {
+    date: new Date('2026-02-21T17:30:00'),
+    home: teams.juande,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 49,
+        p1: 9,
+        p2: 22,
+        p3: 11,
+        p4: 7,
+      },
+      away: {
+        total: 88,
+        p1: 27,
+        p2: 20,
+        p3: 18,
+        p4: 23,
+      },
+      einar: 8,
+    },
+  },
 ];
