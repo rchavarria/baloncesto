@@ -1262,4 +1262,25 @@ const stats = [
     plusMinus: 6,
     valuation: 7,
   },
+  {
+    round: 1118,
+    date: '2026-03-07T19:00:00',
+    team: teams.realMadrid,
+    time: {
+      minutes: 20,
+      seconds: 52,
+    },
+    points: 7,
+    throws: {
+      free: {
+        successful: 1,
+        total: 2,
+      },
+      two: 3,
+      three: 0,
+    },
+    faults: 3,
+    plusMinus: -14,
+    valuation: 3,
+  },
 ]
