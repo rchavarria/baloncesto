@@ -1178,4 +1178,50 @@ const matches = [
       einar: 10,
     },
   },
+  {
+    date: new Date('2026-03-07T19:00:00'),
+    home: teams.realMadrid,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 81,
+        p1: 28,
+        p2: 15,
+        p3: 19,
+        p4: 19,
+      },
+      away: {
+        total: 56,
+        p1: 20,
+        p2: 18,
+        p3: 2,
+        p4: 16,
+      },
+      einar: 7,
+    },
+  },
+  {
+    date: new Date('2026-03-15T11:30:00'),
+    home: teams.fuenlabrada,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 85,
+        p1: 18,
+        p2: 20,
+        p3: 21,
+        p4: 26,
+      },
+      away: {
+        total: 86,
+        p1: 22,
+        p2: 18,
+        p3: 20,
+        p4: 26,
+      },
+      einar: 10,
+    },
+  },
 ];
