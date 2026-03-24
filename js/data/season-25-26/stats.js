@@ -1346,4 +1346,25 @@ const stats = [
     plusMinus: 15,
     valuation: 1,
   },
+  {
+    round: 1020,
+    date: '2026-03-22T17:15:00',
+    team: teams.getafe,
+    time: {
+      minutes: 6,
+      seconds: 11,
+    },
+    points: 2,
+    throws: {
+      free: {
+        successful: 0,
+        total: 0,
+      },
+      two: 1,
+      three: 0,
+    },
+    faults: 1,
+    plusMinus: 1,
+    valuation: 1,
+  },
 ]
