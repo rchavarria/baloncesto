@@ -1325,4 +1325,25 @@ const stats = [
     plusMinus: 14,
     valuation: 14,
   },
+  {
+    round: 1120,
+    date: '2026-03-22T13:30:00',
+    team: teams.canoe,
+    time: {
+      minutes: 25,
+      seconds: 23,
+    },
+    points: 6,
+    throws: {
+      free: {
+        successful: 0,
+        total: 1,
+      },
+      two: 3,
+      three: 0,
+    },
+    faults: 4,
+    plusMinus: 15,
+    valuation: 1,
+  },
 ]

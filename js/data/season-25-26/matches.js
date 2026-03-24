@@ -1247,4 +1247,27 @@ const matches = [
       einar: 18,
     },
   },
+  {
+    date: new Date('2026-03-22T13:30:00'),
+    home: teams.alcobendas,
+    away: teams.canoe,
+    played: true,
+    tally: {
+      home: {
+        total: 84,
+        p1: 29,
+        p2: 18,
+        p3: 17,
+        p4: 18,
+      },
+      away: {
+        total: 72,
+        p1: 16,
+        p2: 20,
+        p3: 19,
+        p4: 19,
+      },
+      einar: 6,
+    },
+  },
 ];
