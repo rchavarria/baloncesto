@@ -1293,4 +1293,27 @@ const matches = [
       einar: 2,
     },
   },
+  {
+    date: new Date('2026-03-29T13:30:00'),
+    home: teams.distrito,
+    away: teams.alcobendas,
+    played: true,
+    tally: {
+      home: {
+        total: 90,
+        p1: 16,
+        p2: 27,
+        p3: 22,
+        p4: 25,
+      },
+      away: {
+        total: 64,
+        p1: 17,
+        p2: 10,
+        p3: 20,
+        p4: 17,
+      },
+      einar: 12,
+    },
+  },
 ];

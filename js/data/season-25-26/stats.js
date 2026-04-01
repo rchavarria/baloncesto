@@ -1367,4 +1367,25 @@ const stats = [
     plusMinus: 1,
     valuation: 1,
   },
+  {
+    round: 1121,
+    date: '2026-03-29T13:30:00',
+    team: teams.distrito,
+    time: {
+      minutes: 24,
+      seconds: 14,
+    },
+    points: 12,
+    throws: {
+      free: {
+        successful: 1,
+        total: 3,
+      },
+      two: 4,
+      three: 1,
+    },
+    faults: 2,
+    plusMinus: -22,
+    valuation: 8,
+  },
 ]
